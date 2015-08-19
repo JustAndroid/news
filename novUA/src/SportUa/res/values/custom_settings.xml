@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>            
+    <string name="facebookID">848226405221850</string>
+    <string name="url_icon">http://sport.ua/images/confs/0/1/345_conf_m.gif</string>         
+    <string name="url_base">http://sport.ua/newsapp/rss.php?format=fastjson</string>
+    <string name="url_domain">http://sport.ua/newsapp/</string>
+    <string name="app_id">8</string> 
+	<string name="event_category"></string>
+	<string name="app_authority">com.allNewsSport.service</string>
+	<string name="app_account_type">com.allNewsSport</string>
+	<string name="app_account">SportNewsAccount</string>
+	<string name="app_name">Sport.UA</string>
+	<string name="app_url">http://play.google.com/store/apps/details?id=gregory.network.sport</string>
+	<string name="app_iphone_url"></string>
+	<string name="fluri_id">QW4TJFXKGWRRH92B6R3Y</string>
+    <string name="default_save_news_time">72</string>
+	<bool name="need_ad">false</bool>
+	<bool name="need_event">false</bool>
+	<bool name="need_category">false</bool>
+	<bool name="need_hints">false</bool>
+	<bool name="sport_news">true</bool>
+</resources>

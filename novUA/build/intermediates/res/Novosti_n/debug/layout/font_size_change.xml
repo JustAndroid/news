@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/textSizeBg" >
+
+    <ImageView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/font_size_small" />
+
+    <SeekBar
+        android:id="@+id/textSizeSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:max="20"
+        android:progress="10" />
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginRight="10dp"
+     android:src="@drawable/font_size_larger" />
+
+</LinearLayout>
+<!-- From: file:/D:/AllBuilds/novUA/src/main/res/layout/font_size_change.xml -->

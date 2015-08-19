@@ -1,0 +1,17 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/goBack"
+        android:icon="@android:drawable/ic_media_previous"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/goBack"
+        tools:ignore="UnusedAttribute" />
+    <item
+        android:id="@+id/goForward"
+        android:icon="@android:drawable/ic_media_next"
+        android:showAsAction="ifRoom|withText"
+        android:title="go forvard" />
+      />/  android:title="@string/goForward"/>
+
+</menu><!-- From: file:/D:/AllNews/AllBuilds/novUA/src/main/res/menu/menu_web.xml -->

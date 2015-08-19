@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AllBuilds.iml" filepath="$PROJECT_DIR$/AllBuilds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novUA/novUA.iml" filepath="$PROJECT_DIR$/novUA/novUA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/updateCheker/updateCheker.iml" filepath="$PROJECT_DIR$/updateCheker/updateCheker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
+    </modules>
+  </component>
+</project>

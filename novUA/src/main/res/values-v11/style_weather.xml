@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="fragmentAnim">
+        <item name="android:fragmentFadeEnterAnimation">@anim/fade_in</item>
+        <item name="android:fragmentFadeExitAnimation">@anim/fade_out</item>
+    </style>
+</resources>

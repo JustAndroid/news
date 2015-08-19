@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="listArray">
+	     <item>Ніколи</item>
+		<item>15 хвилин</item>
+		<item>30 хвилин</item>
+		<item>1 година</item>
+		<item>3 години</item>
+		<item>6 годин</item>
+		<item>12 годин</item>
+	</string-array>
+	<!-- Затримка автооновлення в секундах -->
+	<string-array name="listValues">
+	     <item>0</item>
+		<item>900</item>
+		<item>1800</item>
+		<item>3600</item>
+		<item>10800</item>
+		<item>21600</item>
+		<item>259200</item>
+	</string-array>
+	<string-array name="saveTimeArray">
+		<item>12 годин</item>
+		<item>1 день</item>
+		<item>2 дні</item>
+		<item>3 дні</item>
+		<item>4 дні</item>
+		<item>5 днів</item>
+		<item>6 днів</item>
+		<item>7 днів</item>
+	</string-array>
+	<string-array name="saveTimeValues">
+		<item>12</item>
+		<item>24</item>
+		<item>48</item>
+		<item>72</item>
+		<item>96</item>
+		<item>120</item>
+		<item>144</item>
+		<item>168</item>
+	</string-array>
+	<string-array name="langArray">
+		<item>English</item>
+		<item>Українська</item>
+		<item>Русский</item>
+	</string-array>
+	<string-array name="langValues">
+		<item>en</item>
+		<item>uk</item>
+		<item>ru</item>
+	</string-array>
+		<string-array name="saveCharArray">
+		<item>12pt</item>
+		<item>14pt</item>
+		<item>16pt</item>
+		<item>18pt</item>
+		<item>20pt</item>
+		<item>24pt</item>
+		<item>32pt</item>
+	</string-array>
+	<string-array name="saveCharValues">
+		<item>12</item>
+		<item>14</item>
+		<item>16</item>
+		<item>18</item>
+		<item>20</item>
+		<item>24</item>
+		<item>32</item>
+	</string-array>
+</resources>

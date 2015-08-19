@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebookID">916755311684463</string>
+    <string name="url_icon">http://all-news.com.ua/site/sites/default/files/AllNewsUA_2.png</string>
+    <string name="url_base">http://all-news.com.ua/rss/rss.php?format=fastjson</string>
+    <string name="url_domain">http://all-news.com.ua/rss/</string>
+    <string name="app_id">1</string> 
+	<string name="event_category">2</string>
+	<string name="app_authority">com.allNews.service</string>
+	<string name="app_account_type">com.allNews</string>
+	<string name="app_account">allNewsAccount</string>
+	<string name="app_name">AllNews UA</string>
+	<string name="app_url">http://play.google.com/store/apps/details?id=gregory.network.rss	</string>
+	<string name="app_iphone_url">https://itunes.apple.com/us/app/allnews-ua/id875793834</string>
+	<string name="fluri_id">72924VP8XKRVFGFVZG28</string>
+    <string name="default_save_news_time">12</string>
+	<bool name="need_ad">false</bool>
+	<bool name="need_event">true</bool>
+	<bool name="need_category">true</bool>
+	<bool name="need_hints">true</bool>
+	<bool name="sport_news">false</bool>
+    <string name="unity_ads_id">131627342</string>
+</resources>

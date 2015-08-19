@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebookID">1468550096734523</string>
+    <string name="url_icon">http://all-news.com.ua/site/sites/default/files/AllNewsUA_2.png</string>
+    <string name="url_base">http://all-news.com.ua/rss/rss.php?format=fastjson</string>
+    <string name="url_domain">http://all-news.com.ua/rss/</string>
+    <string name="app_id">8</string> 
+	<string name="event_category">2</string>
+	<string name="app_authority">com.allNewsLv.service</string>
+	<string name="app_account_type">com.allNewsLv</string>
+	<string name="app_account">allNewsLvAccount</string>
+	<string name="app_name">AllNews Lviv</string>
+	<string name="app_url">http://play.google.com/store/apps/details?id=gregory.network.lv</string>
+	<string name="app_iphone_url"></string>
+	<string name="fluri_id">YQMCKMHZKSYCNQ7M5ZJV</string>
+    <string name="default_save_news_time">24</string>
+	<bool name="need_ad">false</bool>
+	<bool name="need_event">true</bool>
+	<bool name="need_category">true</bool>
+	<bool name="need_hints">true</bool>
+	<bool name="sport_news">false</bool>
+    <string name="db_name">newsIT.db</string>
+</resources>

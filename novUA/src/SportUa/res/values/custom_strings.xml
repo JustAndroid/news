@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="app_full_name">Sport.ua: sports news</string>
+	<string name="event_top_msg"> </string>
+	<string name="events_title"> </string>
+	<string name="notif_title">All Sports news</string>
+	
+	<string name="about_txt_top">
+		 
+	</string>
+	
+</resources>

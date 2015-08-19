@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="MissingRegistered" severity="ignore" />
+    <issue id="MissingTranslation" severity="ignore" />
+    <issue id="NewApi">
+        <ignore path="src/com/allNews/activity/AllNewsActivity.java" />
+        <ignore path="src/com/allNews/activity/NewsActivity.java" />
+        <ignore path="src/com/allNews/activity/NewsCollectionActivity.java" />
+        <ignore path="src/com/allNews/activity/Preferences.java" />
+    </issue>
+</lint>

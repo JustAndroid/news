@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alert_dialog_button_green1">#CBFF00</color>
+    <color name="alert_dialog_button_green2">#CBFF00</color>
+    <color name="alert_dialog_button_green_focused1">#CBFF00</color>
+    <color name="alert_dialog_button_green_focused2">#CBFF00</color>
+    <color name="alert_dialog_button_green_pressed1">#CBFF00</color>
+    <color name="alert_dialog_button_green_pressed2">#CBFF00</color>
+</resources>

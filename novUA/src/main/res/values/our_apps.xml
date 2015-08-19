@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_android_1">https://play.google.com/store/apps/details?id=gregory.network.rss
+	</string>
+	<string name="app_ios_1">https://itunes.apple.com/us/app/allnews-ua/id875793834
+	</string>
+
+	<string name="app_android_2">https://play.google.com/store/apps/details?id=com.event.tickets.transport.hotels
+	</string>
+	<string name="app_ios_2">https://itunes.apple.com/us/app/train-tickets.avia.travelmates/id872570015
+	</string>
+	
+	<string name="app_android_3">https://play.google.com/store/apps/details?id=org.withmyfriends
+	</string>
+	<string name="app_ios_3">https://itunes.apple.com/us/app/2event/id786811811
+	</string>
+	
+	<string name="app_android_4">https://play.google.com/store/apps/details?id=com.whoisaround.android
+	</string>
+	
+	
+		<string name="app_android_5">https://play.google.com/store/apps/details?id=org.withmyfriends.taxi
+	</string>
+	<string name="app_ios_5">https://itunes.apple.com/us/app/qrtaxi-svidkij-viklik-taksi/id568383157
+	</string>
+	<string name="app_android_6">https://play.google.com/store/apps/details?id=gregory.network.ru
+	</string>
+	<string name="app_android_7">https://play.google.com/store/apps/details?id=gregory.network.it
+	</string>
+	<string name="app_ios_7">https://itunes.apple.com/us/app/novosti-startapov/id881916164
+	</string>
+</resources>

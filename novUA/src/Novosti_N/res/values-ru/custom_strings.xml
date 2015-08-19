@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_full_name">Новости N</string>
+	<string name="event_top_msg">Интересные события с www.2Event.com
+		\nА также с
+		десятка сайтов. Таких как Eventbrite, Timepad, Concert.ua…
+		\nХотите
+		добавить свое событие- нажмите плюсик вверху справа.
+	</string>
+	<string name="events_title">Интересные события с www.2Event.com</string>
+	<string name="notif_title">Все новости Украины и мира</string>
+
+	<string name="about_txt_top">
+		\nВ нашем Интеренете более 100 сайтов с новостями.
+
+	</string>
+
+</resources>

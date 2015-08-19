@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bookmark_msg_remove">Bookmark removed</string>
+    <string name="bookmark_msg_add">Bookmark added</string>
+    <string name="theme_night_msg">Turn on "Night" </string>
+    <string name="theme_day_msg">Turn on "Day"</string>
+    <string name="facebook_post_published">Posted to Facebook successfully</string>
+    <string name="share_news">SHARE</string>
+    <string name="open_all_news">Another  news >>></string>
+    <string name="app_review_all">Open more >>></string>
+    <string name="app_review">APP REVIEW</string>
+    <string name="internet_error">Sorry, there is no internet connection to the server.</string>
+    <string name="list_footer_msg1">Congratulations!
+\nYou have read all %1$s news,
+\nwhich have been loaded during %2$s hours.
+\nEnabled %3$s of %4$s sites.
+\nWant to read more?
+\nIncrease the time of news storage and the amount of readable news outlets.
+</string>
+    <string name="list_footer_msg2">Want to escape?
+\nSee Section New App.
+\nWith brand new apps and games.
+\n For some of these apps, developers specifically give the bonuses for readers of our application. 
+\nAlso there are collected paid apps for which the developers temporarily reduce the price to zero.</string>
+    <string name="refresh_msg">Downloaded new news. \nPull down to refresh the list.</string>
+    <string name="stop_update_title">Stop</string>
+    <string name="stop_update_msg">News will not be downloaded. \nStop loading? </string>
+    <string name="tab_new_app">PRACTICAL</string>
+    <string name="tab_events">EVENTS</string>
+    <string name="tab_news">NEWS</string>
+    <string name="no_memmory_msg">For stable operation of the application requires at least 50 megabytes of memory.</string>
+    <string name="no_memmory_title">Not enough memory</string>
+    <string name="important">Important!!!</string>
+    <string name="category_pref_title">Selected categories will be displayed on the main page of the application</string>
+    <string name="top_news_msg">Loading TOP-20</string>
+    <string name="no_news1">In this category there is no news.</string>
+    <string name="tab_name_top">TOP-20</string>
+    <string name="tab_name_all">All</string>
+    <string name="tab_name_unread">Not Read</string>
+    <string name="tab_name_articles">Articles</string>
+    <string name="tab_name_selected_media">Selected media</string>
+    <string name="tab_name_read_news">Read news</string>
+    <string name="tab_name_fav">Favorites</string>
+    <string name="new_version_msg">A new version of the application is available. Tap
+		to update.
+</string>
+    <string name="btn_share_app">THIS APP HELPFUL TO YOU? \n SHARE LINK WITH YOUR
+		FRIENDS
+</string>
+    <string name="no_sources_msg">Select at least one source</string>
+    <string name="filter_none">Cancel all</string>
+    <string name="filter_all">Select all</string>
+    <string name="share_event_help_msg">Hi, here you can create a your own event</string>
+    <string name="share_event_msg">Hi, I recommend the event</string>
+    <string name="share_news_msg">Hi, I recommend You this news</string>
+    <string name="share_app_msg">Hi!
+		\nI recommend to install the mobile application
+		\"%1$s\"
+		\nThis aggregator with more than 40 major news sites.
+		\nNews
+		updates in the background.
+		\nKeeps the smartphone full text.
+		\nIt is
+		therefore convenient to read on the subway, train or plane.
+</string>
+    <string name="event_empty">There are no events corresponding a filter</string>
+    <string name="event_categories">CATEGORIES</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="week">Week</string>
+    <string name="city">City</string>
+    <string name="filter">filter</string>
+    <string name="event_create_msg">		How to place your event on this list?
+		\n
+		\nJust
+		create it on the www.2Event.com website
+		\nFree
+</string>
+    <string name="close">CLOSE</string>
+    <string name="event_share">SHARE</string>
+    <string name="to_web">GO TO WEBSITE</string>
+    <string name="event_create">create event</string>
+    <string name="event_help">about</string>
+    <string name="pref_share">Tell your friends about us.</string>
+    <string name="pref_share_title">Liked application?</string>
+    <string name="news_view">View mode</string>
+    <string name="action_search_title">Search</string>
+    <string name="event_about">About Event</string>
+    <string name="event_directions">GET DIRECTIONS</string>
+    <string name="event_calendar">ADD TO CALENDAR</string>
+    <string name="event_buy">BUY TICKETS</string>
+    <string name="input_pass">Enter password</string>
+    <string name="no_marked_news">No favorites news.</string>
+    <string name="about_us1">ABOUT US</string>
+    <string name="about_us2">ABOUT THIS APP</string>
+    <string name="rate_title1">Like the app?</string>
+    <string name="rate_title2">Rate it please, so we quickly
+		developed
+</string>
+    <string name="rate">YES, I WANT TO RATE!</string>
+    <string name="rate_wish">WISHES TO APP</string>
+    <string name="rate_no">NO, I DONT WANT TO RATE</string>
+    <string name="rate_later">REMIND ME IN 2 WEEKS</string>
+    <string name="news_for">for</string>
+    <string name="db_delete">Are you sure you want to delete all news?</string>
+    <string name="db_delete_success">News deleted.</string>
+    <string name="db_delete_error">Error occurred.</string>
+    <string name="ok">Yes</string>
+    <string name="no">No</string>
+    <string name="pref_msg">Choose convenient settings</string>
+    <string name="readInWeb">GO TO WEB\n</string>
+    <string name="download_app">DOWNLOAD APP </string>
+    <string name="about_preferences">About us</string>
+    <string name="all_app">All our apps</string>
+    <string name="settings">Preferences</string>
+    <string name="msg_news_count">Loading %1$s new news</string>
+    <string name="msg_updating">Initializing the Application.</string>
+    <string name="next_page">More News</string>
+    <string name="about_title">About the Developer.
+</string>
+    <string name="about_title2">\nWe are the company, which develops mobile application.
+</string>
+    <string name="about_txt">	     This application is able to aggregate news and articles from the
+		main of these sites.
+		\nUpdates and caches in the background.
+		\n
+		 \nEasy to read in metro, train or during the fly.
+		\nEasy to use, opens instantly.
+		\nNo ads and no banners.
+		\nWithout any animation. - Simple text and illustrations of news to the them.
+		\nFrom each news are direct links to the website source. And, link to
+		mobile application, if here media have this.
+		\n
+		\nThis app can aggregate the main news sites of Ukraine and update news in
+		the background.
+		\nConvenient to read in plane or train, where is a bad internet connection. Easy
+		to use, opens instantly. No advertising and no banners. Without
+		unnecessary animations, with page turning effects.
+		\nJust text of the news and pictures to it. To each news item there are
+		direct link to the website. And also to the mobile app if that mass
+		media have some.
+		\nWe can inexpensively quickly develop similar application for diferrent
+		media.
+		\nDevelopment period- one week
+		\nTwo platforms- iOS and Android
+		1.500$ price per set
+		\nPossible partial barter - 500$ in cash
+		2000$ - through an advertising barter
+		\nAt the same time site of the customer will be automatically connected to
+		the sources list
+		\n
+</string>
+    <string name="donate_txt">     \nПривилегии подписки:
+        \n
+\n Доступ к VIP источникам новостей
+\n Отсутствие любой рекламы
+\n
+\nВы можете оплатить любую сумму, которую считаете справедливой.
+70% полученных сумм распределятся между VIP-новостными источниками.
+Таким образом, вы поддерживаете журналистов, для которых написание статтей, это действительно главный способ зарабатывать на жизнь.
+
+</string>
+    <string name="about_contact_title">Сontacts:</string>
+    <string name="about_contact_txt">		Yaroslav Maxymovych
+		\nтел: +38 096 359 99 99
+		\nskype: yaroslav.maxymovych
+		\ne-mail: yaroslav.maxymovych@gmail.com
+        \nfacebook: https://www.facebook.com/yaroslav.maxymovych
+        \nfacebook app public page: https://www.facebook.com/pages/All-News-мобильный-агрегатор-новостей/1500434876911820
+</string>
+    <string name="about_other_app_title">Our other apps:
+</string>
+    <string name="about_other_app1">All Ukrainian news
+</string>
+    <string name="about_other_app2_title">Train tickets.Avia.Travelmates
+</string>
+    <string name="about_other_app2_description">- train tickets, avia tickets, hotels, considering
+		fellow travellers.
+</string>
+    <string name="about_other_app3_title">2Event
+</string>
+    <string name="about_other_app3_description"> - affishe, tickets for events and fellow
+		travellers
+</string>
+    <string name="about_other_app4_title">WhoIsAround
+</string>
+    <string name="about_other_app4_description"> - geolocation data of your friends. For example,
+		when you are traveling on the highway in different cars, look who is
+		where. Or meet in order not to miss.
+</string>
+    <string name="about_other_app5_title">QRTaxi
+</string>
+    <string name="about_other_app5_description"> - calling a taxi with one button. Also, ready
+		solution that we sell for the taxi services.
+</string>
+    <string name="about_other_app6">All Russian news
+</string>
+    <string name="about_other_app7">All news from Runet\'s startups
+</string>
+    <string name="sorry">Sorry</string>
+    <string name="server_error">Server is temporarily unavailable, please try again
+		later.
+</string>
+    <string name="pref_app_name">program settings</string>
+    <string name="pref_orientation_title">Auto-rotate screen</string>
+    <string name="pref_period">Storage news for the period</string>
+    <string name="pref_period_title">Store news</string>
+    <string name="pref_period_update">Periodicity of updating news</string>
+    <string name="pref_period_update_title">autoUpdate</string>
+    <string name="pref_wifi">Sync only with Wi-Fi</string>
+    <string name="pref_wifi_title">Only with Wi-Fi</string>
+    <string name="pref_more_news_btn">Always show all news</string>
+    <string name="pref_more_news_btn_title">Show all news</string>
+    <string name="pref_type_size">Select font size</string>
+    <string name="pref_type_size_title">Set font</string>
+    <string name="pref_source_name">Source setup</string>
+    <string name="pref_source">Selected: %1$s from %2$s</string>
+    <string name="pref_source_title">Sources</string>
+    <string name="pref_category">Displayed category: %1$s from %2$s</string>
+    <string name="pref_category_title">Categories for quick access</string>
+    <string name="pref_clean">Remove all saved News</string>
+    <string name="pref_clean_title">Clear cache</string>
+    <string name="pref_admin_title">System Settings</string>
+    <string name="pref_feedback_title">Feedback</string>
+    <string name="pref_type_lang">Select a language</string>
+    <string name="pref_type_lang_title">Language</string>
+    <string name="pref_type_app_title">Our other apps</string>
+    <string name="pref_type_app">List of all our applications</string>
+    <string name="pref_pass_title">Input password</string>
+    <string name="day">d</string>
+    <string name="hour">h</string>
+    <string name="minute">min ago</string>
+    <string name="share">This news was circulated news with aggregator
+</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_donate">Donate</string>
+    <string name="menu_share_app">Share this App</string>
+    <string name="menu_day_night">Day/Night</string>
+    <string name="menu_update">Refresh</string>
+    <string name="menu_settings">All Settings </string>
+    <string name="menu_mark">My Bookmarks</string>
+    <string name="menu_sources">Sources</string>
+    <string name="menu_categories">By categories</string>
+    <string name="menu_news_feed">All news</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_clean_cache">Clear cache</string>
+    <string name="menu_color_mode">Color Scheme</string>
+    <string name="menu_color_day">Day</string>
+    <string name="menu_color_night">Night</string>
+    <string name="menu_view">View As</string>
+    <string name="description_app_2event">		2Event - free mobile app, events affiche, transport
+		tickets, event tickets.
+		The app helps you to organize your travel, book
+		the hotel, hostel,
+		watch bus schedule, find out the train station -
+		choose the best
+		variant of the trip.
+		2EVENT- is your guide to the world
+		of travelling without borders. Are you
+		travelling on your car? Make
+		check-in – find fellow travelers. Find
+		roommates in hotels and hostels-
+		save your money!
+		Chat. Here you can meet fellow travelers- does not
+		forget to share with
+		your experiences. Everyone finds something
+		interesting in 2EVENT.
+		Authorize; fill in your profile and find minded
+		and fellow travelers.
+		To buy tickets you need only a bank card.
+</string>
+    <string name="description_app_whoisaround">		Who is around? Where are your friends, group mates,
+		colleagues?
+		Meet somewhere in the city or at the airport? Are you
+		looking to where the
+		concert or after party is going to be? Are you
+		traveling with your
+		friends in separate cars or trains?
+		Our app works in
+		real time regime! It is FREE. Find new friends around
+		you. Find the
+		café, where your friends are at the moment.
+		Are you going to the
+		meeting? Download the application in order to find
+		out where your
+		partner is, and, maybe, change the place of the
+		meeting.
+		In our Free
+		App, we provide you with the information about your friend’s
+		displacement.
+</string>
+    <string name="accessibility_overflow">accessibility_overflow</string>
+    <string name="btn_donate_1">free first 30 days/ $0,99</string>
+    <string name="btn_donate_2">free first 30 days/ $1.99</string>
+    <string name="btn_donate_5">free first 30 days/ $4,99</string>
+    <string name="btn_donate_15">free first 30 days/ $14.99</string>
+    <string name="btn_donate_50">free first 30 days/ $49.99</string>
+    <string name="read_all_from">read all from\n</string>
+    <string name="goBack">web_go_back</string>
+    <string name="btn_download_newapp">Install now</string>
+    <string name="tab_current">current</string>
+    <string name="tab_forecast">forecast</string>
+    <string name="location_msg">Not defined your location, weather can not be displayed</string>
+    <string name="pref_weather">Weather</string>
+    <string name="pref_weather_summary">show weather</string>
+    <string name="search_city">Insert the city name</string>
+    <string name="city_result">Results</string>
+    <string name="weather_toast_msg">failed to load weather try again later</string>
+    <string name="notification_content_title">Top 20 news (pull down)</string>
+    <string name="notification_content_text">pull to read</string>
+    <string name="notification_big_title">Top-20 News</string>
+    <string name="notification_summary">Tap for more news…</string>
+    <string name="pref_notification_title">Notification</string>
+    <string name="pref_notification_summary">Enable auto notification for TOP News</string>
+    <string name="facebook_share_title"> //  This news was shared via all-news.com.ua (Android)</string>
+    <string name="change_log_title">Whats new</string>
+    <string name="promo_code">Enter Promo code</string>
+    <string name="like_toast_txt">Thank you! your voice is accepted!</string>
+
+    <string name="excluded_sources_txt">
+        \nПолное содержание этой статьи ограничено редакцией.
+        \n
+\nЧтобы прочитать полностью:
+        \n
+\n 1. Оформите подписку.
+        \n
+И читайте сразу все VIP-СМИ упорядоченными по времени и закешированными в нашем приложении.
+Вам понравится что стоимость подписки вы определяете сами, платите столько сколько посчитаете справедливым. От 9.99 грн. за мес. при чем первый месяць бесплатный При этом полученные деньги распределяются между СМИ, пропорционально к количеству просмотренных их статей.
+\n
+        \n2. Перейдите на сайт этого СМИ (займет до 8 сек.)
+        \n
+\n3. Откройте приложение этого СМИ  (займет до 5 сек.)
+
+</string>
+    <string name="btn_try_subscribe">Попробовать подписку бесплатно</string>
+    <string name="exit_toast">Please click BACK again to exit</string>
+
+
+</resources>

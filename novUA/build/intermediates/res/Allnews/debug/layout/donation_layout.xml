@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@color/grey">
+
+
+	<ScrollView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/scrollView2" >
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<TextView
+                android:id="@+id/txtDonate_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/donate_txt"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_margin="8dp" />
+
+			<Button
+                android:id="@+id/btnDonate_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/download_btn_bg"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/btn_donate_1"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp" />
+
+			<Button
+                android:id="@+id/btnDonate_5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/download_btn_bg"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/btn_donate_5"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+			<Button
+                android:id="@+id/btnDonate_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/download_btn_bg"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/btn_donate_2"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+			<Button
+                android:id="@+id/btnDonate_15"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/download_btn_bg"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/btn_donate_15"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+			<Button
+                android:id="@+id/btnDonate_50"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/download_btn_bg"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/btn_donate_50"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/promoButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/download_btn_bg"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/promo_code"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+	</ScrollView>
+
+
+</LinearLayout>
+<!-- From: file:/D:/AllNews/AllBuilds/novUA/src/main/res/layout/donation_layout.xml -->

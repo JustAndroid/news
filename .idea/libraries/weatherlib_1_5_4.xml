@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="weatherlib-1.5.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/novUA/build/intermediates/exploded-aar/com.survivingwithandroid/weatherlib/1.5.4/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/novUA/build/intermediates/exploded-aar/com.survivingwithandroid/weatherlib/1.5.4/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

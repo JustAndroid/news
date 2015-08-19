@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="grey">#e6e6e6</color>
+    <color name="blue">#5cace6</color>
+    <color name="red">#AA0000</color>
+    <color name="Bblue">#122369</color>
+    <color name="txtGrey">#8a8a8a</color>
+    <color name="bgNight">#3f3f3f</color>
+    <color name="bgActionBarNight">#131314</color>
+    <color name="bgActionBarDay">#40a5f7</color>
+    <color name="bgTabDay">#e5e5e5</color>
+    <color name="eventMsgBg">#f17e56</color>
+    <color name="tabBlackText">#424242</color>
+    <color name="rateGreen">#14b887</color>
+    <color name="rateBlue">#27bbd9</color>
+    <color name="eventBuyGreen">#00b88a</color>
+    <color name="eventFilterGrey">#bdbdbd</color>
+    <color name="eventFilterBlue">#44a3db</color>
+    <color name="reedNews">#f2f2f2</color>
+    <color name="fadeColor">#99cc00</color>
+    <color name="weatherLayoutColor">#ff03afeb</color>
+    <color name="magenta">#87CEEB</color>
+    
+    <color name="actionBarDivider">#6cb2f9</color>
+    <color name="actionBarDividerNight">#3a3d42</color>
+    <color name="newsListTitle">#222222</color>
+    <color name="newsListTime">#989898</color>
+    <color name="newsListTitleNight">#bbbbbb</color>
+    <color name="newsListTimeNight">#6d6d6d</color>
+    <color name="drawerItem">#222222</color>
+    <color name="drawerItemNight">#bbbbbb</color>
+    <color name="drawerDivider">#e0e0e0</color>
+    <color name="showFirstTimeNews">#edecec</color>
+    <color name="showFirstTimeNewsNight">#131314</color>
+    <color name="news_button_color">#bbbbbb</color>
+    <color name="news_button_color_night">#3f4041</color>
+    <color name="textSizeBg">#e5e5e5</color>
+    <color name="drawerTopColorDay">#ffffff</color>
+    <color name="drawerTopColorNight">#25272a</color>
+    <color name="drawerBottomColorDay">#fafafa</color>
+    <color name="drawerBottomColorNight">#131314</color>
+    <color name="drawerColorNightBgNight">#9c9c9c</color>
+    <color name="drawerColorNightTextColorNight">#131314</color>
+    <color name="drawerColorNightBgDay">#2a2d33</color>
+    <color name="drawerColorNightTextColorDay">#bbbbbb</color>
+    
+    <color name="newsBgNight">#202123</color>
+    <color name="newsTextNight">#bbbbbb</color>
+    
+    <color name="tabName">#919191</color>
+    <color name="tabNameSelectedNight">#b3b3b3</color>
+    <color name="tabNameNight">#626366</color>
+    <color name="tabBgNight">#2a2d33</color>
+    
+    <color name="shareToAllBtnBgNight">#343b49</color>
+     <color name="shareNewsDividerBgNight">#3e4552</color>
+    
+</resources>

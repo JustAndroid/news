@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebookID">916755311684463</string>
+    <string name="url_icon">http://all-news.com.ua/site/sites/default/files/AllNewsUA_2.png</string>
+    <string name="url_base">http://all-news.com.ua/rss/rss.php?format=fastjson</string>
+    <string name="url_domain">http://all-news.com.ua/rss/</string>
+
+
+    <string name="app_id">10</string>
+	<string name="event_category">2</string>
+	<string name="app_authority">com.onPress.service</string>
+	<string name="app_account_type">com.onPress</string>
+	<string name="app_account">onPressAccount</string>
+	<string name="app_name">OnPress.info</string>
+	<string name="app_url">http://play.google.com/store/apps/details?id=gregory.network.rss	</string>
+	<string name="app_iphone_url">https://itunes.apple.com/us/app/allnews-ua/id875793834</string>
+	<string name="fluri_id">72924VP8XKRVFGFVZG28</string>
+    <string name="default_save_news_time">72</string>
+    <bool name="news_ua">true</bool>
+	<bool name="need_ad">false</bool>
+	<bool name="need_event">true</bool>
+	<bool name="need_category">true</bool>
+	<bool name="need_hints">false</bool>
+	<bool name="sport_news">true</bool>
+    <string name="db_name">onPress.db</string>
+    <string name="unity_ads_id">131627342</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9880116594229676/7196673147</string>
+    <string name="banner_down_ad_unit_id">ca-app-pub-9880116594229676/8115003143</string>
+    <string name="banner_ad_in_list_news_25_positional">ca-app-pub-9880116594229676/1091263943</string>
+    <string name="banner_ad_news_fragment_top">ca-app-pub-9880116594229676/8474929946</string>
+    <string name="banner_ad_news_fragment_bottom">ca-app-pub-9880116594229676/8474929946</string>
+    <string name="city_weather_id">703448</string>
+    <string name="provider_name">com.allNews.service.StubOnPressProvider</string>
+   <string name="ad_source_id">225</string>
+    <string name="urlB2BSource">list=225</string>
+    <integer name="oguryID">266259</integer>
+
+</resources>

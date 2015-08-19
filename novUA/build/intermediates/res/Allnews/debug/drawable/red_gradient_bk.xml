@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <gradient android:type="linear"
+              android:startColor="#efff2c"
+              android:endColor="#d01869"/>
+
+</shape>
+<!-- From: file:/D:/AllNews/AllBuilds/novUA/src/main/res/drawable/red_gradient_bk.xml -->

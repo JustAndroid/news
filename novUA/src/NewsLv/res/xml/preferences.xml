@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceScreen
+        android:key="NewsPrefScreen"
+        android:summary="@string/pref_source"
+        android:title="@string/pref_source_title" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="prefCategory"
+        android:summary="@string/pref_source"
+        android:title="@string/pref_category_title" >
+    </PreferenceScreen>
+
+    <Preference
+        android:icon="@drawable/ic_share"
+        android:key="sharePref"
+        android:summary="@string/pref_share"
+        android:title="@string/pref_share_title" />
+
+    <ListPreference
+        android:defaultValue="en"
+        android:entries="@array/langArray"
+        android:entryValues="@array/langValues"
+        android:key="prefLang"
+        android:summary="@string/pref_type_lang"
+        android:title="@string/pref_type_lang_title" />
+    <ListPreference
+        android:defaultValue="@string/default_save_news_time"
+        android:entries="@array/saveTimeArray"
+        android:entryValues="@array/saveTimeValues"
+        android:key="SavePref"
+        android:summary="@string/pref_period"
+        android:title="@string/pref_period_title" />
+    <ListPreference
+        android:defaultValue="3600"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues"
+        android:key="RefreshPref"
+        android:summary="@string/pref_period_update"
+        android:title="@string/pref_period_update_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="checkboxWiFi"
+        android:summary="@string/pref_wifi"
+        android:title="@string/pref_wifi_title" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="autoRotatePref"
+        android:title="@string/pref_orientation_title" />
+
+    <ListPreference
+        android:defaultValue="16"
+        android:entries="@array/saveCharArray"
+        android:entryValues="@array/saveCharValues"
+        android:key="prefSize"
+        android:summary="@string/pref_type_size"
+        android:title="@string/pref_type_size_title" />
+
+    <Preference
+        android:key="customPref"
+        android:summary="@string/pref_clean"
+        android:title="@string/pref_clean_title" />
+    <Preference
+        android:key="feedbackPref"
+        android:title="@string/pref_feedback_title" />
+    <Preference
+        android:key="prefAbout"
+        android:summary="@string/about_preferences"
+        android:title="@string/about_preferences" />
+    <Preference
+        android:key="prefApps"
+        android:summary="@string/pref_type_app"
+        android:title="@string/pref_type_app_title" />
+   <Preference
+        android:key="prefPass"
+        android:title="@string/pref_pass_title" />  
+</PreferenceScreen>

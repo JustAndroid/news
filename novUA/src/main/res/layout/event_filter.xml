@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:background="@color/white"
+	android:orientation="vertical"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp"
+	android:paddingTop="15dp">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/eventFilterGrey"
+		android:padding="1dp">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="match_parent"
+			android:background="@color/white">
+
+			<TextView
+				android:id="@+id/event_filter_today"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center"
+				android:maxLines="1"
+				android:padding="15dp"
+				android:text="@string/today"
+				android:textColor="@color/black"
+				android:textSize="16sp" />
+
+			<LinearLayout
+				android:layout_width="1dp"
+				android:layout_height="fill_parent"
+				android:background="@color/eventFilterGrey"
+				android:orientation="vertical"></LinearLayout>
+
+			<TextView
+				android:id="@+id/event_filter_tomorrow"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center"
+				android:maxLines="1"
+				android:padding="15dp"
+				android:text="@string/tomorrow"
+				android:textColor="@color/black"
+				android:textSize="16sp" />
+
+			<LinearLayout
+				android:layout_width="1dp"
+				android:layout_height="fill_parent"
+				android:background="@color/eventFilterGrey"
+				android:orientation="vertical"></LinearLayout>
+
+			<TextView
+				android:id="@+id/event_filter_week"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center"
+				android:maxLines="1"
+				android:padding="15dp"
+				android:text="@string/week"
+				android:textColor="@color/black"
+				android:textSize="16sp" />
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:background="@color/eventFilterGrey"
+		android:orientation="vertical"
+		android:padding="1dp">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white">
+
+			<TextView
+				android:id="@+id/event_filter_from"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:drawableLeft="@drawable/ic_event_filter_calendar"
+				android:drawablePadding="3dp"
+				android:gravity="center_vertical"
+				android:padding="15dp"
+				android:text="@string/from"
+				android:textColor="@color/black"
+				android:textSize="16sp" />
+
+			<LinearLayout
+				android:layout_width="1dp"
+				android:layout_height="match_parent"
+				android:layout_marginBottom="5dp"
+				android:layout_marginTop="5dp"
+				android:background="@color/eventFilterGrey"
+				android:orientation="vertical"></LinearLayout>
+
+			<TextView
+				android:id="@+id/event_filter_to"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:drawableLeft="@drawable/ic_event_filter_calendar"
+				android:drawablePadding="3dp"
+				android:gravity="center_vertical"
+				android:padding="15dp"
+				android:text="@string/to"
+				android:textColor="@color/black"
+				android:textSize="16sp" />
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:background="@color/eventFilterGrey"
+		android:orientation="vertical"
+		android:padding="1dp">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:orientation="horizontal">
+
+			<AutoCompleteTextView
+				android:id="@+id/event_filter_city"
+				android:layout_width="0dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:background="@color/transparent"
+				android:completionThreshold="1"
+				android:drawableLeft="@drawable/ic_event_filter_loc"
+				android:hint="@string/city"
+				android:padding="15dp"
+				android:singleLine="true">
+
+			</AutoCompleteTextView>
+
+			<Button
+				android:id="@+id/event_filter_city_btn_clear"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:background="@color/transparent"
+				android:minHeight="0dp"
+				android:minWidth="0dp"
+				android:paddingBottom="5dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="10dp"
+				android:paddingTop="5dp"
+				android:text="X"
+				android:textColor="@color/eventFilterGrey" />
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/hintText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:text="@string/event_categories"
+		android:textColor="@color/eventFilterBlue"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		android:layout_marginBottom="5dp"
+		android:layout_marginTop="5dp"
+		android:background="@color/eventFilterBlue"
+		android:orientation="vertical"></LinearLayout>
+
+	<ListView
+		android:id="@+id/event_filter_categories"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"></ListView>
+</LinearLayout>

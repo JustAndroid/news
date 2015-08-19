@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/hints.xml -->
+    <eat-comment/>
+    <string-array name="hints">
+	<!-- 0 -->    <item>    Наше приложение называется AllNews. На 100% бесплатное. Для Android и iOS. Расскажите о нас друзьям</item>
+	<!-- 1 -->	  <item>    Полные тексты новостей по расписанию загружаются в Ваш смартфон. Их можно читать позже, даже без Интернета. Например, в метро, поезде, самолёте</item>
+	<!-- 2 -->    <item>    Частота автообновления новостей настраивается. У Вас сейчас автообновление через %1$s минут</item>
+	<!-- 3 -->    <item>    Присылайте свои пожелания. Мы ежедневно добавляем новые функции в приложение AllNews</item>
+	<!-- 4 -->	  <item>    Над приложением постоянно работают четыре программиста: Android, iOS, WinMobile, Server</item>
+	<!-- 5 -->    <item>    До AllNews подключено %1$s новостных источника. Вы сейчас читаете %2$s из %1$s</item>
+    <!-- 6 -->    <item>    Новости, при загрузке в приложение, сжимаются для минимализации трафика, выиграш около 350%. Средний трафик – 10 Мб за день</item>
+	<!-- 7 -->    <item>    Новости могут сохраняться до 7 дней. У Вас настроено - за %1$s часа (ов). Для хранения всех новостей за один день достаточно 50 мб.</item>
+	<!-- 8 -->    <item>    В приложении собрана афиша событий с десятка сайтов. Настройте ее для себя – выберите город и тематики событий</item> 
+ <!--   <item>&#160;&#160;&#160; Ваша скорость чтения - 145 заголовков за минуту. 356 слов в минуту. Это больше чем у 46% других читателей.</item> -->
+	<!-- 9 -->    <item>    Приложение AllNews не требует регистрации, поэтому Вы можете не опасаться спама</item>
+	<!-- 10 -->    <item>    Над каждой новостью находится кнопка «Поделиться». С ее помощью можно легко отправить понравившуюся новость на мейл, или в соцсеть</item>
+	<!-- 11 -->    <item>    Ниже каждой новости есть кнопки: «Перейти на сайт СМИ» и «Установить приложение СМИ»</item>
+	<!-- 12 -->    <item>    У нас можно заказать разработку аналогичного мобильного приложения для любого СМИ</item>
+	<!-- 13 -->    <item>    Если приложение полезное для Вас, – поставьте нам пять звездочек, это помогает подняться в рейтингах и мотивирует нас развиваться</item>
+	<!-- 14 -->    <item>    Загрузите приложение: &lt;a href=https://play.google.com/store/apps/details?id=gregory.network.ru>“Все новости России”&lt;/a>. Подключено 32 главных новостных сайтов</item>
+	<!-- 15 -->    <item>    Загрузите приложение: &lt;a href=https://play.google.com/store/apps/details?id=gregory.network.it>“Все новости Стартапов и ІТ”&lt;/a>. Подключено 35 главных сайтов, а также – афиша всех ІТ событий в регионе</item>
+	<!-- 16 -->    <item>    Для покупки билетов на поезда в Украине, загрузите приложение: &lt;a href=https://play.google.com/store/apps/details?id=org.withmyfriends>“2Event”&lt;/a>. Если уже есть билеты – просто чекиньтесь на поезда, чтобы найти знакомых попутчиков</item>
+	<!-- 17 -->    <item>    Если хотите иметь в смартфоне Афишу событий в Вашем городе, расписание событий, как добраться, список посетителей и попутчиков из Вашего региона, загрузите приложение &lt;a href=https://play.google.com/store/apps/details?id=org.withmyfriends>“2Event”&lt;/a>.</item>
+	<!-- 18 -->    <item>    Если хотите найти попутчиков на фестивали, конференции, спортивные соревнования и другие события, загрузите приложение &lt;a href=https://play.google.com/store/apps/details?id=org.withmyfriends>“2Event”&lt;/a>. Покупайте билеты или просто чекиньтесь.</item>
+	<!-- 19 -->    <item>    Если хотите поселиться в тот же отель, где живут другие посетители Вашего мероприятия, установите приложение &lt;a href=https://play.google.com/store/apps/details?id=org.withmyfriends>“2Event”&lt;/a>. Бронируйте или просто чекиньтесь в отеле. </item>
+    <!-- 20 -->    <item>    С AllNews Вы всегда будете в курсе всех событий в Украине  </item>
+    <!-- 21 -->    <item>    AllNews оперативно подает новости всех главных СМИ Украины  </item>
+    <!-- 22 -->    <item>    AllNews сохраняет последнее обновление в устройстве, новости можно читать без подключения к Интернету (в самолете, поезде, метро) </item>
+    <!-- 23 -->    <item>    Вы можете самостоятельно сформировать перечень подключенных СМИ в НАСТРОЙКИ / ИСТОЧНИКИ  </item>
+    <!-- 24 -->    <item>    Вы можете выбрать удобный размер шрифта в НАСТРОЙКИ / ШРИФТ </item>
+    <!-- 25 -->    <item>    Вы можете изменить язык настройки аппликации в НАСТРОЙКИ / ЯЗЫК  </item>
+    <!-- 26 -->    <item>    Выберите категории новостей, которые Вас больше всего интересуют, в НАСТРОЙКИ / КАТЕГОРИИ, и они появятся в меню  </item>
+    <!-- 27 -->    <item>    Когда у Вас мало времени, рекомендуем просматривать наш ТОП-20 новостей, Вы не пропустите ничего важного  </item>
+    <!-- 28 -->    <item>    Аппликация требует до 50 МГб свободного пространства  </item>
+    <!-- 29 -->    <item>    Чтобы полностью обновить ленту, нажмите ОЧИСТИТЬ КЭШ  </item>
+    <!-- 30 -->    <item>    Чтобы не потерять интересную новость, добавьте ее в ИЗБРАННОЕ одним прикосновением  </item>
+    <!-- 31 -->    <item>    Аппликация сохраняет новости по умолчанию за 1 день, изменить от 1 до 7 дней можно в НАСТРОЙКИ / ХРАНИТЬ НОВОСТИ  </item>
+    <!-- 32 -->    <item>    Вы можете легко поделиться новостью с друзьями  </item>
+    <!-- 33 -->    <item>    Вы можете одним прикосновением перейти на сайт СМИ, новость которого читаете </item>
+    <!-- 34 -->    <item>    В аппликации работает поиск в тексте новостей  </item>
+    <!-- 35 -->    <item>    При недостаточном освещении переключите ДЕНЬ / НОЧЬ </item>
+    <!-- 36 -->    <item>    Самостоятельно определить периодичность автообновления новостей можно в НАСТРОЙКИ / Автообновление</item>
+    <!-- 37 -->    <item>    Обновление только по WiFi можно выставить в НАСТРОЙКИ / WiFi  </item>
+    <!-- 38 -->    <item>    AllNews предлагает Вашему вниманию анонс ближайших событий в Вашем городе  </item>
+    <!-- 39 -->    <item>    Поделитесь AllNews с друзьями, чтобы они всегда были в курсе новостей и событий </item>
+	</string-array>
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/arrays.xml -->
+    <eat-comment/>
+    <string-array name="langArray">
+		<item>English</item>
+		<item>Українська</item>
+		<item>Русский</item>
+	</string-array>
+    <string-array name="langValues">
+		<item>en</item>
+		<item>uk</item>
+		<item>ru</item>
+	</string-array>
+    <string-array name="listArray">
+	    <item>Никогда</item>
+		<item>15 минут</item>
+		<item>30 минут</item>
+		<item>1 час</item>
+		<item>3 часа</item>
+		<item>6 часов</item>
+		<item>12 часов</item>
+	</string-array>
+    <string-array name="listValues">
+	    <item>0</item>
+		<item>900</item>
+		<item>1800</item>
+		<item>3600</item>
+		<item>10800</item>
+		<item>21600</item>
+		<item>259200</item>
+	</string-array>
+    <string-array name="saveCharArray">
+		<item>12pt</item>
+		<item>14pt</item>
+		<item>16pt</item>
+		<item>18pt</item>
+		<item>20pt</item>
+		<item>24pt</item>
+		<item>32pt</item>
+	</string-array>
+    <string-array name="saveCharValues">
+		<item>12</item>
+		<item>14</item>
+		<item>16</item>
+		<item>18</item>
+		<item>20</item>
+		<item>24</item>
+		<item>32</item>
+	</string-array>
+    <string-array name="saveTimeArray">
+		<item>12 часов</item>
+		<item>1 день</item>
+		<item>2 дня</item>
+		<item>3 дня</item>
+		<item>4 дня</item>
+		<item>5 дней</item>
+		<item>6 дней</item>
+		<item>7 дней</item>
+	</string-array>
+    <string-array name="saveTimeValues">
+		<item>12</item>
+		<item>24</item>
+		<item>48</item>
+		<item>72</item>
+		<item>96</item>
+		<item>120</item>
+		<item>144</item>
+		<item>168</item>
+	</string-array>
+    <!-- From: file:/D:/AllBuilds/novUA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Другие параметры"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Выбрать приложение"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="about_contact_title">Контакты:</string>
+    <string name="about_contact_txt">		Ярослав Максимович
+		\nтел: +38 096 359 99 99 (по
+		поводу мобильных приложений)
+		\nтел: +38 050 731 32 68 (по вопросам
+		подключения СМИ)
+		\n
+		\nskype: yaroslav.maxymovych
+		\ne-mail:
+		yaroslav.maxymovych@gmail.com
+        \nfacebook: https://www.facebook.com/yaroslav.maxymovych
+        \nfacebook группа: https://www.facebook.com/pages/All-News-мобильный-агрегатор-новостей/1500434876911820
+</string>
+    <string name="about_other_app1">Все новости Украины
+</string>
+    <string name="about_other_app2_description">- билеты на поезд, самолет, отели, с учетом
+		попутчиков.
+</string>
+    <string name="about_other_app2_title">“ЖД билеты. Авиа. Попутчики.”
+</string>
+    <string name="about_other_app3_description">- афиша, билеты на мероприятия и попутчики.
+</string>
+    <string name="about_other_app3_title">2Event
+</string>
+    <string name="about_other_app4_description"> - геолокация ваших друзей. Например, когда вы
+		едете по трасе в разных автомобилях, смотреть кто где находиться. Или
+		встречаетесь в городе, чтобы не разминуться.
+</string>
+    <string name="about_other_app4_title">WhoIsAround
+</string>
+    <string name="about_other_app5_description">- вызов такси одной кнопкой. Тоже, готовое решение,
+		которое мы продаем для служб такси.
+</string>
+    <string name="about_other_app5_title">QRTaxi
+</string>
+    <string name="about_other_app6">Все новости России
+</string>
+    <string name="about_other_app7">Все новости стартапов Рунета
+</string>
+    <string name="about_other_app_title">Смотрите также, наши другие мобильные приложения:
+</string>
+    <string name="about_preferences">О нас</string>
+    <string name="about_title">О разработчике этого приложения.
+</string>
+    <string name="about_title2"> \nМы компания-разработчик мобильных приложений.
+</string>
+    <string name="about_txt">		Это приложение умеет агрегировать новости и статьи
+		с главных из этих
+		сайтов.
+		\nОбновляет и кеширует в фоновом режиме.
+		\nУдобно читать в
+		метро, поезде или самолете.
+		\nНе требует Интернета -
+		поскольку текст
+		новостей уже полностью в
+		смартфоне.
+		\n
+		\nПростое в
+		использовании,
+		открывается мгновенно.
+		\nБез рекламы и без баннеров.
+		\nБез лишней
+		анимации. - Просто текст новостей и иллюстрации к ним.
+		\nС
+		каждой
+		новости стоят прямые ссылки на сайт-источник. А также на
+		мобильное
+		приложение, если оно есть у этого СМИ.
+		\n
+		\nУ нас же, можно
+		недорого
+		заказать быструю разработку аналогичного
+		приложения для любого
+		СМИ.
+		\nСрок разработки - неделя.
+		\nЦена - $ 1500 за комплект (iOS +
+		Android).
+		\nВозможен частичный бартер - $ 750 деньгами. Плюс $ 2000 -
+		по рекламному
+		бартеру.
+		\nПри этом, сайт заказчика будет автоматически
+		подключен к списку наших
+		источников.
+		\n
+</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/Novosti_N/res/values-ru/custom_strings.xml -->
+    <eat-comment/>
+    <string name="about_txt_top">
+		\nВ нашем Интеренете более 100 сайтов с новостями.
+
+	</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="about_us1">О НАС</string>
+    <string name="about_us2">И О МОБИЛЬНОМ ПРИЛОЖЕНИИ</string>
+    <string name="action_search_title">Поиск</string>
+    <string name="all_app">Все наши приложения</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/Novosti_N/res/values-ru/custom_strings.xml -->
+    <eat-comment/>
+    <string name="app_full_name">Новости N</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="app_review">ОБЗОРЫ ПРИЛОЖЕНИЙ</string>
+    <string name="app_review_all">Открыть больше >>></string>
+    <string name="bookmark_msg_add">Закладка добавлена</string>
+    <string name="bookmark_msg_remove">Закладка снята</string>
+    <string name="btn_donate_1">Бесплатно первые 30дней /9,99 грн</string>
+    <string name="btn_donate_15">Бесплатно первые 30дней /149,99 грн</string>
+    <string name="btn_donate_2">Бесплатно первые 30дней /29,99 грн</string>
+    <string name="btn_donate_5">Бесплатно первые 30дней /69,99 грн</string>
+    <string name="btn_donate_50">Бесплатно первые 30дней /399,99 грн</string>
+    <string name="btn_download_newapp">Установить сейчас</string>
+    <string name="btn_share_app">ЭТО ПРИЛОЖЕНИЕ ПОЛЕЗНОЕ ДЛЯ ВАС?\n ПОДЕЛИТЕСЬ
+		ССЫЛКОЙ С ДРУЗЬЯМИ
+</string>
+    <string name="category_pref_title">Выбранные категории будут отображаться на главной
+		странице приложения
+</string>
+    <string name="change_log_title">Что нового</string>
+    <!-- From: file:/D:/AllBuilds/novUA/build/intermediates/exploded-aar/com.github.gabrielemariotti.changeloglib/library/1.5.2/res/values-ru/values.xml -->
+    <eat-comment/>
+    <string name="changelog_header_version">"Версия "</string>
+    <string name="changelog_internal_error_internet_connection">Нет соединения с интернетом. Невозможно получить список изменений.</string>
+    <string name="changelog_internal_error_parsing">Ошибка при парсинге файла</string>
+    <string name="changelog_row_bulletpoint">\u2022</string>
+    <string name="changelog_row_prefix_bug">[b]Ошибка:[/b]</string>
+    <string name="changelog_row_prefix_improvement">[b]Добавлено:[/b]</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="city">Город</string>
+    <string name="city_result">Результат</string>
+    <string name="close">ЗАКРЫТЬ</string>
+    <!-- From: file:/D:/AllBuilds/novUA/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string name="com_facebook_image_download_unknown_error">При загрузке изображения возникла неожиданная ошибка.</string>
+    <string name="com_facebook_internet_permission_error_message">Для входа в WebView необходимо разрешение INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Ошибка AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Понравилось</string>
+    <string name="com_facebook_like_button_not_liked">Нравится</string>
+    <string name="com_facebook_loading">Загрузка...</string>
+    <string name="com_facebook_loginview_cancel_action">Отменить</string>
+    <string name="com_facebook_loginview_log_in_button">Вход</string>
+    <string name="com_facebook_loginview_log_in_button_long">Вход через Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Выход</string>
+    <string name="com_facebook_loginview_log_out_button">Выход</string>
+    <string name="com_facebook_loginview_logged_in_as">Вы вошли как: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Выполнен вход с помощью Facebook</string>
+    <string name="com_facebook_send_button_text">Отправить</string>
+    <string name="com_facebook_share_button_text">Поделиться</string>
+    <string name="com_facebook_tooltip_default">Новинка! У вас все под контролем — выбирайте, какой информацией вы хотите поделиться с приложениями.</string>
+    <!-- From: file:/D:/AllBuilds/novUA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ru/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Требуется обновить приложение Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Для работы этого приложения требуется обновить Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Обновить Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Включить"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Для работы этого приложения требуется включить Сервисы Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Включите Сервисы Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Источник запроса: <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Установить"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Для работы этого приложения требуется установить Сервисы Google Play."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Для работы этого приложения требуется установить Сервисы Google Play."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Установите Сервисы Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Этого аккаунта нет на устройстве. Выберите другой."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Недействительный аккаунт"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Для работы приложения требуется включить сервисы Google Play"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Для работы с Google Play требуется подключение к сети."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Ошибка сети"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Для работы приложения требуется установить сервисы Google Play"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Для работы приложения требуется обновить сервисы Google Play"</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Ошибка сервисов Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"При входе в указанный аккаунт произошла ошибка. Выберите другой аккаунт."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Ошибка входа"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Неизвестная ошибка с Сервисами Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Сервисы Google Play, необходимые для работы некоторых приложений, не поддерживаются на вашем устройстве. Обратитесь к производителю."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Сервисы Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Обновить"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Для работы этого приложения требуется обновить Сервисы Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Обновите Сервисы Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Открыть на телефоне"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Войти"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Войти в аккаунт Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Сервисы Google Play, необходимые для работы приложения, сейчас недоступны. Обратитесь за помощью к разработчику."</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="day">д</string>
+    <string name="db_delete">Вы уверены что хотите удалить все новости?</string>
+    <string name="db_delete_error">Произошла ошибка.</string>
+    <string name="db_delete_success">Новости удалены.</string>
+    <string name="description_app_2event">		2EVENT Бесплатное мобильное приложение, афиша
+		мероприятий, покупка билетов
+		на транспорт и мероприятия. Поможет
+		организовать Ваше путешествие,
+		посмотреть расписание автобусов,
+		заказать номер в отеле или хостеле,
+		заказать такси, узнать станции
+		поезда, - выбрать оптимальный вариант
+		поездки.
+		\n 2EVENT подскажет Вам,
+		где есть дешевый отель ( hotel ), как купить
+		авиабилет, подобрать
+		подходящие авиалинии. 2EVENT - это Ваш гид в мир
+		путешествий без границ
+		. Путешествуете своим авто? Сделайте чекин, и
+		подберите попутчиков.
+		Экономьте деньги, найдите сожителей в отели.
+		Чат - Ваше место встречи с
+		попутчиками – не забывайте делиться Вашими
+		впечатлениями. Каждый найдет
+		на 2EVENT что-нибудь полезное.
+		Авторизуйтесь, заполните Ваш профиль и
+		найдите единомышленников и
+		попутчиков. Чтобы купить билет, Вам нужна
+		всего лишь банковская карта.
+</string>
+    <string name="description_app_whoisaround">		Кто вокруг? Где ваши друзья, одногрупники,
+		сотрудники?
+		Встречаетесь где-то в городе или аэропорте? Ищете где
+		афтепати или конференция?
+		Концерт? Экскурсия? - Не потеряйте свою
+		группу.
+		Едете по трасе с друзьями в нескольких автомобилях или поездах?
+		Наше приложение работает в режиме реального времени. Бесплатно.
+		Найдите
+		новых друзей, рядом. Найдите то кафе где сейчас сидят ваши
+		друзья.
+		Идете на встречу? Установите приложение, чтобы узнать где ваш
+		партнер
+		сейчас, и, возможно перенесете место встречи.
+		Мы предоставим
+		онлайн перемещения друзей в нашем бесплатном приложении..
+</string>
+    <!-- From: file:/D:/AllBuilds/novUA/build/intermediates/exploded-aar/AllBuilds/updateCheker/unspecified/res/values-ru/values.xml -->
+    <eat-comment/>
+    <string name="dialogNegativeButton">Спасибо, но нет</string>
+    <string name="dialogNeutralButton">Напомнить завтра</string>
+    <string name="dialogPositiveButton">Обновить сейчас</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="donate_txt">     \nПривилегии подписки:
+        \n
+\n Доступ к VIP источникам новостей
+\n Отсутствие любой рекламы
+\n
+\nВы можете оплатить любую сумму, которую считаете справедливой.
+70% полученных сумм распределятся между VIP-новостными источниками.
+Таким образом, вы поддерживаете журналистов, для которых написание статтей, это действительно главный способ зарабатывать на жизнь.
+</string>
+    <!-- From: file:/D:/AllBuilds/novUA/build/intermediates/exploded-aar/AllBuilds/updateCheker/unspecified/res/values-ru/values.xml -->
+    <eat-comment/>
+    <string name="downloadFor">Появилась новая версия %1$s!\nДоступно для обновления на %2$s.</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="download_app">УСТАНОВИТЬ ПРИЛОЖЕНИЕ  </string>
+    <string name="event_about">Про событие</string>
+    <string name="event_buy">КУПИТЬ БИЛЕТ</string>
+    <string name="event_calendar">В КАЛЕНДАРЬ</string>
+    <string name="event_categories">КАТЕГОРИИ</string>
+    <string name="event_create">создать</string>
+    <string name="event_create_msg">Как разместить свое мероприятие в этом списке?
+		\n
+		\nПросто создайте его на сайте 2Event.com
+		\nБесплатно.
+</string>
+    <string name="event_directions">НА КАРТУ</string>
+    <string name="event_empty">Нет событий соответствующих фильтру</string>
+    <string name="event_help">помощь</string>
+    <string name="event_share">ПОДЕЛИТЬСЯ</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/Novosti_N/res/values-ru/custom_strings.xml -->
+    <eat-comment/>
+    <string name="event_top_msg">Интересные события с www.2Event.com
+		\nА также с
+		десятка сайтов. Таких как Eventbrite, Timepad, Concert.ua…
+		\nХотите
+		добавить свое событие- нажмите плюсик вверху справа.
+	</string>
+    <string name="events_title">Интересные события с www.2Event.com</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="exit_toast">Для выхода нажмите НАЗАД еще раз</string>
+    <string name="facebook_post_published">Опубликовано в Facebook успешно</string>
+    <string name="facebook_share_title">// Эта новость распространена через all-news.com.ua (Android)</string>
+    <string name="filter">фильтр</string>
+    <string name="filter_all">Выбрать все</string>
+    <string name="filter_none">Отменить все</string>
+    <string name="from">От</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/hints.xml -->
+    <eat-comment/>
+    <string name="hint_1"> </string>
+    <string name="hint_2"> </string>
+    <string name="hint_3">   Частота автообновления новостей настраивается. У Вас сейчас автообновление через %1$s минут</string>
+    <string name="hint_4"> </string>
+    <string name="hint_5"> </string>
+    <string name="hint_6">   До AllNews подключено %1$s новостных источника. Вы сейчас читаете %2$s из %1$s</string>
+    <string name="hint_7"> </string>
+    <string name="hint_8">   Новости могут сохраняться до 7 дней. У Вас настроено - за %1$s часа (ов). Для хранения всех новостей за один день достаточно 50 мб.</string>
+    <string name="hints_title">Подсказки</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="hour">ч</string>
+    <string name="important">Важно!!!</string>
+    <string name="input_pass">Введите пароль</string>
+    <string name="internet_error">Извините, нет интернет соединения с сервером.</string>
+    <string name="like_toast_txt">Спасибо! Ваш голос принят!</string>
+    <string name="list_footer_msg1">Поздравляем!
+\nВы прочитали все %1$s новости(ей),
+\nзагруженные за %2$s часа(ов)
+\nВключено %3$s из %4$s сайта(ов).
+\nХотите читать еще?
+\nУвеличьте время хранения новостей и количество читаемых новостных источников.
+</string>
+    <string name="list_footer_msg2">Хотите отвлектись?
+\nCмотрите в раздел NewApp.
+\nС новинками мобильных приложений и игр.
+\nДля некоторых из этих приложений, разработчики специально предоставляют бонусы для читателей нашего приложения. 
+\nТакже там собранны платные приложения, на которые разработчики временно снижают цену до нуля.</string>
+    <string name="location_msg">Не определено Ваше местонахождение, погода может не отображаться</string>
+    <string name="menu_categories">По категориям</string>
+    <string name="menu_clean_cache">Очистить кэш</string>
+    <string name="menu_color_day">День</string>
+    <string name="menu_color_mode">Цвет</string>
+    <string name="menu_color_night">Ночь</string>
+    <string name="menu_day_night">День/Ночь</string>
+    <string name="menu_donate">Поддержать проект</string>
+    <string name="menu_mark">Избранные</string>
+    <string name="menu_news_feed">Все новости </string>
+    <string name="menu_search">Поиск</string>
+    <string name="menu_settings">Все настройки </string>
+    <string name="menu_share">Поделиться</string>
+    <string name="menu_share_app">Поделиться этим приложением</string>
+    <string name="menu_sources">Источники</string>
+    <string name="menu_update">Обновить</string>
+    <string name="menu_view">Вид</string>
+    <!-- From: file:/D:/AllBuilds/novUA/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.2.0/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string name="messenger_send_button_text">Отпр</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="minute">мин назад</string>
+    <string name="msg_news_count">Загрузка %1$s новых новостей</string>
+    <string name="msg_updating">Идет инициализация приложения.</string>
+    <!-- From: file:/D:/AllBuilds/novUA/build/intermediates/exploded-aar/AllBuilds/updateCheker/unspecified/res/values-ru/values.xml -->
+    <eat-comment/>
+    <string name="newUpdateAvailable">Доступно обновление</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="new_version_msg">Доступна новая версия приложения. Нажмите, чтобы
+		обновить.
+</string>
+    <string name="news_for">за</string>
+    <string name="news_view">Режим просмотра</string>
+    <string name="next_page">Больше новостей</string>
+    <string name="no">Нет</string>
+    <string name="no_marked_news">Избранных новостей нет.</string>
+    <string name="no_memmory_msg">Для стабильной работы приложения требуется минимум
+		50 мегабайт памяти.
+</string>
+    <string name="no_memmory_title">Недостаточно памяти</string>
+    <string name="no_news1">В этой категории новостей нет.</string>
+    <string name="no_sources_msg">Выберите хотя бы один источник</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/Novosti_N/res/values-ru/custom_strings.xml -->
+    <eat-comment/>
+    <string name="notif_title">Все новости Украины и мира</string>
+    <!-- From: file:/D:/AllBuilds/novUA/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="notification_big_title">Топ-20 новостей</string>
+    <string name="notification_content_text">потяните чтобы читать</string>
+    <string name="notification_content_title">ТОП-20 новостей (потяните вниз)</string>
+    <string name="notification_summary">смотреть весь ТОП-20</string>
+    <string name="ok">Да</string>
+    <string name="open_all_news">Еще новостей >>></string>
+    <string name="pref_admin_title">Системные настройки</string>
+    <string name="pref_app_name">Настройки программы</string>
+    <string name="pref_category">Отображаемые категории: %1$s из %2$s</string>
+    <string name="pref_category_title">Категории для быстрого доступа</string>
+    <string name="pref_clean">Удалить все сохраненные новости</string>
+    <string name="pref_clean_title">Очистить кэш</string>
+    <string name="pref_feedback_title">Обратная связь</string>
+    <string name="pref_more_news_btn">Всегда отображать все новости</string>
+    <string name="pref_more_news_btn_title">Отображать все новости</string>
+    <string name="pref_msg">Выберите удобные настройки</string>
+    <string name="pref_notification_summary">Показывать автоматические оповещения о ТОП новостях</string>
+    <string name="pref_notification_title">Оповещения</string>
+    <string name="pref_orientation_title">Автоповорот экрана</string>
+    <string name="pref_pass_title">Ввести пароль</string>
+    <string name="pref_period">Хранение новостей за период</string>
+    <string name="pref_period_title">Хранить новости</string>
+    <string name="pref_period_update">Периодичность обновления новостей</string>
+    <string name="pref_period_update_title">Автообновление</string>
+    <string name="pref_share">Расскажите о нас друзьям.</string>
+    <string name="pref_share_title">Понравилось приложение?</string>
+    <string name="pref_source">Выбрано: %1$s из %2$s</string>
+    <string name="pref_source_name">Настройка источников</string>
+    <string name="pref_source_title">Источники</string>
+    <string name="pref_type_app">Список всех наших приложений</string>
+    <string name="pref_type_app_title">Наши другие приложения</string>
+    <string name="pref_type_lang">Выберите язык</string>
+    <string name="pref_type_lang_title">Язык</string>
+    <string name="pref_type_size">Выберите размер шрифта</string>
+    <string name="pref_type_size_title">Установка шрифта</string>
+    <string name="pref_weather">Погода</string>
+    <string name="pref_weather_summary">Показывать погоду</string>
+    <string name="pref_wifi">Синхронизировать только по Wi-Fi</string>
+    <string name="pref_wifi_title">Только по Wi-Fi</string>
+    <string name="promo_code">Введите промокод</string>
+    <string name="rate">ДА, Я ХОЧУ ОЦЕНИТЬ!</string>
+    <string name="rate_later">НАПОМНИТЬ ЧЕРЕЗ 2 НЕДЕЛИ</string>
+    <string name="rate_no">НЕТ, Я НЕ ХОЧУ ОЦЕНИВАТЬ</string>
+    <string name="rate_title1">Нравится приложение?</string>
+    <string name="rate_title2">Оцените его пожалуйста, чтобы мы быстрее
+		развивались
+</string>
+    <string name="rate_wish">ПОЖЕЛАНИЯ К ПРИЛОЖЕНИЮ</string>
+    <string name="readInWeb">ПЕРЕЙТИ НА САЙТ\n</string>
+    <string name="read_all_from">читать все с\n</string>
+    <string name="refresh_msg">Скачаны новые новости. \nПотяните вниз для обновления списка.</string>
+    <string name="search_city">Введите название города</string>
+    <string name="server_error">Сервер временно не работает, пожалуйста, попробуйте
+		позже.
+</string>
+    <string name="settings">Настройки</string>
+    <string name="share">Эту новость распространил агрегатор новостей
+</string>
+    <string name="share_app_msg">Привет!
+		\nРекомендую установить мобильное приложение
+		\"%1$s\"
+		\nЭто агрегатор с более 40-ка главных новостных сайтов.
+		\nНовости обновляет в фоне.
+		\nСохраняет в смартфоне полный текст.
+		\nПоэтому удобно читать в метро, поезде или самолете.
+</string>
+    <string name="share_event_help_msg">Привет, тут можно создать свое мероприятие</string>
+    <string name="share_event_msg">Привет, рекомендую событие</string>
+    <string name="share_news">ПОДЕЛИТЬСЯ</string>
+    <string name="share_news_msg">Привет, рекомендую тебе эту новость</string>
+    <string name="sorry">Извините</string>
+    <string name="stop_update_msg">Новости скачаны не будут.\nОстановить загрузку? </string>
+    <string name="stop_update_title">Остановить</string>
+    <string name="tab_events">АФИША</string>
+    <string name="tab_name_all">Все</string>
+    <string name="tab_name_articles">Статьи</string>
+    <string name="tab_name_fav">Избранные</string>
+    <string name="tab_name_read_news">Прочитанные</string>
+    <string name="tab_name_selected_media">Выбранное СМИ</string>
+    <string name="tab_name_top">ТОП-20</string>
+    <string name="tab_name_unread">Непрочитаные</string>
+    <string name="tab_new_app">NEW APPS</string>
+    <string name="tab_news">НОВОСТИ</string>
+    <string name="theme_day_msg">Включен режим "День"</string>
+    <string name="theme_night_msg">Включен режим "Ночь"</string>
+    <string name="to">До</string>
+    <string name="to_web">ПЕРЕЙТИ НА САЙТ</string>
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="top_news_msg">Загрузка ТОП-20</string>
+    <string name="weather_toast_msg">не удалось загрузить погоду попробуйте позже</string>
+    <string name="week">Неделя</string>
+</resources>

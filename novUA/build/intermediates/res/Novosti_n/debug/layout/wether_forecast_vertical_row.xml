@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ff03afeb">
+
+    <TextView android:id="@+id/dayName"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="@style/dayText"
+        android:layout_margin="8dp"
+        android:text="Day"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+    <TextView android:id="@+id/dayDate"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="@style/infoTempMaxText"
+        android:text="DayDate"
+        android:layout_gravity="center_horizontal" />
+
+
+    <ImageView android:id="@+id/dayIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+
+        android:layout_margin="8dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView android:id="@+id/dayTempMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="temp min"
+        style="@style/infoTempMinText"
+        android:layout_margin="8dp"
+        android:layout_gravity="center_horizontal" />
+    <TextView android:id="@+id/dayTempMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TempMax"
+        style="@style/infoTempMaxText"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout><!-- From: file:/D:/AllBuilds/novUA/src/main/res/layout/wether_forecast_vertical_row.xml -->

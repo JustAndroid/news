@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/drawerDivider0"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/drawerDivider"
+        android:orientation="vertical"/>
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/progressForecast"
+        style="@android:style/Widget.Holo.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:visibility="gone" />
+
+    <it.sephiroth.android.library.widget.HListView
+        android:id="@+id/forecastDays"
+         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="gone"
+
+        />
+
+</LinearLayout>

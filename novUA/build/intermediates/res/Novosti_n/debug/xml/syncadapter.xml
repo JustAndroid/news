@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sync-adapter
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:contentAuthority="@string/app_authority"
+        android:accountType="@string/app_account_type"
+        android:userVisible="false"
+        android:supportsUploading="false"
+        android:allowParallelSyncs="false"
+        android:isAlwaysSyncable="true"
+    tools:ignore="UnusedAttribute" /><!-- From: file:/D:/AllBuilds/novUA/src/main/res/xml/syncadapter.xml -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_server_url">check-this-server</string>
+    <string name="new_app_categories_url">&amp;categories=7</string> 
+	<string name="new_app_url">&amp;after=2014&#8211;00&#8211;00%2000:00:00&amp;sets=7</string>
+
+
+	<string name="url_get_categorieswithsources">&amp;sourceswithcategories=</string>
+	<string name="send_push_url_test">rss.php?gcm=push&amp;type=1&amp;group=1&amp;sets=</string>
+	<string name="send_push_url">rss.php?gcm=push&amp;type=1&amp;group=0&amp;sets=</string>
+	<string name="image_url_base">images/</string>
+	<string name="top_news_url">&amp;statistics=get&amp;top=20&amp;period=2&amp;sets=</string>
+    <string name="statistics_news_url">rss.php?statistics=add</string>
+    <string name="statistics_likes_url">rss.php?statistics=like</string>
+    <string name="statistics_dislikes_url">rss.php?statistics=dislike</string>
+    <string name="get_likes_url_">rss.php?statistics=getlike</string>
+    <string name="register_push_url">rss.php?gcm=register</string>
+    <string name="project_number">1078260183754</string>
+	<string name="event_url">http://api2.withmyfriends.org/api/v3/newsapp/events/</string> 
+	<string name="url_get_messages">&amp;messages=</string>
+	<string name="url_get_news_by_id">&amp;id=</string>
+
+    <string name="url_img_new_app">http://app.all-news.com.ua/sites/default/files/field/image/</string>
+    <string name="url_all_new_app">http://app.all-news.com.ua/app/views/articles.json</string>
+    <string name="url_update_new_app">http://app.all-news.com.ua/app/node.json</string>
+    <string name="url_taxonomy_new_app">http://app.all-news.com.ua/app/taxonomy_term.json</string>
+    <string name="url_all_new_app_test">http://app.all-news.com.ua/app/node/47.json</string>
+</resources>

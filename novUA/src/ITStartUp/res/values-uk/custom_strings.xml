@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="app_full_name">Всі IT новини - StartUp News</string>
+    	<string name="event_top_msg">ІТ-заходи з www.2Event.com
+		\nА також з десятка сайтів. Таких як Eventbrite, Timepad, Concert.ua ...
+		\nХочете додати свою подію - натисніть плюсик вгорі праворуч.
+
+	</string>
+   <string name="events_title">ІТ-заходи з www.2Event.com</string>
+	<string name="notif_title">Всі IT новини України та світу</string>
+	
+	<string name="about_txt_top">
+	\nУ російськомовному Інтеренете більше 50-ти сайтів висвітлюють тематику стартапів. 
+ 
+	</string>
+	
+</resources>

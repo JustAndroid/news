@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="facebookID">668495076552005</string>
+    <string name="url_icon">http://all-news.com.ua/site/sites/default/files/AllNewsRU.png</string>
+    <string name="url_base">http://all-news.com.ua/rss/rss.php?format=fastjson</string>
+    <string name="url_domain">http://all-news.com.ua/rss/</string>
+    <string name="app_id">6</string>   
+	<string name="event_category">3</string>
+	<string name="app_authority">com.allNewsRU.service</string>
+	<string name="app_account_type">com.allNewsRU</string>
+	<string name="app_account">AllNewsRUAccount</string>
+	<string name="app_name">Новости России</string>	 
+	<string name="app_url">http://play.google.com/store/apps/details?id=gregory.network.ru</string>
+	<string name="app_iphone_url">https://itunes.apple.com/us/app/allnews-ua/id875793834</string>
+	<string name="fluri_id">TGPXK64R9VTNTWWWJ6SG</string>	 
+    <string name="default_save_news_time">12</string>
+	<bool name="need_ad">false</bool> 
+	<bool name="need_event">true</bool> 
+	<bool name="need_category">true</bool>
+	<bool name="need_hints">true</bool>
+	<bool name="sport_news">false</bool>
+    <bool name="news_ua">false</bool>
+    <string name="unity_ads_id">24760</string>
+    <string name="db_name">newsRU.db</string>
+    <string name="banner_ad_in_list_news_25_positional">ca-app-pub-9880116594229676/5400052342</string>
+    <string name="banner_ad_news_fragment_top">ca-app-pub-9880116594229676/6876785544</string>
+    <string name="banner_ad_news_fragment_bottom">ca-app-pub-9880116594229676/8353518745</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9880116594229676/9969852747</string>
+    <string name="banner_down_ad_unit_id">ca-app-pub-9880116594229676/2446585941</string>
+    <string name="city_weather_id">524901</string>
+    <string name="ad_source_id">226</string>
+    <string name="urlB2BSource">list=226</string>
+    <integer name="oguryID">266265</integer>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/top20_footer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+  <TextView
+      android:id="@+id/top20_more"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="right"
+      android:padding="10dp"
+      android:text="@string/open_all_news"
+      android:textColor="@color/blue"
+      android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:text="@string/app_review"
+        android:textColor="@color/txtGrey"
+        android:textSize="16sp" />
+
+    <include
+        android:id="@+id/newApp_item_top20"
+        layout="@layout/list_item" />
+
+    <TextView
+      android:id="@+id/newApp_item_top20_more"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="10dp"
+        android:text="@string/app_review_all"
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
+
+</LinearLayout><!-- From: file:/D:/AllBuilds/novUA/src/main/res/layout/top_footer.xml -->

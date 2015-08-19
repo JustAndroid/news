@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_full_name">OnPress.info - Ukraine and world news</string>
+	<string name="event_top_msg"> Interesting events from www.2Event.com
+		\nWe
+		agregated dozen sites. Such as Eventbrite, Timepad, Concert.ua …
+		\nWant to add your event - click the plus button at the top right.
+	</string>
+	<string name="events_title">Interesting events from www.2Event.com</string>
+	<string name="notif_title">All Ukrainian and world news</string>
+
+	<string name="about_txt_top">
+		\nIn the Runet, more than 100 sites about news.
+		
+	</string>
+
+</resources>

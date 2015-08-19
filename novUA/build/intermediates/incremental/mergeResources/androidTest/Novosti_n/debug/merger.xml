@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\AllBuilds\novUA\src\androidTest\res"/><source path="D:\AllBuilds\novUA\build\generated\res\rs\androidTest\Novosti_n\debug"/><source path="D:\AllBuilds\novUA\build\generated\res\generated\androidTest\Novosti_n\debug"/></dataSet><dataSet config="androidTestNovosti_n"><source path="D:\AllBuilds\novUA\src\androidTestNovosti_n\res"/></dataSet><mergedItems/></merger>

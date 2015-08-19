@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_full_name">OnPress.info - новини України та світу</string>
+	<string name="event_top_msg">Цікаві події з www.2Event.com
+		\nА також з десятка
+		сайтів. Таких як Eventbrite, Timepad, Concert.ua …
+		\nХочете додати
+		свою подію - натисніть плюсик вгорі праворуч.
+
+	</string>
+	<string name="events_title">Цікаві події з www.2Event.com</string>
+	<string name="notif_title">Всі новини України та світу</string>
+
+	<string name="about_txt_top">
+		\nУ нашому Інтернеті понад 100 сайтів із новинами.
+		
+	</string>
+
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+    <changelogversion changeDate="Июль 16, 2015" versionName="2.5.3">
+        <changelogtext>Исправлены ошибки</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="Июль 5, 2015" versionName="2.5.2">
+        <changelogtext>Исправлены ошибки</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="Июнь 29, 2015" versionName="2.5.1">
+        <changelogtext>исправлена ошибка приводящая к сообщению "отсутствует соединение с сервером" когда было соединение с интернет</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="Июнь 21, 2015" versionName="2.5">
+        <changelogtext>Исправлена ошибка приводящая к повторной загрузки новостей</changelogtext>
+        <changelogtext>Добавлена  возможность оценивать новости</changelogtext>
+        <changelogtext>Добавлена оформление подписки которая отключает рекламу </changelogtext>
+        <changelogtext>Исправлены ошибки </changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="Июнь 11, 2015" versionName="2.4.24">
+        <changelogtext>Если Вы видите это сообщение - благодарим Вас за терпение, пока мы усиленно
+            работали над новой версией приложения.
+        </changelogtext>
+        <changelogtext>Исправлено большинство известных ошибок. Сейчас “падения приложения”
+            проявляются в 20 раз меньше.
+        </changelogtext>
+        <changelogtext>Добавлена возможность сохранять новости лишь за последние 12 часов. Это
+            уменьшает размеры Базы данных сохраненных новостей и ускоряет работу на медленных
+            смартфонах.
+        </changelogtext>
+        <changelogtext>Востановлена корректность работы при переходе по ссылкам в статьях. То есть,
+            теперь по всех сылках можно кликать, и вы действительно перейдете туда куда и ожидаете.
+        </changelogtext>
+        <changelogtext>Иногда, приблизительно в каждой 30-й новости может показываться реклама.
+        </changelogtext>
+        <changelogtext>Отдельное большое спасибо, нашему неизвестному пользователю, сделавшему
+            “Donate” на $4.99. Теперь, с вашей помощью, спустя всего лишь три месяца, мы таки
+            преодолели планку в $10 в сумме количества собраных денег.
+        </changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="Июнь 05,2015" versionName="2.4.20">
+        <changelogtext>Исправлены ошибки</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="Июнь 04,2015" versionName="2.4.17">
+        <changelogtext>Теперь каждый раз, при обновлении новостей, беззвучно будет генерироваться
+            уведомление с "ТОП-5 новостей", которые отобразятся в области нотификаций (вверху
+            екрана смартфона). Таким образом, вы будете в курсе ТОП-новостей, даже без открытия
+            приложения. Обратите внимание, что в карточку помещается только первая новость. То есть,
+            эту карточку надо потянуть за нижнюю кромку, для раскрытия всех пяти новостей.
+            На самом деле мы не знаем будет ли эта функция полезной при ежедневном использовании,
+            поэтому эти "уведомления" можно отключать в настройках приложения.
+        </changelogtext>
+        <changelogtext>Стартовая страница теперь не "ТОП-20", а общая полоса всех новостей.
+        </changelogtext>
+        <changelogtext>Увеличено количество новостных источников включенных "по умолчанию".
+        </changelogtext>
+        <changelogtext>Исправлены ошибки, оптимизировано быстродействие.</changelogtext>
+    </changelogversion>
+</changelog>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="about_txt">	    OnPpress.info - свобода мнений, дискуссии, разные точки зрения на происходящие события в Украине и мире.
+
+\nНовости публикуются независимыми журналистами и блогерами.
+\nСайт обновляется ежедневно, 10-40 новостей в сутки.
+
+		\n
+    </string>
+          <string name="about_contact_txt">		http://onpress.info/
+\nhttps://twitter.com/onpress_
+\nhttp://vk.com/onpress_info
+\nhttps://plus.google.com/+OnpressInfo
+\nhttps://www.facebook.com/groups/OnPress.info
+
+</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+    <changelogversion changeDate="July 16, 2015" versionName="2.5.3">
+        <changelogtext>bug fixed</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="July 04, 2015" versionName="2.5.2">
+        <changelogtext>bug fixed</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="June 29, 2015" versionName="2.5.1">
+        <changelogtext>fixed a bug that causes the message "no server connection" when it connect to Internet</changelogtext>
+     </changelogversion>
+    <changelogversion changeDate="June 21, 2015" versionName="2.5">
+        <changelogtext>Fixed a bug led to reload news</changelogtext>
+        <changelogtext>Ability to evaluate news</changelogtext>
+        <changelogtext>Added a subscription which turns off the ads</changelogtext>
+        <changelogtext>Bug fixed </changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="June 11,2015" versionName="2.4.24">
+        <changelogtext>If you see this message - we are thankful for your patience, while we strenuously working on the new version of this app.
+        </changelogtext>
+        <changelogtext>We fixed more known errors. At the given momeтt, “app crash”   appears less than 20 times.
+        </changelogtext>
+        <changelogtext>We added the possibility to save your news only for 12 hours. It reduces saved News’ Data Base dimensions, and accelerate apps’ work on slow smartphones.
+        </changelogtext>
+        <changelogtext>We updated the correctness of articles links. Now when you click on links, your link will go where you expected.
+        </changelogtext>
+        <changelogtext>Sometimes, approximately in every 30 news, you can see the ad.</changelogtext>
+        <changelogtext>Apart, we would like to thank to our unknown user, who Donate us  $4.99. Now, thanks to your help, only for 3 months we cross the line of $10 of gathered funds.</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="June 05,2015" versionName="2.4.20">
+        <changelogtext> Bugs fixed </changelogtext>
+        </changelogversion>
+    <changelogversion changeDate="June 04,2015" versionName="2.4.17">
+        <changelogtext>Now, every time, when the news updated, the ‘Top 5 notification’ generate,
+            this displayed in notification area (on the top of smartphones’ screen). Thus, you will
+            be informed about top news, without opening the application. Please note, that only the
+            first news placed in the card. That’s why, in order to open all five top news, you
+            should pull the bottom edge of the card.
+        </changelogtext>
+        <changelogtext>Actually, we do not know, whether this feature will be helpful in everyday
+            use that is why, these "notification" can be turned off in application settings.
+        </changelogtext>
+        <changelogtext>"Top 20" is no longer the main screen, it is an overall newsfeed.
+        </changelogtext>
+        <changelogtext>Increased the amount of ‘default’ news sources.</changelogtext>
+        <changelogtext>Fixed bugs, performance optimized.</changelogtext>
+    </changelogversion>
+
+</changelog>
