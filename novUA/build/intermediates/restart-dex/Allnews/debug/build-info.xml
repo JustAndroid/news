@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xhdpi"
+    format="7"
+    timestamp="23358952085856"
+    token="5359110335165632766" >
+
+    <task
+        name="javac"
+        duration="8951" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build timestamp="21917021538660" >
+        <artifact
+            location="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\outputs\apk\novUA-Allnews-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="23358952085856" />
+
+</instant-run>

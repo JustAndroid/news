@@ -2,228 +2,389 @@
 <items version="2" >
 
     <item
-        jar="D:\AllNews\AllBuilds\novUA\libs\libGoogleAnalyticsServices.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="db1e65d9e3ee616f871cb23120fbea8f18ad3e4c">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\libGoogleAnalyticsServices-4a4631664f2d67ce2f2b440c3148cf92826f6f88.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-62109639c008074df2e2bbf1d858ffc506ff2ec3.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.github.gabrielemariotti.changeloglib\library\1.5.2\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="494089d9d84042634d2be0355702e96805f847d3">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-720c008926e732359d8c17611dd4b5e8345a003b.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-730d4d3f3d12243f26306528b1d2387294ca5fac.jar" />
-    </item>
-    <item
-        jar="C:\Users\prog\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-watcher\1.3.1\6904771474c058abfc5912c13d12b02754712165\leakcanary-watcher-1.3.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6904771474c058abfc5912c13d12b02754712165">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\leakcanary-watcher-1.3.1-833f93c044901f781698e9dc7fe1ed80a9c2c1e3.jar" />
-    </item>
-    <item
-        jar="C:\Users\prog\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\gson-2.3-910385ffa5cd41813b1a8725f33f6c15aec37d39.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\libs\flurryAnalytics_3.4.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e694124cd35c48b49a1a3c2b8fdec522624cfdc9">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\flurryAnalytics_3.4.0-582eca38d5431d9f6f45109f54f281a1440168f6.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\libs\presage-lib-1.6.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="530dc4ed5821c0cdb6af0ca173f6918f5bb20346">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\presage-lib-1.6.0-99f3ef70866502e61527b473d719d5e2cb12ef6a.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\libs\ormlite-android-4.48.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="afa06f539a4026c10b247386312aa67404b80a16">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\ormlite-android-4.48-c746fc1882e0b30625980653a685f97c0c0145d2.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-e61dd652b00a2e722b69e95427b4ffcf2c7928f7.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-0541df1579c17f7873c9f70683a249ac8a79d305.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-0aa88f63c2a0aa3dbb037bb2a9b882a9de3fbbc9.jar" />
-    </item>
-    <item
-        jar="C:\Users\prog\.gradle\caches\modules-2\files-2.1\com.squareup.haha\haha\1.3\d2c832f9d14a11c79f58a7ee2e10526a12152c72\haha-1.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d2c832f9d14a11c79f58a7ee2e10526a12152c72">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\haha-1.3-73695457bc13f02fbacda1df8ff8d04f04676432.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-5cde788a30fe1db7acfa0bd9eb9aea5d899bc951.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\libs\ormlite-core-4.48.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\ormlite-core-4.48-c8cd88a3148989769231a0e8dbd82ae43c0ef9b5.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-8b6b44d693f747117f273bc4f0d4eceb5d81ab9a.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-98fa29956b59b3a8e612ea40b085adf8da6b65dd.jar" />
-    </item>
-    <item
-        jar="C:\Users\prog\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\picasso-2.5.2-dd58806e8ab4889512224ce9582886f1a1897ad4.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-5b979e335c8fb5f661a7fdf8daa0d9a907130f64.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-8be9f267d300dc1221058c500c0dc66e5496210e.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\AllBuilds\updateCheker\unspecified\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="5639dd46a0c8e2a93e25cf4b4c7083df5c8fc103">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-7b2c2e5de0cb40874a032786a263afadec181c46.jar" />
-    </item>
-    <item
-        jar="C:\Users\prog\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\bolts-android-1.2.0-64250a9690b40d043b29088eca27c22420effbaf.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.2.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="40da745b1ae1f5b7562242e27dbc91a6b0fab3e9">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-a4b41dd7059cfc8b06ebbf5ab900ff22be1edd33.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\libs\anjlab-iabv3-1.0.26.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3c83f06a338f236f55576cbe7c3d655fa51616b6">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\anjlab-iabv3-1.0.26-af8944519b0ac438d8d35f7efdff8f2ecb93d120.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.3.1\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9066b6d4e2536b49e3b58aa301fd925247032df0">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-58d24a1d63a3562ea55bd6656975b5c528d80fe6.jar" />
-    </item>
-    <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\it.sephiroth.android.library.horizontallistview\hlistview\1.2.2\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="698658e3af1e3f2a5b199e0d09ee6c57793405bd">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-fb23cbcdb40ce4e637c78138b519364cc4e7de5f.jar" />
-    </item>
-    <item
-        jar="C:\Users\prog\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-analyzer\1.3.1\325e7401a7ea16918eb39ba8baad8fd5561a55d3\leakcanary-analyzer-1.3.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-analyzer\1.3.1\325e7401a7ea16918eb39ba8baad8fd5561a55d3\leakcanary-analyzer-1.3.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
         sha1="325e7401a7ea16918eb39ba8baad8fd5561a55d3">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\leakcanary-analyzer-1.3.1-d8c50d47aa73be98cfc5f215ce67357ce54c0ad6.jar" />
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\leakcanary-analyzer-1.3.1_379ee91a748659060ed387cfe07366552ebb753a\classes.dex" />
     </item>
     <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\AllBuilds\volley\unspecified\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="89faaaf2ef007a243cab1bdf9fe913ea820e1c01">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-fe99c8f939a3f7370a02510c0559530ff35cd074.jar" />
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.4.0_1adc095a9792097afd07eb57b9b12ee81f86fb77\classes.dex" />
     </item>
     <item
-        jar="C:\Users\prog\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.8.1\1eb6690b0c629d7000c77a72df5e822fb974f521\jsoup-1.8.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1eb6690b0c629d7000c77a72df5e822fb974f521">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\jsoup-1.8.1-7fd3611932d41936cc718de326d2b2980c0a055d.jar" />
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.google.android.gms-play-services-location-9.4.0_a05e35b7ef748f375c287275cec355776b2238f4\classes.dex" />
     </item>
     <item
-        jar="C:\Users\prog\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\support-annotations-22.2.1-159d8685aeebd87456b6695b8eb7c7dd9fe3cb38.jar" />
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_da14028087a777ccd219ec5a70626522cf362eb3\classes.dex" />
     </item>
     <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\libs\internal_impl-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\internal_impl-22.2.1-7d2219babfda73609f7aafe2b4ec49efe064d4a4.jar" />
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_6daecd9de7491238b1a05b188d93dbabd95be869\classes.dex" />
     </item>
     <item
-        jar="D:\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.survivingwithandroid\weatherlib\1.5.4\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="29d69aa261d8de66bef324933515c014d3c00354">
-        <dex dex="D:\AllNews\AllBuilds\novUA\build\intermediates\pre-dexed\Allnews\debug\classes-41dac0faee4fe50dbd620f79bb349c83d133f4ee.jar" />
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.4.0_c5878dacfdf443d583883023d0719b651272c195\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_4a06aec0cb6cbc6ea28f7060d99225221535c2ce\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\flurryAnalytics_3.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e694124cd35c48b49a1a3c2b8fdec522624cfdc9">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\flurryAnalytics_3.4.0_f0bd7df47114506a4892d37c66dca9a41dffb9ba\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.4.0_6293f08d88bac1a9f2212666a1b405b8fa07f29a\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\adcolony.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="aec1b5b1a6fb98ca058d986c3ddc68897ff56e57">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\adcolony_4a43b127ef8af10fa892897be8bb226d362609b2\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\unity-ads.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0b8e81c02417a27061597f0399ecac95e535a2c5">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\unity-ads_11f70b2e5ac56071a4aac0c4b2a459e2e35b8022\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.android.support-multidex-1.0.1_083ca4dc468d4f2953ce04f94a4327d5a1cd030d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.haha\haha\1.3\d2c832f9d14a11c79f58a7ee2e10526a12152c72\haha-1.3.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d2c832f9d14a11c79f58a7ee2e10526a12152c72">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\haha-1.3_7949e359d8b79b1f5fd42fa8c1e2844b3d38a4ff\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\it.sephiroth.android.library.horizontallistview\hlistview\1.2.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="698658e3af1e3f2a5b199e0d09ee6c57793405bd">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\it.sephiroth.android.library.horizontallistview-hlistview-1.2.2_c1586c6d4cbe6c4c104d22606b5c83f89dcd7314\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.4.0_d2f747e7740c9dad262fa3201e1e02dcf1e8882b\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\support-annotations-23.1.1_160e21806fe4fcbe2b20c34d1bbde421f69a17ae\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\ormlite-core-4.48.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\ormlite-core-4.48_910b7ff7a7ce840af2667e48fd31b383de38eae6\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\presage-lib-1.7.2-manual.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e7b2af1c87804c25105647ffae0d11ddcf4cafd0">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\presage-lib-1.7.2-manual_e24bdfcc066598375dbca65bfa9c5c338ce6941b\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\incremental-runtime-classes\Allnews\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fc32208931371c73afa0f178d4935c1386ec705a">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\instant-run_46213ba807f22c19970e747cf27f563b7a08a786\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\InMobi-5.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b480e68fb768b198e71dd9817024ed2a0e34be38">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\InMobi-5.1.0_8d0c7c17e65352bfbf83bea6c0040e2d07c9a3a1\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.survivingwithandroid\weatherlib_volleyclient\1.6.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8607166fd4f23e69b21ccf75b8ead320a04ed86e">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.survivingwithandroid-weatherlib_volleyclient-1.6.0_af0d1ca544511f53fa95d1bc464e8760b188de37\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\incremental-classes\Allnews\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7a8ba247b1d0ac7ea43559915aafa179aca12c4c">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\instant-run-bootstrap_3b61ef0df576a38fcf402d8a4b729e7ea9a6dd47\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="40da745b1ae1f5b7562242e27dbc91a6b0fab3e9">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.2.0_b1e7cb44a710d1777caa6889ff916599e5daeffe\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\Personagraph-SDK-2.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9f69aa9053a11dce02610ad83bb87d029a843799">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\Personagraph-SDK-2.2.0_67b98fe42e21ecce2edbd76e58d8b6e9c3a48542\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\bolts-android-1.2.0_1c684ea1578e13c8efd0a0c11e028af622e7ae7d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.1\86b122e640af09b0723e1fa44083c354ba6d9089\glide-3.6.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\glide-3.6.1_689e92dce0531e89b65fcc6e17f8c62ea9c1e108\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_e2aff80b19bdd9dbee1440b649949fd02ea0f4b0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\library-2.4.0_8145473287de8c2ff70de33d83ab99a0a921997e\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.github.gabrielemariotti.changeloglib\changelog\2.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e84284d8fe8664063d2a228318bdddf157cc4e78">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.github.gabrielemariotti.changeloglib-changelog-2.0.0_41cf141ac8c04959ba55cb67431b870f771aff54\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.4.0_7751c9d527fb32e8f65d65b5b0a67553b55716e6\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.3.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9066b6d4e2536b49e3b58aa301fd925247032df0">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.squareup.leakcanary-leakcanary-android-1.3.1_2da346ebc220628b3f4e574b36ccc9a05e567c04\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.4.0_bc42d4ff9457caef01af79d2887fb0b411bd3a63\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.android.support\customtabs\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="91514e250eabdb61165eafc821c54bd95c218c47">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.android.support-customtabs-23.1.1_8296015a5be7a92f5591f865251aa5fbc4767999\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\gson-2.4_92ed388f6723280d35025875f026e7755deffda8\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.mcxiaoke.volley\library\1.0.19\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="73e061a8655216be05a577bea062138def6a4232">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.mcxiaoke.volley-library-1.0.19_15f320acd14fa5d951f52d9d846a8f30af23ef47\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\ormlite-android-4.48.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\ormlite-android-4.48_0f84def7df1e969fe1bf91fab90a6d34b3eadf19\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\myTarget-4.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1222978623b3b5e5da9c2b38c2b4fd1914c8e830">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\myTarget-4.2.0_207bfa861e8515a0a3d505b6a27a7481e5c61aa5\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\applovin-sdk-6.1.5.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="15e589178c83260b74c8ab702a217e4c90ec0ac8">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\applovin-sdk-6.1.5_48fd82d92778ca4bf84fdcda5e9566a5c8c4c6ef\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.survivingwithandroid\weatherlib\1.6.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3b097f87324ad704d5221f997230ba24f1562e19">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.survivingwithandroid-weatherlib-1.6.0_f106d0be2f504442da5475684bf0e0ea1bf241f9\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\SOMAAndroidSDK5.0.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7ebac7d8e0fb00ef12e8776e9b657ce8065298a0">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\SOMAAndroidSDK5.0.1_342490f1f3afc2c5efa071784c4cf4e025238366\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\mopub-sdk.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b3a799f75d9b29db5ae9cffeb26cbd7913d7d64">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\mopub-sdk_7e4da499bcbf883dcf378fcd408e37dfda5048e3\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\mopub-volley-1.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4357bce66ae3bb9be50679e43df122fd0a8f3394">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\mopub-volley-1.1.0_82d0d9389eee5417ee17dc416e811fbfe7c47df0\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.4.0_261410ffcc7070cb4cd4299e1b0ec520477a3757\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\AdToAppSDK-4.0.4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="953241f2f7a40163c868f2586cd4816e719f0d60">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\AdToAppSDK-4.0.4_1e11fa61e19c834fc371dc5ccf8dfc60a6a271fe\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.4.0_60c25e17c3618467a161f9d4fe88aa59e43721a0\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\chartboost-6.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="92af258f038594a70b5e83dc98ac9c2f92bdc3a7">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\chartboost-6.1.0_982c346f656342a5de0214edcf61e47f5bc0b9fe\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.android.support-recyclerview-v7-22.2.0_c19928f3bd3bbad0d4aadb9eb7b3188fc7a1f89a\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\internal_impl-23.1.1_e0311b3dc93d48e437fedfed310a7e953b9610a9\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\anjlab-iabv3-1.0.26.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3c83f06a338f236f55576cbe7c3d655fa51616b6">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\anjlab-iabv3-1.0.26_fa3cffa9aeb70ddb1ae8d245480b19860002f5c8\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.android.support-support-v4-23.1.1_e839f45653727ea833697c0be8d86ad227731b96\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\libGoogleAnalyticsServices.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db1e65d9e3ee616f871cb23120fbea8f18ad3e4c">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\libGoogleAnalyticsServices_8f38a905344c7384aca64807d1c72eefd084d853\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.8.3\65fd012581ded67bc20945d85c32b4598c3a9cf1\jsoup-1.8.3.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="65fd012581ded67bc20945d85c32b4598c3a9cf1">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\jsoup-1.8.3_cffd2cab86b7310170da3f04a89e790c5f7bc3bc\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_9c169f129698a3b0a93979127e932d48242aa8cc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-watcher\1.3.1\6904771474c058abfc5912c13d12b02754712165\leakcanary-watcher-1.3.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6904771474c058abfc5912c13d12b02754712165">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\10\leakcanary-watcher-1.3.1_d4fa1802c14becb6aae8d5d39fb03d7f1bae8e9d\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\AllNews\AllBuilds\novUA\libs\StartAppInApp-3.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b2b8285d2a897eede02eb89f02f3774bfefe6eb4">
+        <dex dex="D:\AndroidProjects\AllNews\AllBuilds\novUA\build\intermediates\transforms\dex\Allnews\debug\folders\1000\2\StartAppInApp-3.3.0_b791f41c66d58be76d2d525a05953ce9eb5a0385\classes.dex" />
     </item>
 
 </items>

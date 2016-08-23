@@ -32,4 +32,6 @@
     <string name="urlB2BSource">list=226</string>
     <integer name="oguryID">266265</integer>
 
+    <string name="ad_to_app_key">c1baa188-1d64-4544-88cd-1828fcf0d617:aa307379-b4fc-45a7-870a-9b5716f9c922</string>
+
 </resources>

@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\values-v13\\values-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 258
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-v13\\style.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 264
+                    }
+                }
+            }
+        ]
+    }
+]

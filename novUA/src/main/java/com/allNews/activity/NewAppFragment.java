@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.ActionBar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -64,7 +65,13 @@ public class NewAppFragment extends Fragment {
                 setNewApp();
         }
 
-
+        try {
+            if (((AllNewsActivity) getActivity()) != null) {
+                ActionBar bar = ((AllNewsActivity) getActivity()).getSupportActionBar();
+            }
+        } catch (Exception e){
+            e.printStackTrace();
+        }
         return rootView;
     }
 
@@ -94,10 +101,10 @@ public class NewAppFragment extends Fragment {
                 .findViewById(R.id.shareFacebook);
         Button button2 = (Button) rootView.findViewById(R.id.button);
         int textSize = MyPreferenceManager.getTextSize(getActivity());
-        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(App.getContext());
+        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(getActivity());
 
 
-        int curTheme = MyPreferenceManager.getCurrentTheme(App.getContext());
+        int curTheme = MyPreferenceManager.getCurrentTheme(getActivity());
 
         if (curTheme == AllNewsActivity.THEME_DARK) {
 
@@ -137,8 +144,6 @@ public class NewAppFragment extends Fragment {
                     .findViewById(R.id.fullItemImg);
             EWLoader.loadImg(getActivity(), imageUrl, image);
             setOpenFullImageListener(image, imageUrl);
-
-
         }
 
 
@@ -194,8 +199,8 @@ public class NewAppFragment extends Fragment {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), FullImage.class);
-                intent.putExtra(FullImage.URL_KEY, imageUrl);
+                Intent intent = new Intent(v.getContext(), ImageViewerActivity.class);
+                intent.putExtra(ImageViewerActivity.IMAGE_URL, imageUrl);
                 v.getContext().startActivity(intent);
 
             }
@@ -204,8 +209,7 @@ public class NewAppFragment extends Fragment {
 
 
     private void initWidget() {
-        final String[] sizeValues = getResources().getStringArray(
-                R.array.saveCharValues);
+        final String[] sizeValues = getResources().getStringArray(R.array.saveCharValues);
         int textSize = MyPreferenceManager.getTextSize(getActivity());
         ScrollView fullNewsScrollView = (ScrollView) rootView
                 .findViewById(R.id.fullNewsScrollView);

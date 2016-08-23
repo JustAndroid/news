@@ -26,30 +26,19 @@ public class WeatherAdapter extends ArrayAdapter<DayForecast> {
 
     private final static SimpleDateFormat sdfDay = new SimpleDateFormat("E");
     private final static SimpleDateFormat sdfMonth = new SimpleDateFormat("dd/MMM");
-    private List<DayForecast> dayForecastList;
-    private Context ctx;
     private BaseWeather.WeatherUnit units;
 
     public WeatherAdapter(WeatherForecast forecast, Context ctx) {
 
-        super(ctx, R.layout.wether_forecast_vertical_row);
-        this.dayForecastList = forecast.getForecast();
+        super(ctx, R.layout.wether_forecast_vertical_row, forecast.getForecast());
         units = forecast.getUnit();
-        this.ctx = ctx;
-
-    }
-
-
-    @Override
-    public int getCount() {
-        return dayForecastList.size();
     }
 
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
-            LayoutInflater inflater = (LayoutInflater) ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = inflater.inflate(R.layout.wether_forecast_vertical_row, parent, false);
         }
 
@@ -64,7 +53,7 @@ public class WeatherAdapter extends ArrayAdapter<DayForecast> {
         //   TextView dayDescr = (TextView) convertView.findViewById(R.id.dayDescr);
 
 
-        DayForecast forecast = dayForecastList.get(position);
+        DayForecast forecast = getItem(position);
         Date d = new Date();
         Calendar gc = new GregorianCalendar();
         gc.setTime(d);

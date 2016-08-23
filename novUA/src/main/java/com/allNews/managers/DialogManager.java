@@ -359,7 +359,7 @@ public class DialogManager {
                             public void onClick(DialogInterface dialog,
                                                 int which) {
 
-                                RequestQueue requestQueue = App.getRequestQueue();
+                                RequestQueue requestQueue = App.getRequestQueue(context);
                                 requestQueue.add(ManagerApp.sendPush(context,
                                         newsId));
 
@@ -411,7 +411,6 @@ public class DialogManager {
                     + ":"));
         } catch (android.content.ActivityNotFoundException ignored) {
         }
-
     }
 
     public static void openDialogShareNews(Context context, News currentNews,
@@ -539,16 +538,18 @@ public class DialogManager {
     public static void openDialogFeedBack(Context context) {
         try {
             Intent emailIntent;
-            if (App.getContext().getResources().getBoolean(R.bool.sport_news)){
-                emailIntent = new Intent(Intent.ACTION_SENDTO,
-                        Uri.fromParts("mailto", "onpress.info@gmail.com",
-                                null));
-            }else if (App.getContext().getResources().getBoolean(R.bool.need_event)){
-                emailIntent = new Intent(Intent.ACTION_SENDTO,
-                        Uri.fromParts("mailto", "novostin7@mail.ru",
-                                null));
-            }
-            else {
+//            if (context.getResources().getBoolean(R.bool.sport_news)){
+//                emailIntent = new Intent(Intent.ACTION_SENDTO,
+//                        Uri.fromParts("mailto", "onpress.info@gmail.com",
+//                                null));
+//            }
+//            else if (context.getResources().getBoolean(R.bool.need_event)){
+//                emailIntent = new Intent(Intent.ACTION_SENDTO,
+//                        Uri.fromParts("mailto", "novostin7@mail.ru",
+//                                null));
+//            }
+//            else
+            {
                 emailIntent = new Intent(Intent.ACTION_SENDTO,
                         Uri.fromParts("mailto", "yaroslav.maxymovych@gmail.com",
                                 null));

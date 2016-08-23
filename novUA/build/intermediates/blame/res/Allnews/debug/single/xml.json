@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\xml\\authenticator.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\xml\\authenticator.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\xml\\syncadapter.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\xml\\syncadapter.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\xml\\preferences_first.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\xml\\preferences_first.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\xml\\preferences.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\AllNews\\res\\xml\\preferences.xml"
+    }
+]

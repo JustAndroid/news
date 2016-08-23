@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AdToAppSDK-4.0.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/novUA/libs/AdToAppSDK-4.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

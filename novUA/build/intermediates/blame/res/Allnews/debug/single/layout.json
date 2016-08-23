@@ -1,0 +1,418 @@
+[
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\changelogrow_material_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.changeloglib\\changelog\\2.0.0\\res\\layout\\changelogrow_material_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\test.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\weather_header_fragment.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\weather_header_fragment.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\other_app_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\other_app_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\weather_main.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\weather_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\activity_image_viewer.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\activity_image_viewer.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\event_filter.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\event_filter.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\font_size_change.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\font_size_change.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\us_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\us_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\ad_list_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\ad_list_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\event_item.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\event_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\weather_header_fr.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\weather_header_fr.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\news_tab_content.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\news_tab_content.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\list_item_event.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\list_item_event.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\header.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\list_footer.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\list_footer.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\custom_tab.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\custom_tab.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\search_location_activity.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\search_location_activity.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\donation_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\donation_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\weather_header.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\weather_header.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\__leak_canary_leak_row.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.squareup.leakcanary\\leakcanary-android\\1.3.1\\res\\layout\\__leak_canary_leak_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\changelogrowheader_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.changeloglib\\changelog\\2.0.0\\res\\layout\\changelogrowheader_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\event_category_item.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\event_category_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\fragment_plus_one.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\fragment_plus_one.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\__leak_canary_ref_top_row.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.squareup.leakcanary\\leakcanary-android\\1.3.1\\res\\layout\\__leak_canary_ref_top_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\__leak_canary_ref_row.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.squareup.leakcanary\\leakcanary-android\\1.3.1\\res\\layout\\__leak_canary_ref_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\list_item.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\action_bar2.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\action_bar2.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\drawer_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\drawer_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\wether_forecast_vertical_row.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\wether_forecast_vertical_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\check_box_preference_item.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\check_box_preference_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\pref_button_select_all_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\pref_button_select_all_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\changelogrowheader_material_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.changeloglib\\changelog\\2.0.0\\res\\layout\\changelogrowheader_material_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\__leak_canary_heap_dump_toast.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.squareup.leakcanary\\leakcanary-android\\1.3.1\\res\\layout\\__leak_canary_heap_dump_toast.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\top_footer.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\top_footer.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\hints_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\hints_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\item_drop_down_item.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\item_drop_down_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\list_header.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\list_header.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\about.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\weather_forecast_row.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\weather_forecast_row.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\download_app_item.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\download_app_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\new_app_item_displayer.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\new_app_item_displayer.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\web_view_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\web_view_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\change_log_fragment.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\change_log_fragment.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\action_bar.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\action_bar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\hint_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\hint_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\eventslist_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\eventslist_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\rate_dialog.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\rate_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\hint_item.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\hint_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\news_item_displayer.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\news_item_displayer.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\row_city_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\row_city_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\full_image.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\full_image.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\main.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\news_collections.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\news_collections.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\__leak_canary_display_leak.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.squareup.leakcanary\\leakcanary-android\\1.3.1\\res\\layout\\__leak_canary_display_leak.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\facebook_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\facebook_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\changelogrow_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.changeloglib\\changelog\\2.0.0\\res\\layout\\changelogrow_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout\\web_action_bar.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout\\web_action_bar.xml"
+    }
+]

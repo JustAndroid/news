@@ -36,6 +36,7 @@ public class ManagerTaxonomyNewApp {
 
             @Override
             public void onResponse(JSONArray response) {
+                Log.e("ManagerTaxonomyNewApp", "response  " + response);
                 List<TaxonomyNewApp> result = new ArrayList<TaxonomyNewApp>();
                 Type listType = new TypeToken<List<TaxonomyNewApp>>() {
                 }.getType();
@@ -57,7 +58,7 @@ public class ManagerTaxonomyNewApp {
 
             @Override
             public void onErrorResponse(VolleyError error) {
-
+                Log.e("ManagerTaxonomyNewApp", "error  " + error.getMessage());
                 Log.e("ManagerNews error", "" + error);
                 if (handler != null)
                     handler.sendEmptyMessage(2);

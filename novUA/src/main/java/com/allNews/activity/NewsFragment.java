@@ -3,7 +3,10 @@ package com.allNews.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -38,11 +41,14 @@ import com.allNews.managers.EWLoader;
 import com.allNews.managers.ManagerNews;
 import com.allNews.managers.ManagerSources;
 import com.allNews.managers.MyPreferenceManager;
+import com.allNews.managers.SimpleCustomChromeTabsHelper;
 import com.allNews.utils.Utils;
 import com.allNews.view.NewsContentView;
 import com.allNews.view.ResizableImageView;
 import com.allNews.web.Statistic;
 import com.android.volley.RequestQueue;
+import com.appintop.adbanner.BannerAdContainer;
+import com.appintop.init.AdToApp;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookSdk;
 import com.facebook.share.model.ShareLinkContent;
@@ -68,8 +74,10 @@ public class NewsFragment extends Fragment {
     public static int openOneSource = 0;
     private static boolean isAdsReadyToShow = false;
     public News selectedNewsItem;
-    AdView adViewTop;
-    AdView adViewBottom;
+    private BannerAdContainer _adViewTop;
+    private BannerAdContainer _adViewBottom;
+    //    AdView adViewTop;
+//    AdView adViewBottom;
     CallbackManager callbackManager;
     ShareDialog shareDialog;
     MessageDialog messageDialog;
@@ -77,6 +85,8 @@ public class NewsFragment extends Fragment {
     private ProgressBar progressBarUpdate;
     private View textSizeLayout;
     private Activity mActivity;
+    SimpleCustomChromeTabsHelper mCustomTabHelper;
+    SimpleCustomChromeTabsHelper.CustomTabsUiBuilder builder;
 
     public static void setOpenFullImageListener(ImageView image,
                                                 final String imageUrl) {
@@ -84,34 +94,37 @@ public class NewsFragment extends Fragment {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), FullImage.class);
-                intent.putExtra(FullImage.URL_KEY, imageUrl);
+                Intent intent = new Intent(v.getContext(), ImageViewerActivity.class);
+                intent.putExtra(ImageViewerActivity.IMAGE_URL, imageUrl);
                 v.getContext().startActivity(intent);
-
             }
         });
-
     }
 
     @Override
     public void onAttach(Activity activity) {
         mActivity = activity;
         //       initUnityAds();
-
-
         super.onAttach(activity);
+        mCustomTabHelper = new SimpleCustomChromeTabsHelper(activity);
 
 
     }
 
     @Override
     public void onPause() {
-        super.onPause();
-        if (adViewBottom != null && adViewTop != null) {
-            adViewBottom.pause();
-            adViewTop.pause();
-
+//        if (adViewBottom != null && adViewTop != null) {
+//            adViewBottom.pause();
+//            adViewTop.pause();
+//        }
+        if (AdToApp.isSDKInitialized()) {
+            if (_adViewTop != null)
+                _adViewTop.pause();
+            if (_adViewBottom != null)
+                _adViewBottom.pause();
+            AdToApp.onPause(getActivity());
         }
+        super.onPause();
     }
 
     @Override
@@ -137,20 +150,25 @@ public class NewsFragment extends Fragment {
     public void onResume() {
         super.onResume();
         // UnityAds.changeActivity(mActivity);
-        if (adViewBottom != null && adViewTop != null) {
-            adViewTop.resume();
-            adViewBottom.resume();
+//        if (adViewBottom != null && adViewTop != null) {
+//            adViewTop.resume();
+//            adViewBottom.resume();
+//        }
+        if (AdToApp.isSDKInitialized()) {
+            AdToApp.onResume(getActivity());
+            if (_adViewTop != null)
+                _adViewTop.resume();
+            if (_adViewBottom != null)
+                _adViewBottom.resume();
         }
-
-
     }
 
     private void initWidget() {
         final String[] sizeValues = getResources().getStringArray(
                 R.array.saveCharValues);
-        int textSize = MyPreferenceManager.getTextSize(App.getContext());
-        ScrollView fullNewsScrollView = (ScrollView) rootView
-                .findViewById(R.id.fullNewsScrollView);
+        int textSize = MyPreferenceManager.getTextSize(getActivity());
+
+        ScrollView fullNewsScrollView = (ScrollView) rootView.findViewById(R.id.fullNewsScrollView);
         fullNewsScrollView.setOnTouchListener(new OnTouchListener() {
 
             @Override
@@ -161,6 +179,8 @@ public class NewsFragment extends Fragment {
                 return false;
             }
         });
+
+
         progressBarUpdate = (ProgressBar) rootView
                 .findViewById(R.id.progressBar);
         textSizeLayout = rootView.findViewById(R.id.textSizeLayout);
@@ -207,8 +227,13 @@ public class NewsFragment extends Fragment {
         LinearLayout mainLay = (LinearLayout) rootView
                 .findViewById(R.id.fullNewsViewMain);
 
-        adViewTop = (AdView) rootView.findViewById(R.id.adViewNewsTop);
-        adViewBottom = (AdView) rootView.findViewById(R.id.adViewNewsBottom);
+        if (AdToApp.isSDKInitialized()) {
+            _adViewTop = (BannerAdContainer) rootView.findViewById(R.id.adViewNewsTop);
+            _adViewBottom = (BannerAdContainer) rootView.findViewById(R.id.adViewNewsBottom);
+        }
+
+//        adViewTop = (AdView) rootView.findViewById(R.id.adViewNewsTop);
+//        adViewBottom = (AdView) rootView.findViewById(R.id.adViewNewsBottom);
 
         TextView txtTitle = (TextView) rootView
                 .findViewById(R.id.fullTitleView);
@@ -246,10 +271,9 @@ public class NewsFragment extends Fragment {
         TextView subTxt = (TextView) rootView.findViewById(R.id.subscribe_txt);
         Button subBtn = (Button) rootView.findViewById(R.id.btn_subscribe);
 
-        int textSize = MyPreferenceManager.getTextSize(App.getContext());
-        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(App.getContext());
-
-        if (App.getContext().getResources().getBoolean(R.bool.news_ua)) {
+        int textSize = MyPreferenceManager.getTextSize(getActivity());
+        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(getActivity());
+        if (getActivity().getResources().getBoolean(R.bool.news_ua)) {
             if (!"UA".equals(sp.getString(Preferences.COUNTRY_CODE, "UA"))) {
                 if (!sp.getBoolean(DonateActivity.CHEK_PURCHASE, false) && !sp.getBoolean(Preferences.PREF_PROMO, false))
                     showAds();
@@ -259,8 +283,7 @@ public class NewsFragment extends Fragment {
                 showAds();
         }
 
-
-        int curTheme = MyPreferenceManager.getCurrentTheme(App.getContext());
+        int curTheme = MyPreferenceManager.getCurrentTheme(getActivity());
 
         if (curTheme == AllNewsActivity.THEME_DARK) {
             btnReadWeb.setBackgroundDrawable(getResources().getDrawable(
@@ -309,12 +332,25 @@ public class NewsFragment extends Fragment {
         txtDescription
                 .setText(Html.fromHtml(selectedNewsItem.getDescription()));
         txtDescription.setTextSize(textSize);
-        String imageUrl = selectedNewsItem.getImageUrl();
-        if (imageUrl != null && Utils.isUrlValid(imageUrl)) {
-            final ResizableImageView image = (ResizableImageView) rootView
-                    .findViewById(R.id.fullItemImg);
-            EWLoader.loadImg(getActivity(), imageUrl, image);
-            setOpenFullImageListener(image, imageUrl);
+        //TODO
+        try {
+            final String imageUrl = new String(selectedNewsItem.getImageUrl());
+            if (imageUrl != null && Utils.isUrlValid(imageUrl)) {
+                final ResizableImageView image = (ResizableImageView) rootView
+                        .findViewById(R.id.fullItemImg);
+                EWLoader.loadImg(getActivity(), imageUrl, image);
+                image.setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(v.getContext(), ImageViewerActivity.class);
+                        intent.putExtra(ImageViewerActivity.IMAGE_URL, imageUrl);
+                        v.getContext().startActivity(intent);
+                    }
+                });
+//            setOpenFullImageListener(image, imageUrl);
+            }
+        } catch (Exception e){
+            e.printStackTrace();
         }
 
         if (selectedNewsItem.getSource() != null) {
@@ -352,7 +388,7 @@ public class NewsFragment extends Fragment {
                         dotIndex = 30;
 
                     content = content.substring(0, dotIndex) + "...";
-                    contentSubscribe = App.getContext().getResources().getString(R.string.excluded_sources_txt);
+                    contentSubscribe = getActivity().getResources().getString(R.string.excluded_sources_txt);
                     subTxt.setText(contentSubscribe);
                     subTxt.setTextSize(18);
                     subBtn.setVisibility(View.VISIBLE);
@@ -383,8 +419,6 @@ public class NewsFragment extends Fragment {
                     btnNewApp.setOnClickListener(new OnClickListener() {
                         @Override
                         public void onClick(View v) {
-
-
                             Intent downloadIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(linkHref));
                             startActivity(downloadIntent);
                         }
@@ -395,10 +429,7 @@ public class NewsFragment extends Fragment {
             }
         }
 
-
         fullTextLayout.setContent(content);
-
-
         String date = "";
         try {
             date = new SimpleDateFormat("HH:mm, dd MMMM").format(new Date(
@@ -426,7 +457,9 @@ public class NewsFragment extends Fragment {
                 || selectedNewsItem.isNewApp() == 1)
             btnReadWeb.setVisibility(View.GONE);
         else {
+
             btnReadWeb.setVisibility(View.VISIBLE);
+            mCustomTabHelper.prepareUrl(selectedNewsItem.getLink());
             /*btnReadWeb.setOnClickListener(new View.OnClickListener() {
                 @Override
 				public void onClick(View v) {
@@ -465,18 +498,15 @@ public class NewsFragment extends Fragment {
                     if (isAdsReadyToShow) {
                         Toast.makeText(getActivity().getApplicationContext(), "При переходе на сайт, иногда показываеться эта прекрасная реклама", Toast.LENGTH_LONG).show();
                         //    showAds();
-
                         isAdsReadyToShow = false;
-
                     } else {
-                        if (App.getContext().getResources().getBoolean(R.bool.sport_news)){
+                        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+                            startCustomTabBrowser();
+                        }else {
                             startBrowser();
-                        }else{
-                            startInAppBrowser();
                         }
+
                     }
-
-
                 }
             });
         }
@@ -574,6 +604,8 @@ public class NewsFragment extends Fragment {
                             .build();
 
                     shareDialog.show(linkContent);
+                    //TODO
+                    Log.e("FB_SHARE", linkContent.toString());
                 }
 
 
@@ -591,9 +623,9 @@ public class NewsFragment extends Fragment {
                     public void onClick(View v) {
                         likeButton.setText("" + (selectedNewsItem.getLikesCount() + 1));
                         likeButton.setClickable(false);
-                        Toast.makeText(App.getContext(), App.getContext().getResources().getString(R.string.like_toast_txt), Toast.LENGTH_SHORT).show();
-                        NewsCollectionActivity.tryMakeSynch(selectedNewsItem.getNewsID(), true, false);
-                        ManagerNews.setNewsLike(App.getContext(), selectedNewsItem.getNewsID(), true);
+                        Toast.makeText(getActivity(), getActivity().getResources().getString(R.string.like_toast_txt), Toast.LENGTH_SHORT).show();
+                        NewsCollectionActivity.tryMakeSynch(getActivity(), selectedNewsItem.getNewsID(), true, false);
+                        ManagerNews.setNewsLike(getActivity(), selectedNewsItem.getNewsID(), true);
                     }
                 });
             }
@@ -607,9 +639,9 @@ public class NewsFragment extends Fragment {
                     public void onClick(View v) {
                         disLikeButton.setText("" + (selectedNewsItem.getDislikesCount() + 1));
                         disLikeButton.setClickable(false);
-                        Toast.makeText(App.getContext(), App.getContext().getResources().getString(R.string.like_toast_txt), Toast.LENGTH_SHORT).show();
-                        NewsCollectionActivity.tryMakeSynch(selectedNewsItem.getNewsID(), false, true);
-                        ManagerNews.setNewsLike(App.getContext(), selectedNewsItem.getNewsID(), false);
+                        Toast.makeText(getActivity(), getActivity().getResources().getString(R.string.like_toast_txt), Toast.LENGTH_SHORT).show();
+                        NewsCollectionActivity.tryMakeSynch(getActivity(), selectedNewsItem.getNewsID(), false, true);
+                        ManagerNews.setNewsLike(getActivity(), selectedNewsItem.getNewsID(), false);
                     }
                 });
             }
@@ -628,34 +660,49 @@ public class NewsFragment extends Fragment {
 
     private void showAds() {
 
-        AdRequest adRequest = new AdRequest.Builder().build();
-
-        adViewBottom.loadAd(adRequest);
-        adViewBottom.setAdListener(new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                super.onAdLoaded();
-                adViewBottom.setVisibility(View.VISIBLE);
-
-            }
-        });
-        adViewTop.loadAd(adRequest);
-        adViewTop.setAdListener(new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                super.onAdLoaded();
-                adViewTop.setVisibility(View.VISIBLE);
-            }
-        });
-    }
-
-    private void startInAppBrowser() {
-        if (getActivity() != null) {
-            Intent webIntent = new Intent(getActivity(), WebViewActivity.class);
-            webIntent.putExtra(WebViewActivity.URL_LINK_KEY, selectedNewsItem.getLink());
-            startActivity(webIntent);
+        if (AdToApp.isSDKInitialized()) {
+            if (_adViewTop != null)
+                _adViewTop.setVisibility(View.VISIBLE);
+            if (_adViewBottom != null)
+                _adViewBottom.setVisibility(View.VISIBLE);
         }
+
+//        AdRequest adRequest = new AdRequest.Builder().build();
+//
+//        adViewBottom.loadAd(adRequest);
+//        adViewBottom.setAdListener(new AdListener() {
+//            @Override
+//            public void onAdLoaded() {
+//                super.onAdLoaded();
+//                adViewBottom.setVisibility(View.VISIBLE);
+//
+//            }
+//        });
+//        adViewTop.loadAd(adRequest);
+//        adViewTop.setAdListener(new AdListener() {
+//            @Override
+//            public void onAdLoaded() {
+//                super.onAdLoaded();
+//                adViewTop.setVisibility(View.VISIBLE);
+//            }
+//        });
     }
+
+    private void startCustomTabBrowser() {
+        mCustomTabHelper.setFallback(new SimpleCustomChromeTabsHelper.CustomTabFallback() {
+            @Override
+            public void onCustomTabsNotAvailableFallback() {
+                startBrowser();
+            }
+        });
+        builder   = mCustomTabHelper.new CustomTabsUiBuilder();
+        builder.setToolbarColor(Color.BLUE)
+                .setCloseButtonIcon(BitmapFactory.decodeResource(getActivity().getResources(), R.drawable.back_white))
+                .setShowTitle(true);
+        mCustomTabHelper.openUrl(selectedNewsItem.getLink(), builder);
+
+    }
+
     private void startBrowser(){
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(selectedNewsItem.getLink()));
         startActivity(browserIntent);
@@ -680,7 +727,7 @@ public class NewsFragment extends Fragment {
 
         try {
 
-            Source source = ManagerSources.getSourceById(App.getContext(), selectedNewsItem.getsourceID());
+            Source source = ManagerSources.getSourceById(getActivity(), selectedNewsItem.getsourceID());
             return source.getApp();
         } catch (Exception e) {
             return null;
@@ -689,13 +736,13 @@ public class NewsFragment extends Fragment {
     }
 
     private void getNewsById(final long newsId) {
-        RequestQueue requestQueue = App.getRequestQueue();
+        RequestQueue requestQueue = App.getRequestQueue(getActivity());
         progressBarUpdate.setVisibility(View.VISIBLE);
-        String url = App.getContext().getResources().getString(R.string.url_base)
-                + App.getContext().getResources().getString(
+        String url = getActivity().getResources().getString(R.string.url_base)
+                + getActivity().getResources().getString(
                 R.string.url_get_news_by_id) + newsId;
 
-        requestQueue.add(ManagerNews.getNewsRequest(url, App.getContext(),
+        requestQueue.add(ManagerNews.getNewsRequest(url, getActivity(),
                 new Handler() {
                     public void handleMessage(Message msg) {
 
@@ -704,7 +751,7 @@ public class NewsFragment extends Fragment {
                             case 2:
 
                                 selectedNewsItem = ManagerNews.getNewsByIdFromDb(
-                                        App.getContext(), newsId);
+                                        getActivity(), newsId);
 
                                 if (selectedNewsItem != null
                                         && getActivity() != null & rootView != null)
@@ -729,11 +776,18 @@ public class NewsFragment extends Fragment {
 
     @Override
     public void onDestroyView() {
-        if (adViewTop != null) {
-            adViewTop.destroy();
-        }
-        if (adViewBottom != null) {
-            adViewBottom.destroy();
+//        if (adViewTop != null) {
+//            adViewTop.destroy();
+//        }
+//        if (adViewBottom != null) {
+//            adViewBottom.destroy();
+//        }
+        if (AdToApp.isSDKInitialized()) {
+            if (_adViewTop != null)
+                _adViewTop.destroy();
+            if (_adViewBottom != null)
+                _adViewBottom.destroy();
+            AdToApp.onDestroy(getActivity());
         }
 
         super.onDestroyView();

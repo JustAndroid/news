@@ -27,6 +27,7 @@ public class MyPreferenceManager {
     private static final String PREFS_NEWAPP = "prefNewApp";
     private static final String PREFS_HINTS_KEY = "hint";
     private static final String PREFS_NEWAPP_ID_KEY = "newApp_Id";
+    private static final String PREFS_EVENT_ID_KEY = "event_Id";
     private static final String PREFS_VERSION_APP = "version_app";
     private static final String PREFS_CHANGELOG_IS_SHOWED = "changelog";
 
@@ -306,6 +307,20 @@ public class MyPreferenceManager {
         SharedPreferences sp = getNewAppPreferences(context);
         SharedPreferences.Editor editor = sp.edit();
         editor.putInt(PREFS_NEWAPP_ID_KEY, newAppId);
+        editor.apply();
+
+    }
+    public static long getEventId(Context context) {
+        SharedPreferences sp = PreferenceManager
+        .getDefaultSharedPreferences(context);
+        return sp.getLong(PREFS_EVENT_ID_KEY, 0);
+    }
+
+    public static void setEventId(Context context, long eventId) {
+        SharedPreferences sp = PreferenceManager
+                .getDefaultSharedPreferences(context);
+        SharedPreferences.Editor editor = sp.edit();
+        editor.putLong(PREFS_EVENT_ID_KEY, eventId);
         editor.apply();
 
     }

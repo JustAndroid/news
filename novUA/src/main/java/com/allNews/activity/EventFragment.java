@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -154,6 +155,7 @@ public class EventFragment extends Fragment {
 		if (eventsList == null || eventsList.size() == 0   ) {
 			txtMsg.setVisibility(View.VISIBLE);
 			eventFeedListView.setAdapter(null);
+			Log.e("Set adapter", "eventList 0");
 			return;
 		}
 		txtMsg.setVisibility(View.GONE);

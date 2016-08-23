@@ -98,6 +98,10 @@ public class Event {
 	private String pageUrl;
 
 	@Expose(serialize = true)
+	@DatabaseField(columnName = "country")
+	private String country;
+
+	@Expose(serialize = true)
 	@SerializedName("category")
 	@DatabaseField(columnName = "category")
 	private String category;
@@ -345,5 +349,13 @@ public class Event {
 			this.mapLng = mapLng;
 		}
 
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
 	}
 }

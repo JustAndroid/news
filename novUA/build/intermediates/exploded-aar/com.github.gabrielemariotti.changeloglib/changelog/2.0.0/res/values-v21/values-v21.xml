@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/gabriele/Lavoro/Android/AndroidStudioProjects/wrks/changeloglib/ChangeLogLibrary/src/main/res/values-v21/fonts.xml -->
+    <eat-comment/>
+    <integer name="font_textStyle_material_item">0</integer>
+    <string name="font_fontFamily_material_item">sans-serif</string>
+</resources>

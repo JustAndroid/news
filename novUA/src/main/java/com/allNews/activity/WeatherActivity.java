@@ -54,8 +54,8 @@ public class WeatherActivity extends ActionBarActivity implements TabListener, W
         setContentView(R.layout.weather_main);
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         if(!sp.getBoolean(DonateActivity.CHEK_PURCHASE, false) && !sp.getBoolean(Preferences.PREF_PROMO, false)) {
-            mAdView = (AdView) findViewById(R.id.adView);
-            adView1 = (AdView) findViewById(R.id.adView2);
+//            mAdView = (AdView) findViewById(R.id.adView);
+//            adView1 = (AdView) findViewById(R.id.adView2);
             AdRequest adRequest = new AdRequest.Builder().build();
             AdRequest adRequest1 = new AdRequest.Builder().build();
 
@@ -169,8 +169,6 @@ public class WeatherActivity extends ActionBarActivity implements TabListener, W
 
             }
         }
-
-
     }
 
 

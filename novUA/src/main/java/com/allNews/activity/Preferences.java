@@ -22,7 +22,6 @@ import android.view.MenuItem;
 import android.widget.BaseAdapter;
 import android.widget.Toast;
 
-import com.allNews.application.App;
 import com.allNews.data.Categories;
 import com.allNews.data.Source;
 import com.allNews.db.DatabaseHelper;
@@ -358,8 +357,8 @@ public class Preferences extends PreferenceActivity {
 			} else {
 				sourcePref.setChecked(false);
 				editor.putBoolean(key, false);
-				if (key.equals(App.getContext().getResources().getString(R.string.ad_source_id))){
-					Statistic.sendStatistic(App.getContext(),Statistic.CATEGORY_PRESS_RELEASE_B2B, "TURN OFF B2B", " ", 0l);
+				if (key.equals(Preferences.this.getResources().getString(R.string.ad_source_id))){
+					Statistic.sendStatistic(Preferences.this,Statistic.CATEGORY_PRESS_RELEASE_B2B, "TURN OFF B2B", " ", 0l);
 				}
 
 			}

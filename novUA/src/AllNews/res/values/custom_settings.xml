@@ -5,6 +5,8 @@
     <string name="url_base">http://all-news.com.ua/rss/rss.php?format=fastjson</string>
     <string name="url_domain">http://all-news.com.ua/rss/</string>
 
+    <string name="url_for_useful">http://app.all-news.com.ua/sites/</string>
+
 
     <string name="app_id">1</string>
 	<string name="event_category">2</string>
@@ -34,5 +36,7 @@
    <string name="ad_source_id">225</string>
     <string name="urlB2BSource">list=225</string>
     <integer name="oguryID">266259</integer>
+
+    <string name="ad_to_app_key">c1baa188-1d64-4544-88cd-1828fcf0d617:aa307379-b4fc-45a7-870a-9b5716f9c922</string>
 
 </resources>

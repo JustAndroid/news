@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="weatherlib_volleyclient-1.6.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/novUA/build/intermediates/exploded-aar/com.survivingwithandroid/weatherlib_volleyclient/1.6.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/novUA/build/intermediates/exploded-aar/com.survivingwithandroid/weatherlib_volleyclient/1.6.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.survivingwithandroid/weatherlib_volleyclient/1.6.0/4b72abde495171a6979f7e0228a954489d46ede7/weatherlib_volleyclient-1.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

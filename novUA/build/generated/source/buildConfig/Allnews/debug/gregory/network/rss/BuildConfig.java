@@ -8,6 +8,6 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "gregory.network.rss";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "Allnews";
-  public static final int VERSION_CODE = 92;
-  public static final String VERSION_NAME = "2.5.4";
+  public static final int VERSION_CODE = 105;
+  public static final String VERSION_NAME = "3.1.0";
 }

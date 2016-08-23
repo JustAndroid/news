@@ -47,7 +47,7 @@ public class EventActivity extends ActionBarActivity {
 		if (MyPreferenceManager.getRotatePref(this))
 			setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
 		setContentView(R.layout.event_item);
-	 
+
 		curTheme =  MyPreferenceManager.getCurrentTheme(this);
 
 		if (getIntent().getExtras() != null) {
@@ -56,7 +56,12 @@ public class EventActivity extends ActionBarActivity {
 				Event event = ManagerEvents.getEventById(this, eventID);
 				if (event != null){
 					initWidget(event);
-				setActionBar(event);
+					setActionBar(event);
+
+					Statistic.sendStatistic(EventActivity.this,
+							Statistic.CATEGORY_CLICK,
+							Statistic.ACTION_CLICK_EVENT,
+							"eventID", eventID);
 				}
 			} catch (SQLException e) {
 				onBackPressed();
@@ -69,10 +74,10 @@ public class EventActivity extends ActionBarActivity {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
-		case android.R.id.home:
-			onBackPressed();
+			case android.R.id.home:
+				onBackPressed();
 
-			return true;
+				return true;
 		}
 		return super.onOptionsItemSelected(item);
 	}
@@ -102,7 +107,7 @@ public class EventActivity extends ActionBarActivity {
 	protected void share() {
 		String text =getResources().getString(
 				R.string.share_event_msg) ;
-		
+
 		Intent sendIntent = new Intent(android.content.Intent.ACTION_SEND);
 		sendIntent.setType("text/plain");
 		sendIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, text);
@@ -205,7 +210,7 @@ public class EventActivity extends ActionBarActivity {
 				&& Utils.isUrlValid(event.getLogoBigUrl())) {
 			EWLoader.loadImg(this, event.getLogoBigUrl(), eventImage);
 		}
-		 
+
 		eventAddress.setText(event.getAddress());
 
 		if (event.isFree())
@@ -221,7 +226,7 @@ public class EventActivity extends ActionBarActivity {
 		if (event.getPageUrl() != null && Utils.isUrlValid(event.getPageUrl())) {
 			if (event.isFree() || event.getPrice() == 0)
 				eventBuy.setText(getResources().getString(R.string.to_web));
-			
+
 			eventBuy.setOnClickListener(new OnClickListener() {
 				@Override
 				public void onClick(View v) {

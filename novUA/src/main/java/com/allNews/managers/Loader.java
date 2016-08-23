@@ -30,7 +30,7 @@ public class Loader {
 	public Loader(Context context, Handler handlerUpdate) {
 		this.handlerUpdate = handlerUpdate;
 		this.context = context;
-		requestQueue = App.getRequestQueue();
+		requestQueue = App.getRequestQueue(context);
 		ManagerUpdates.removeOldUrl(context);
 	}
 

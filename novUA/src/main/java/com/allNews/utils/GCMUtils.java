@@ -65,7 +65,7 @@ public class GCMUtils {
 			public void handleMessage(Message msg) {
 				switch (msg.what) {
 				case 1:
-					registerInBackground(App.getContext());
+					registerInBackground(context);
 					break;
 
 				default:
@@ -112,7 +112,7 @@ public class GCMUtils {
 			@Override
 			public void run() {
 
-				RequestQueue requestQueue = App.getRequestQueue();
+				RequestQueue requestQueue = App.getRequestQueue(context);
 				if (regid != null && !regid.equals("")) {
 					requestQueue.add(getRegisterGCMRequest(context, regid));
 

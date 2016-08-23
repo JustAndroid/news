@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SOMAAndroidSDK5.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/novUA/libs/SOMAAndroidSDK5.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

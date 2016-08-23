@@ -240,13 +240,13 @@ public class Utils {
 
 		long millis = System.currentTimeMillis() - time;
         return String.format(
-                "%02d ",// TimeUnit.MILLISECONDS.toHours(millis),
-                TimeUnit.MILLISECONDS.toMinutes(millis)
-                        - TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS
-                                .toHours(millis)),
-                TimeUnit.MILLISECONDS.toSeconds(millis)
-                        - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS
-                                .toMinutes(millis)));
+				"%02d ",// TimeUnit.MILLISECONDS.toHours(millis),
+				TimeUnit.MILLISECONDS.toMinutes(millis)
+						- TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS
+						.toHours(millis)),
+				TimeUnit.MILLISECONDS.toSeconds(millis)
+						- TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS
+						.toMinutes(millis)));
 
 	}
 
@@ -417,7 +417,6 @@ public class Utils {
 		if (!isSDPresent)
 			DatabaseHelper.DB_PATH = "";
 		return isSDPresent;
-
 	}
 
 	public static boolean isSDFree() {
@@ -458,8 +457,8 @@ public class Utils {
 
 	public static void viewHashCode(Context context, String packageName) {
 		try {
-			Log.e("KeyHash:KeyHashKeyHashKeyHashKeyHashKeyHashKeyHashKeyHashKeyHashKeyHashKeyHash",
-					"KeyHashKeyHashKeyHashKeyHashKeyHashKeyHashKeyHash");
+			Log.e("KeyHash:KeyHashKeyHash",
+					"KeyHashKeyHashKeyHash");
 			PackageInfo info = context.getPackageManager().getPackageInfo(
 					 packageName, PackageManager.GET_SIGNATURES);
 			for (android.content.pm.Signature signature : info.signatures) {

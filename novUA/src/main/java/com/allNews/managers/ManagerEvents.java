@@ -166,6 +166,56 @@ public class ManagerEvents {
         }
         return where.query();
     }
+    public static List<Event> getEventsByCountry(Context context, boolean top,
+                                        String filterFrom, String filterTo, String country) throws SQLException {
+        Dao<Event, Integer> dao = OpenHelperManager.getHelper(context,
+                DatabaseHelper.class).getEventDao();
+        QueryBuilder<Event, Integer> queryBuilder = dao.queryBuilder().orderBy(
+                "whenStart", true);
+
+        Where<Event, Integer> where = queryBuilder.where().eq("is_top", top).and().eq("country", country);
+
+        if (filterFrom != null && !filterFrom.isEmpty()) {
+            try {
+                filterFrom = filterFrom + " 00:00";
+                Date date = new SimpleDateFormat("dd/MM/yyyy HH:mm", Locale.UK)
+                        .parse(filterFrom);
+                long from = date.getTime() / 1000;
+                where.and().ge("whenStart", from);
+            } catch (ParseException ignored) {
+
+            }
+        }
+
+        if (filterTo != null && !filterTo.isEmpty()) {
+            try {
+                filterTo = filterTo + " 23:59";
+                Date date = new SimpleDateFormat("dd/MM/yyyy HH:mm", Locale.UK)
+                        .parse(filterTo);
+                long to = date.getTime() / 1000;
+                where.and().le("whenStart", to);
+            } catch (ParseException ignored) {
+
+            }
+        }
+        String filterCity = "";
+        try {
+            filterCity = MyPreferenceManager.getEventCityFilter(context)
+                    .toLowerCase();
+        } catch (Exception e) {
+            return where.query();
+        }
+        if (!filterCity.isEmpty()) {
+            where.and().eq("cityIndex", filterCity);
+
+        }
+        List<String> categoriesFilter = MyPreferenceManager
+                .getEventsCategoryFilter(context);
+        if (categoriesFilter != null) {
+            where.and().in("category", categoriesFilter);
+        }
+        return where.query();
+    }
 
     public static Event getEventById(Context context, Long eventID)
             throws SQLException {
@@ -267,6 +317,41 @@ public class ManagerEvents {
             return dao.isTableExists();
         } catch (SQLException e) {
             return false;
+        }
+
+    }
+    public static Event getEventForNewsList(Context context, int position, String country) throws SQLException {
+        int index = position/20;
+        String date = new SimpleDateFormat("dd/MM/yyyy HH:mm").format(new Date());
+        List<Event> topEvents = getEventsByCountry(context, true, date, null, country);
+        long eventId = MyPreferenceManager.getEventId(context);
+        if (eventId == 0 && !topEvents.isEmpty()) {
+            MyPreferenceManager.setEventId(context, topEvents.get(0)
+                    .getEventId());
+            return topEvents.get(0);
+        }
+
+        for (int i = 0; i < topEvents.size(); i++) {
+            if (eventId == topEvents.get(i).getEventId()) {
+                Event nextEvent = null;
+                if (topEvents.size() - 1 == i) {
+                    nextEvent = topEvents.get(0);
+                } else {
+                    nextEvent = topEvents.get(i + 1);
+                }
+                if(topEvents.size() > index){
+                    nextEvent = topEvents.get(index);
+                }
+                MyPreferenceManager
+                        .setEventId(context, nextEvent.getEventId());
+                return nextEvent;
+            }
+        }
+        if (!topEvents.isEmpty()) {
+            MyPreferenceManager.setEventId(context,topEvents.get(0).getEventId());
+            return topEvents.get(0);
+        }else {
+            return null;
         }
 
     }

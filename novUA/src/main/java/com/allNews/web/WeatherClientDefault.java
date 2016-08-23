@@ -101,7 +101,7 @@ public void cancelAllRequest() {
     public void  init(Context ctx) {
         super.init(ctx);
         if (queue == null) {
-            queue = App.getRequestQueue();
+            queue = App.getRequestQueue(ctx);
         }
 
     }
@@ -422,6 +422,8 @@ public void cancelAllRequest() {
                         try {
                             CurrentWeather weather = provider.getCurrentCondition(data);
                             listener.onWeatherRetrieved(weather);
+                        } catch (NullPointerException e) {
+                            e.printStackTrace();
                         } catch (WeatherLibException t) {
                             listener.onWeatherError(t);
                         }

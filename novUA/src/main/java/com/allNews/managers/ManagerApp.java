@@ -13,6 +13,7 @@ import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
@@ -28,7 +29,7 @@ import com.android.volley.Response.ErrorListener;
 import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
-import com.squareup.picasso.Target;
+//import com.squareup.picasso.Target;
 
 import org.json.JSONArray;
 
@@ -42,7 +43,7 @@ import java.util.List;
 import gregory.network.rss.R;
 
 public class ManagerApp {
-    private static Target target;
+//    private static Target target;
 
     private static int NOTIFY_ID = 101;
 
@@ -53,34 +54,39 @@ public class ManagerApp {
             @Override
             public void run() {
 
-                SharedPreferences sp = PreferenceManager
-                        .getDefaultSharedPreferences(context);
-                long SYNC_INTERVAL = Long.parseLong(sp.getString(
-                        Preferences.PREF_UPDATE, "3600"));
+                try {
+                    SharedPreferences sp = PreferenceManager
+                            .getDefaultSharedPreferences(context);
+                    long SYNC_INTERVAL = Long.parseLong(sp.getString(
+                            Preferences.PREF_UPDATE, "3600"));
 
-                String AUTHORITY = context.getResources().getString(
-                        R.string.app_authority);
-                String ACCOUNT_TYPE = context.getResources().getString(
-                        R.string.app_account_type);
-                String ACCOUNT = context.getResources().getString(
-                        R.string.app_account);
+                    String AUTHORITY = context.getResources().getString(
+                            R.string.app_authority);
+                    String ACCOUNT_TYPE = context.getResources().getString(
+                            R.string.app_account_type);
+                    String ACCOUNT = context.getResources().getString(
+                            R.string.app_account);
 
-                Account mAccount = new Account(ACCOUNT, ACCOUNT_TYPE);
-                AccountManager accountManager = (AccountManager) context
-                        .getSystemService(Context.ACCOUNT_SERVICE);
+                    Account mAccount = new Account(ACCOUNT, ACCOUNT_TYPE);
+                    AccountManager accountManager = (AccountManager) context
+                            .getSystemService(Context.ACCOUNT_SERVICE);
 
-                accountManager.addAccountExplicitly(mAccount, null, null);
+                    accountManager.addAccountExplicitly(mAccount, null, null);
 
-                if (SYNC_INTERVAL == 0) {
-                    ContentResolver.removePeriodicSync(mAccount, AUTHORITY,
-                            Bundle.EMPTY);
-                    return;
+                    if (SYNC_INTERVAL == 0) {
+                        ContentResolver.removePeriodicSync(mAccount, AUTHORITY,
+                                Bundle.EMPTY);
+                        return;
+                    }
+                    // SYNC_INTERVAL =90L;
+
+                    ContentResolver.setSyncAutomatically(mAccount, AUTHORITY, true);
+                    ContentResolver.addPeriodicSync(mAccount, AUTHORITY,
+                            Bundle.EMPTY, SYNC_INTERVAL);
+
+                } catch (Exception e) {
+                    e.printStackTrace();
                 }
-                // SYNC_INTERVAL =90L;
-
-                ContentResolver.setSyncAutomatically(mAccount, AUTHORITY, true);
-                ContentResolver.addPeriodicSync(mAccount, AUTHORITY,
-                        Bundle.EMPTY, SYNC_INTERVAL);
             }
         }, ManagerUpdates.MINUTE);
 
@@ -177,9 +183,18 @@ public class ManagerApp {
             //	}
         } catch (Exception e) {
             // TODO Auto-generated catch block
-            e.printStackTrace();
+//            e.printStackTrace();
+//            Intent sharingIntent = new Intent(Intent.ACTION_SEND);
+//            sharingIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//            sharingIntent.setType("text/plain");
+//            sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "Error Log");
+//            sharingIntent.putExtra(Intent.EXTRA_TEXT,
+//                    Environment.getExternalStorageDirectory() + "/n" +
+//                            Environment.getExternalStorageDirectory().getAbsolutePath() + "/n" +
+//                            e.getMessage());
+//            context.startActivity(Intent.createChooser(sharingIntent, "Share Error Log"));
+            Log.e("AAA", e.getMessage());
         }
-
     }
 
 

@@ -1,0 +1,470 @@
+[
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\imagebtn_share_innews_bg.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\imagebtn_share_innews_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\ic_menu_refresh.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\ic_menu_refresh.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\ic_action_refresh.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\ic_action_refresh.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\bg_rate_alt.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\bg_rate_alt.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\bg_innews_night_norm.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\bg_innews_night_norm.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\w04d.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\w04d.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\moon.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\moon.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\title_icon.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\title_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\__leak_canary_toast_background.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.squareup.leakcanary\\leakcanary-android\\1.3.1\\res\\drawable\\__leak_canary_toast_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\w11d.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\w11d.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\transparent_loading.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\transparent_loading.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\spinner_background_ab_weatherbar.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\spinner_background_ab_weatherbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\bg_rate_norm.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\bg_rate_norm.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\red_gradient_bk.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\red_gradient_bk.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\weathertheme_activated_background_holo_dark.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\weathertheme_activated_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\bg_innews_share_btn_night_norm.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\bg_innews_share_btn_night_norm.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\temperature.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\temperature.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\selectable_background_weatherbar.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\selectable_background_weatherbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\cloud.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\cloud.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\bg_innews_alt.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\bg_innews_alt.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\w13d.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\w13d.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\tab_select_triangle_dark.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\tab_select_triangle_dark.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\umbrella.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\umbrella.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\green_gradient_bk.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\green_gradient_bk.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\ic_buble_white.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\ic_buble_white.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\tab_indicator_ab_weatherbar.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\tab_indicator_ab_weatherbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\btn_innews_bg.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\btn_innews_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\wind.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\wind.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\w212d.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\w212d.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\bg_buy_event_norm.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\bg_buy_event_norm.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\w02d.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\w02d.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\bg_innews_share_btn_norm.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\bg_innews_share_btn_norm.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\weathertheme_edit_text_holo_dark.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\weathertheme_edit_text_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\ic_notif.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\AllNews\\res\\drawable\\ic_notif.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\bgnorm.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\bgnorm.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\buttonshape.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\buttonshape.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\btn_buy_event_bg.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\btn_buy_event_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\divider.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\divider.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\line_shape_red.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\line_shape_red.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\btn_innews_night_bg.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\btn_innews_night_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\w01n.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\w01n.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\w03d.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\w03d.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\weathertheme_item_background_holo_dark.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\weathertheme_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\w500d.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\w500d.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\event_msg_bg.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\event_msg_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\circle.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\circle.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\tab_select_triangle.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\tab_select_triangle.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\ic_top50.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\ic_top50.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\blue_gradient_bk.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\blue_gradient_bk.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\bgalt.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\bgalt.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\bg_innews_share_social_norm.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\bg_innews_share_social_norm.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\btn_rate_bg.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\btn_rate_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\sun.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\sun.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\ab_background_textured_weatherbar.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\ab_background_textured_weatherbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.2.0\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\weathertheme_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\weathertheme_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\w01d.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\w01d.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\btn_wish_bg.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\btn_wish_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\bg_wish_norm.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\bg_wish_norm.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\btn_cab_done_weatherbar.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\btn_cab_done_weatherbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\tab_unselected_holo.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\tab_unselected_holo.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\top5.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\AllNews\\res\\drawable\\top5.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\w50d.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\w50d.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\progress_horizontal_weatherbar.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\progress_horizontal_weatherbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\bg_innews_norm.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\bg_innews_norm.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\weathertheme_list_selector_holo_dark.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\weathertheme_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\layout_current.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\layout_current.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\line_shape_blue.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\line_shape_blue.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\tab_holo.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\tab_holo.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\download_btn_bg.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\download_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\line_shape_green.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\line_shape_green.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\stub.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\stub.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\event_msg_bg_night.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\event_msg_bg_night.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\w501d.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\w501d.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\humidity.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\humidity.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\bg_innews_share_social_alt.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\bg_innews_share_social_alt.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\pressure.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\pressure.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\ic_back.png",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\drawable\\ic_back.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    }
+]

@@ -1,5 +1,6 @@
 package com.allNews.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.drawable.ColorDrawable;
@@ -89,25 +90,25 @@ public class NewsCollectionActivity extends ActionBarActivity {
 
         mViewPager = (ViewPager) findViewById(R.id.pager);
 
-        initView();
+        initView(NewsCollectionActivity.this);
 
     }
 
-    public static void tryMakeSynch(final int newsId, final boolean isLike, final boolean isDislike) {
-        Utils.isOnline(App.getContext(), new Handler() {
+    public static void tryMakeSynch(final Context context, final int newsId, final boolean isLike, final boolean isDislike) {
+        Utils.isOnline(context, new Handler() {
             @Override
             public void handleMessage(Message msg) {
-                ManagerNews.setNewsToHistory(App.getContext(),
+                ManagerNews.setNewsToHistory(context,
                         newsId, false, false);
                 if (isLike) {
-                    ManagerNews.setNewsToHistory(App.getContext(), newsId, true, false);
+                    ManagerNews.setNewsToHistory(context, newsId, true, false);
                 }
                 if (isDislike) {
-                    ManagerNews.setNewsToHistory(App.getContext(), newsId, false, true);
+                    ManagerNews.setNewsToHistory(context, newsId, false, true);
                 }
                 switch (msg.what) {
                     case 1:
-                        makeSynch();
+                        makeSynch(context);
                         break;
 
                     default:
@@ -120,7 +121,7 @@ public class NewsCollectionActivity extends ActionBarActivity {
 
     }
 
-    private static void makeSynch() {
+    private static void makeSynch(final Context context) {
 
         final Handler handler = new Handler();
 
@@ -129,19 +130,19 @@ public class NewsCollectionActivity extends ActionBarActivity {
             @Override
             public void run() {
                 final List<History> newToSynch = ManagerNews
-                        .getNewsFromHistoryToSync(App.getContext());
-                final List<History> likesToSynch = ManagerNews.getLikeFromHistoryToSync(App.getContext());
-                final List<History> disLikesToSynch = ManagerNews.getDisLikeFromHistoryToSync(App.getContext());
+                        .getNewsFromHistoryToSync(context);
+                final List<History> likesToSynch = ManagerNews.getLikeFromHistoryToSync(context);
+                final List<History> disLikesToSynch = ManagerNews.getDisLikeFromHistoryToSync(context);
 
                 if (newToSynch != null && !newToSynch.isEmpty())
                     handler.post(new Runnable() {
 
                         @Override
                         public void run() {
-                            requestQueue = App.getRequestQueue();
+                            requestQueue = App.getRequestQueue(context);
 
                             requestQueue.add(Requests.getRequestForNewsSynch(
-                                    App.getContext(), newToSynch,
+                                    context, newToSynch,
                                     new Listener<String>() {
 
                                         @Override
@@ -149,7 +150,7 @@ public class NewsCollectionActivity extends ActionBarActivity {
                                             // Log.e("onResponse " , "response "
                                             // +response);
                                             if (likesToSynch != null && !likesToSynch.isEmpty()) {
-                                                requestQueue.add(Requests.getRequestForLikesSynch(App.getContext(), likesToSynch, new Listener<String>() {
+                                                requestQueue.add(Requests.getRequestForLikesSynch(context, likesToSynch, new Listener<String>() {
                                                             @Override
                                                             public void onResponse(String response) {
 
@@ -164,7 +165,7 @@ public class NewsCollectionActivity extends ActionBarActivity {
                                                         }));
                                             }
                                             if(disLikesToSynch != null && !disLikesToSynch.isEmpty()) {
-                                                requestQueue.add(Requests.getRequestForDislikesSynch(App.getContext(), disLikesToSynch, new Listener<String>() {
+                                                requestQueue.add(Requests.getRequestForDislikesSynch(context, disLikesToSynch, new Listener<String>() {
                                                     @Override
                                                     public void onResponse(String response) {
 
@@ -177,9 +178,8 @@ public class NewsCollectionActivity extends ActionBarActivity {
                                                     }
                                                 }));
                                             }
-
                                             ManagerNews
-                                                    .deleteNewsFromHistory(App.getContext());
+                                                    .deleteNewsFromHistory(context);
 
                                         }
                                     }, new ErrorListener() {
@@ -192,17 +192,14 @@ public class NewsCollectionActivity extends ActionBarActivity {
 
                                         }
                                     }));
-
-
                         }
                     });
-
             }
         }).start();
 
     }
 
-    private void initView() {
+    private void initView(Context context) {
 
         Bundle bundle = getIntent().getExtras();
         if (bundle != null && bundle.containsKey(NEWS_ID_KEY)
@@ -214,14 +211,14 @@ public class NewsCollectionActivity extends ActionBarActivity {
             ArrayList<Integer> newsIdsList = bundle
                     .getIntegerArrayList(NEWS_LIST_IDS_KEY);
             // String newsCategory = bundle.getString(NEWS_CATEGORY_KEY);
-            initNewsCollectionPagerAdapter(newsIdsList, newsId, position);
+            initNewsCollectionPagerAdapter(context, newsIdsList, newsId, position);
         } else if (bundle != null && bundle.containsKey(NEWS_ID_KEY)) {
             isNewApp = false;
             int newsId = bundle.getInt(NEWS_ID_KEY);
 
             ArrayList<Integer> newsIdsList = new ArrayList<Integer>();
             newsIdsList.add(newsId);
-            initNewsCollectionPagerAdapter(newsIdsList, newsId, 0);
+            initNewsCollectionPagerAdapter(context, newsIdsList, newsId, 0);
         } else if (bundle != null && bundle.containsKey(NEW_APP_NODE_ID)
                 && bundle.containsKey(NEW_APP_LIST_IDS_KEY)
                 && bundle.containsKey(NEW_APP_POSITION_KEY)) {
@@ -230,13 +227,11 @@ public class NewsCollectionActivity extends ActionBarActivity {
             ArrayList<Integer> newsIdsList = bundle
                     .getIntegerArrayList(NEW_APP_LIST_IDS_KEY);
             isNewApp = true;
-            initNewsCollectionPagerAdapter(newsIdsList, newsId, position);
+            initNewsCollectionPagerAdapter(context, newsIdsList, newsId, position);
 
         } else {
-
             finish();
         }
-
     }
 
     // private void getNewsIdsByCategoryInThread(int newsId, final String
@@ -265,7 +260,7 @@ public class NewsCollectionActivity extends ActionBarActivity {
     //
     // }
 
-    private void initNewsCollectionPagerAdapter(ArrayList<Integer> newsIdsList,
+    private void initNewsCollectionPagerAdapter(final Context context, ArrayList<Integer> newsIdsList,
                                                 int newsId, int position) {
         final NewsCollectionPagerAdapter newsCollectionPagerAdapter = new NewsCollectionPagerAdapter(
                 getSupportFragmentManager(), newsIdsList);
@@ -301,7 +296,7 @@ public class NewsCollectionActivity extends ActionBarActivity {
                         updateMenu();
                         Log.e("onPageScrolled ", "currentNews " + currentNews);
                         if (currentNews.isRead() == 0) {
-                            tryMakeSynch(currentNews.getNewsID(), false, false);
+                            tryMakeSynch(context, currentNews.getNewsID(), false, false);
                         }
 
                         if (currentNews.isRead() == 0) {
@@ -312,7 +307,6 @@ public class NewsCollectionActivity extends ActionBarActivity {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-
             }
 
             @Override
@@ -377,9 +371,9 @@ public class NewsCollectionActivity extends ActionBarActivity {
                 actionBarTitle
                         .setSpan(
                                 new ForegroundColorSpan(
-                                        curTheme == AllNewsActivity.THEME_WHITE ? App.getContext().getResources()
+                                        curTheme == AllNewsActivity.THEME_WHITE ? NewsCollectionActivity.this.getResources()
                                                 .getColor(R.color.white)
-                                                : App.getContext().getResources().getColor(
+                                                : NewsCollectionActivity.this.getResources().getColor(
                                                 R.color.txtGrey)), 0,
                                 actionBarTitle.length(),
                                 Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
@@ -422,14 +416,14 @@ public class NewsCollectionActivity extends ActionBarActivity {
 
             @Override
             public boolean onMenuItemClick(MenuItem item) {
-                makeToast(App.getContext().getResources().getString(curTheme == AllNewsActivity.THEME_WHITE ? R.string.theme_night_msg : R.string.theme_day_msg));
+                makeToast(NewsCollectionActivity.this.getResources().getString(curTheme == AllNewsActivity.THEME_WHITE ? R.string.theme_night_msg : R.string.theme_day_msg));
                 changeTheme = true;
                 MyPreferenceManager.setThemeToPref(NewsCollectionActivity.this,
                         curTheme);
                 curTheme = MyPreferenceManager
                         .getCurrentTheme(NewsCollectionActivity.this);
                 setTheme(menu);
-                initView();
+                initView(NewsCollectionActivity.this);
                 return false;
             }
         });
@@ -485,7 +479,7 @@ public class NewsCollectionActivity extends ActionBarActivity {
         if (curTheme == AllNewsActivity.THEME_DARK) {
 
             if (bar != null) {
-                bar.setBackgroundDrawable(new ColorDrawable(App.getContext().getResources()
+                bar.setBackgroundDrawable(new ColorDrawable(NewsCollectionActivity.this.getResources()
                         .getColor(R.color.bgActionBarNight)));
             }
 
@@ -493,7 +487,11 @@ public class NewsCollectionActivity extends ActionBarActivity {
             mmenu.getItem(1).setIcon(R.drawable.ic_daynight_dark);
             if (currentNews != null && currentNews.isNewApp() == 0) {
                 mmenu.getItem(2).setIcon(getImportantDrawable());
-                mmenu.getItem(3).setIcon(R.drawable.ic_share_dark);
+                try {
+                    mmenu.getItem(3).setIcon(R.drawable.ic_share_dark);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             } else
                 mmenu.getItem(2).setIcon(R.drawable.ic_share_dark);
 
@@ -513,7 +511,11 @@ public class NewsCollectionActivity extends ActionBarActivity {
             mmenu.getItem(1).setIcon(R.drawable.ic_daynight);
             if (currentNews != null && currentNews.isNewApp() == 0) {
                 mmenu.getItem(2).setIcon(getImportantDrawable());
-                mmenu.getItem(3).setIcon(R.drawable.ic_share);
+                try {
+                    mmenu.getItem(3).setIcon(R.drawable.ic_share);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             } else
                 mmenu.getItem(2).setIcon(R.drawable.ic_share);
         }
@@ -591,12 +593,10 @@ public class NewsCollectionActivity extends ActionBarActivity {
     @Override
     protected void onResume() {
         super.onResume();
-
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-
     }
 }

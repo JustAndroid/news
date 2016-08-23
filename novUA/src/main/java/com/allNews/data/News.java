@@ -217,6 +217,11 @@ public class News {
 
 	}
 
+	public void setImageSmallUrl(String url) {
+		imageSmallUrl = url;
+
+	}
+
 	public String getImageSmallUrl() {
 
 		return imageSmallUrl;

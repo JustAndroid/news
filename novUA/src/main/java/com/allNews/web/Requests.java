@@ -28,7 +28,7 @@ public class Requests {
 
     public static JsonArrayRequest getRequest(String url,
 			Listener<JSONArray> listener, ErrorListener errorListener) {
-		JsonArrayRequest req = new JsonArrayRequest(Method.GET, url, null,
+		JsonArrayRequest req = new JsonArrayRequest(Method.GET, url, "",
 				listener, errorListener) {
 			@Override
 			public HashMap<String, String> getParams() {
@@ -50,7 +50,7 @@ public class Requests {
 		return req;
 	}
     public static JsonObjectRequest getOjectRequest(String url, Listener<JSONObject> listener, ErrorListener errorListener) {
-        JsonObjectRequest request = new JsonObjectRequest(Method.GET, url, null, listener, errorListener) {
+        JsonObjectRequest request = new JsonObjectRequest(Method.GET, url, "", listener, errorListener) {
             @Override
             public HashMap<String, String> getParams() {
                 HashMap<String, String> params = new HashMap<String, String>();

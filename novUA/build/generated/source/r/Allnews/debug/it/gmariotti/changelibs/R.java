@@ -8,59 +8,71 @@ package it.gmariotti.changelibs;
 
 public final class R {
 	public static final class attr {
-		public static final int changeLogFileResourceId = 0x7f010030;
-		public static final int changeLogFileResourceUrl = 0x7f010031;
-		public static final int rowHeaderLayoutId = 0x7f01002f;
-		public static final int rowLayoutId = 0x7f01002e;
+		public static final int changeLogFileResourceId = 0x7f010031;
+		public static final int changeLogFileResourceUrl = 0x7f010032;
+		public static final int layoutManager = 0x7f010072;
+		public static final int reverseLayout = 0x7f010074;
+		public static final int rowHeaderLayoutId = 0x7f010030;
+		public static final int rowLayoutId = 0x7f01002f;
+		public static final int spanCount = 0x7f010073;
+		public static final int stackFromEnd = 0x7f010075;
 	}
 	public static final class color {
-		public static final int chglib_background_default_divider_color = 0x7f090021;
-		public static final int chglib_material_background_default_divider_color = 0x7f090022;
-		public static final int chglib_material_color_text_1 = 0x7f090023;
-		public static final int chglib_material_color_text_2 = 0x7f090024;
-		public static final int chglib_material_color_text_3 = 0x7f090025;
+		public static final int chglib_background_default_divider_color = 0x7f0d001b;
+		public static final int chglib_material_background_default_divider_color = 0x7f0d001c;
+		public static final int chglib_material_color_text_1 = 0x7f0d001d;
+		public static final int chglib_material_color_text_2 = 0x7f0d001e;
+		public static final int chglib_material_color_text_3 = 0x7f0d001f;
 	}
 	public static final class dimen {
-		public static final int chglib_material_keyline1 = 0x7f0a0042;
-		public static final int chglib_material_list_fontsize = 0x7f0a0043;
-		public static final int chglib_material_list_suheader_fontsize = 0x7f0a0044;
-		public static final int chglib_material_minHeight = 0x7f0a0045;
-		public static final int listPreferredItemHeightSmall = 0x7f0a0063;
+		public static final int chglib_material_keyline1 = 0x7f09000d;
+		public static final int chglib_material_list_fontsize = 0x7f09004b;
+		public static final int chglib_material_list_suheader_fontsize = 0x7f09004c;
+		public static final int chglib_material_minHeight = 0x7f09000e;
+		public static final int item_touch_helper_max_drag_scroll_per_frame = 0x7f090068;
+		public static final int listPreferredItemHeightSmall = 0x7f09006a;
 	}
 	public static final class id {
-		public static final int chg_headerDate = 0x7f0b0099;
-		public static final int chg_headerVersion = 0x7f0b0098;
-		public static final int chg_row = 0x7f0b0094;
-		public static final int chg_rowheader = 0x7f0b0097;
-		public static final int chg_text = 0x7f0b0096;
-		public static final int chg_textbullet = 0x7f0b0095;
+		public static final int chg_headerDate = 0x7f0e00b6;
+		public static final int chg_headerVersion = 0x7f0e00b5;
+		public static final int chg_row = 0x7f0e00b1;
+		public static final int chg_rowheader = 0x7f0e00b4;
+		public static final int chg_text = 0x7f0e00b3;
+		public static final int chg_textbullet = 0x7f0e00b2;
+		public static final int item_touch_helper_previous_elevation = 0x7f0e0005;
 	}
 	public static final class integer {
-		public static final int font_textStyle_material_item = 0x7f0c0005;
+		public static final int font_textStyle_material_item = 0x7f0b0001;
 	}
 	public static final class layout {
-		public static final int changelogrow_layout = 0x7f030023;
-		public static final int changelogrow_material_layout = 0x7f030024;
-		public static final int changelogrowheader_layout = 0x7f030025;
-		public static final int changelogrowheader_material_layout = 0x7f030026;
+		public static final int changelogrow_layout = 0x7f030024;
+		public static final int changelogrow_material_layout = 0x7f030025;
+		public static final int changelogrowheader_layout = 0x7f030026;
+		public static final int changelogrowheader_material_layout = 0x7f030027;
 	}
 	public static final class raw {
 		public static final int changelog = 0x7f060000;
 	}
 	public static final class string {
-		public static final int changelog_header_version = 0x7f0d005f;
-		public static final int changelog_internal_error_internet_connection = 0x7f0d0060;
-		public static final int changelog_internal_error_parsing = 0x7f0d0061;
-		public static final int changelog_row_bulletpoint = 0x7f0d0062;
-		public static final int changelog_row_prefix_bug = 0x7f0d0063;
-		public static final int changelog_row_prefix_improvement = 0x7f0d0064;
-		public static final int font_fontFamily_material_item = 0x7f0d00c1;
+		public static final int changelog_header_version = 0x7f07006a;
+		public static final int changelog_internal_error_internet_connection = 0x7f07006b;
+		public static final int changelog_internal_error_parsing = 0x7f07006c;
+		public static final int changelog_row_bulletpoint = 0x7f07006d;
+		public static final int changelog_row_prefix_bug = 0x7f07006e;
+		public static final int changelog_row_prefix_improvement = 0x7f07006f;
+		public static final int font_fontFamily_material_item = 0x7f070134;
 	}
 	public static final class styleable {
-		public static final int[] ChangeLogListView = { 0x7f01002e, 0x7f01002f, 0x7f010030, 0x7f010031 };
+		public static final int[] ChangeLogListView = { 0x7f01002f, 0x7f010030, 0x7f010031, 0x7f010032 };
 		public static final int ChangeLogListView_changeLogFileResourceId = 2;
 		public static final int ChangeLogListView_changeLogFileResourceUrl = 3;
 		public static final int ChangeLogListView_rowHeaderLayoutId = 1;
 		public static final int ChangeLogListView_rowLayoutId = 0;
+		public static final int[] RecyclerView = { 0x010100c4, 0x7f010072, 0x7f010073, 0x7f010074, 0x7f010075 };
+		public static final int RecyclerView_android_orientation = 0;
+		public static final int RecyclerView_layoutManager = 1;
+		public static final int RecyclerView_reverseLayout = 3;
+		public static final int RecyclerView_spanCount = 2;
+		public static final int RecyclerView_stackFromEnd = 4;
 	}
 }

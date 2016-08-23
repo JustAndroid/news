@@ -84,7 +84,7 @@ public class DonateActivity extends ActionBarActivity implements OnClickListener
 
     private void initBilling() {
 
-		bp = new BillingProcessor(App.getContext(), LICENSE_KEY,
+		bp = new BillingProcessor(DonateActivity.this, LICENSE_KEY,
 				new BillingProcessor.IBillingHandler() {
 
 					@Override
@@ -92,11 +92,11 @@ public class DonateActivity extends ActionBarActivity implements OnClickListener
 						for (String sku : bp.listOwnedSubscriptions()) {
 							Log.d(LOG_TAG, "Owned Subscription: " + sku);
 							if (sku != null){
-								SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(App.getContext());
+								SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(DonateActivity.this);
 								SharedPreferences.Editor editor = sp.edit();
 								editor.putBoolean(CHEK_PURCHASE, true);
 								editor.apply();
-								Toast.makeText(App.getContext(), "Ads disable", Toast.LENGTH_LONG).show();
+								Toast.makeText(DonateActivity.this, "Ads disable", Toast.LENGTH_LONG).show();
 
 							}
 						}
@@ -105,8 +105,8 @@ public class DonateActivity extends ActionBarActivity implements OnClickListener
 
 					@Override
 					public void onProductPurchased(String productId,
-							TransactionDetails arg1) {
-						Toast.makeText(App.getContext(),
+												   TransactionDetails arg1) {
+						Toast.makeText(DonateActivity.this,
 								"onProductPurchased: " + productId,
 								Toast.LENGTH_LONG).show();
 

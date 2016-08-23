@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\shake.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\anim\\shake.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\hide.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\anim\\hide.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\fade_out.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\cycle_7.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\anim\\cycle_7.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\fade_in.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    }
+]

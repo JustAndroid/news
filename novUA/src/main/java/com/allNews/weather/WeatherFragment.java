@@ -3,7 +3,6 @@ package com.allNews.weather;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
-import com.allNews.application.App;
 import com.survivingwithandroid.weather.lib.WeatherClient;
 
 public abstract class WeatherFragment extends Fragment {
@@ -20,8 +19,8 @@ public abstract class WeatherFragment extends Fragment {
         return ((WeatherEventListener) getActivity());
     }
 
-    public static interface WeatherEventListener {
-        public void requestCompleted();
+    public interface WeatherEventListener {
+        void requestCompleted();
     }
 
     public abstract void refreshData();
@@ -42,8 +41,11 @@ public abstract class WeatherFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        weatherClient = WeatherContext.getInstance().getClient(App.getContext().getApplicationContext());
-
+        try {
+            weatherClient = WeatherContext.getInstance().getClient(getActivity());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }

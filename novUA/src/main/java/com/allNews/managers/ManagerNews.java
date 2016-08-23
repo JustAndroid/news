@@ -52,6 +52,8 @@ import gregory.network.rss.R;
 
 public class ManagerNews {
 
+    public static final String USEFUL = "USEFUL";
+
     public static JsonArrayRequest getNewsRequest(final String urlNews,
                                                   final Context context, final Handler handler) {
         Log.e("getNewsRequest", urlNews);
@@ -194,8 +196,6 @@ public class ManagerNews {
             updateBuilder.where().eq("id", Integer.valueOf(likes.getNewsID()));
             updateBuilder.update();
         }
-
-
     }
 
     public static JsonArrayRequest getTopNewsRequest(final Context context,
@@ -203,6 +203,7 @@ public class ManagerNews {
         String urlNews = context.getResources().getString(R.string.url_base)
                 + context.getResources().getString(R.string.top_news_url)
                 + context.getResources().getString(R.string.app_id);
+
         Log.d("getTopNewsRequest", urlNews);
 
         return Requests.getRequest(urlNews, new Listener<JSONArray>() {
@@ -538,11 +539,8 @@ public class ManagerNews {
                     news.setIsTop(1);
 
                 dao.create(news);
-
             }
         }
-
-
     }
 
     private static void setNewsInfo(Context context, News news) {
@@ -657,6 +655,7 @@ public class ManagerNews {
             , boolean onlyNovN, long screenCount) {
         List<News> newses = null;
 
+        News b2bT = getB2BNewsForTop(context);
         try {
 
             Dao<News, Integer> dao = OpenHelperManager.getHelper(context,
@@ -665,8 +664,7 @@ public class ManagerNews {
                     .orderBy(DBOpenerHelper.KEY_PUB_TIME, false)
                     .limit(DBOpenerHelper.MAX_NEWS_IN_PAGE * screenCount);
 
-            List<Integer> sourcesId = getSourceIdList(App.getContext());
-
+            List<Integer> sourcesId = getSourceIdList(context);
 
             Where<News, Integer> where = null;
 
@@ -701,10 +699,10 @@ public class ManagerNews {
                         .in(DBOpenerHelper.KEY_NEWS_SOURCE_ID, sourcesId);
                 for (Integer integer : sourcesId) {
                     if (integer != null && String.valueOf(integer)
-                            .equals(App.getContext().getResources().getString(R.string.ad_source_id))) {
+                            .equals(context.getResources().getString(R.string.ad_source_id))) {
 
                         ArrayList<News> news = (ArrayList<News>) where.query();
-                        ArrayList<News> b2b = (ArrayList<News>) getB2BNews(App.getContext(), screenCount);
+                        ArrayList<News> b2b = (ArrayList<News>) getB2BNews(context, screenCount);
 
                         int position = 4;
                         int counter = 0;
@@ -722,8 +720,6 @@ public class ManagerNews {
 
                                 counter = counter + 20;
                             }
-
-
                         }
                         queryBuilder = dao.queryBuilder()
                                 .orderBy(DBOpenerHelper.KEY_PUB_TIME, false)
@@ -731,17 +727,25 @@ public class ManagerNews {
                         where = queryBuilder.selectColumns(columns).where()
                                 .in(DBOpenerHelper.KEY_NEWS_SOURCE_ID, sourcesId);
                     }
-
-
                 }
-
-
             }
             newses = where.query();
-
+            /* This write for include new from NewApp */
+//            if(b2bT == null){
+//                News news = new News();
+//                news.setcontent(USEFUL);
+//                List<NewApp> newApps = ManagerNewAppNewApi.getNewApp(App.getContext());
+//                if(!newApps.isEmpty()) {
+//                    NewApp newApp = ManagerNewAppNewApi.getNewApp(App.getContext()).get(9);
+//                    news.setImageUrl(newApp.getImgUrl());
+//                    news.setImageSmallUrl(context);
+//                    news.setcontent(newApp.getTitle());
+//                    news.setsourceID(9);
+//                    newses.add(6, news);
+//                }
+//            }
         } catch (Exception e) {
             e.printStackTrace();
-
         }
         return newses;
     }
@@ -785,7 +789,6 @@ public class ManagerNews {
                 DBOpenerHelper.KEY_UPDATE_TIME, false);
         queryBuilder.limit(1L);
         return dao.queryForFirst(queryBuilder.prepare());
-
     }
 
     public static long getLatestNewsCount(Context context, long lastDate) {
@@ -816,20 +819,19 @@ public class ManagerNews {
             Where<News, Integer> where = queryBuilder.where();
             if (categoryId.equals(TabFragment.TAB_ALL)) {
                 where.in(DBOpenerHelper.KEY_NEWS_SOURCE_ID, sourcesId);
+            }else if(categoryId.equals(TabFragment.TAB_UNREAD)) {
+                where.eq("isShown", "0");
             } else {
                 where.eq("category1", categoryId);
                 where.eq("category2", categoryId);
                 where.eq("category3", categoryId);
-                where.or(3).and()
-                        .in(DBOpenerHelper.KEY_NEWS_SOURCE_ID, sourcesId);
+                where.or(3).and().in(DBOpenerHelper.KEY_NEWS_SOURCE_ID, sourcesId);
             }
             return where.countOf();
 
         } catch (SQLException e) {
             return 0;
-
         }
-
     }
 
     public static List<News> getAllNewsByCategory(Context context,
@@ -857,9 +859,7 @@ public class ManagerNews {
 
         } catch (SQLException e) {
             return new ArrayList<>();
-
         }
-
     }
 
     public static void tryClearDb(final Context context) {
@@ -867,7 +867,7 @@ public class ManagerNews {
 
             @Override
             public void run() {
-                EWLoader.clearCache2();
+//                EWLoader.clearCache2();
                 try {
                     Dao<News, Integer> dao = OpenHelperManager.getHelper(
                             context, DatabaseHelper.class).getNewsDao();
@@ -1104,7 +1104,9 @@ public class ManagerNews {
     }
 
     public static List<News> getNews(Context context, String str,
-                                     boolean isFav, boolean isTop, boolean isRead, boolean isSelectedMedia, boolean isUnread, boolean isArticle) {
+                                     boolean isFav, boolean isTop,
+                                     boolean isRead, boolean isSelectedMedia,
+                                     boolean isUnread, boolean isArticle) {
         Dao<News, Integer> dao;
         try {
             dao = OpenHelperManager.getHelper(context, DatabaseHelper.class)
@@ -1114,7 +1116,6 @@ public class ManagerNews {
 
             Where<News, Integer> where = qb.where().like("content",
                     "%" + str + "%");
-
             if (isFav)
                 where.and().eq("isMarked", "1");
             else if (isTop)
@@ -1129,6 +1130,7 @@ public class ManagerNews {
                 where.and().eq("isArticle", 1);
 
             PreparedQuery<News> pq = qb.prepare();
+
             return dao.query(pq);
         } catch (SQLException e) {
             return null;

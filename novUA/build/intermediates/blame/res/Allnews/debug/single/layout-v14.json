@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout-v14\\changelogrowheader_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.changeloglib\\changelog\\2.0.0\\res\\layout-v14\\changelogrowheader_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout-v14\\changelogrowheader_material_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.changeloglib\\changelog\\2.0.0\\res\\layout-v14\\changelogrowheader_material_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout-v14\\changelogrow_material_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.changeloglib\\changelog\\2.0.0\\res\\layout-v14\\changelogrow_material_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout-v14\\changelogrow_layout.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.changeloglib\\changelog\\2.0.0\\res\\layout-v14\\changelogrow_layout.xml"
+    }
+]

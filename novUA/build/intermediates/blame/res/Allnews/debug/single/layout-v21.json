@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout-v21\\weather_current_fr.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout-v21\\weather_current_fr.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\layout-v21\\weather_forecast_fragment.xml",
+        "source": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\layout-v21\\weather_forecast_fragment.xml"
+    }
+]

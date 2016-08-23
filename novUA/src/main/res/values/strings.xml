@@ -26,7 +26,7 @@
     <string name="refresh_msg">Downloaded new news. \nPull down to refresh the list.</string>
     <string name="stop_update_title">Stop</string>
     <string name="stop_update_msg">News will not be downloaded. \nStop loading? </string>
-    <string name="tab_new_app">PRACTICAL</string>
+    <string name="tab_new_app">USEFUL</string>
     <string name="tab_events">EVENTS</string>
     <string name="tab_news">NEWS</string>
     <string name="no_memmory_msg">For stable operation of the application requires at least 50 megabytes of memory.</string>
@@ -42,6 +42,12 @@
     <string name="tab_name_selected_media">Selected media</string>
     <string name="tab_name_read_news">Read news</string>
     <string name="tab_name_fav">Favorites</string>
+    
+    
+    <string name="this_category_news">In this category</string>
+    <string name="news">news</string>
+    
+    
     <string name="new_version_msg">A new version of the application is available. Tap
 		to update.
 </string>

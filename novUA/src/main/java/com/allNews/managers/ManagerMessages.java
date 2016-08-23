@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
+import android.support.v4.app.NotificationCompat;
 
 import com.allNews.activity.AllNewsActivity;
 import com.allNews.activity.Preferences;
@@ -67,20 +68,32 @@ public class ManagerMessages {
     private void sendNotif(int id, String text) {
         NotificationManager nm = (NotificationManager) context
                 .getSystemService(context.NOTIFICATION_SERVICE);
-        Notification notif = new Notification(R.drawable.ic_launcher, "",
-                System.currentTimeMillis());
-
+//        Notification notif = new Notification(R.drawable.ic_launcher, "",
+//                System.currentTimeMillis());
+//
         Intent intent = new Intent(context, AllNewsActivity.class);
 
         PendingIntent pIntent = PendingIntent
                 .getActivity(context, 0, intent, 0);
+//
+//        notif.setLatestEventInfo(context,
+//                context.getString(R.string.notif_title), text, pIntent);
+//
+//        notif.flags |= Notification.FLAG_AUTO_CANCEL;
+//
+//        nm.notify(id, notif);
 
-        notif.setLatestEventInfo(context,
-                context.getString(R.string.notif_title), text, pIntent);
-
-        notif.flags |= Notification.FLAG_AUTO_CANCEL;
-
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(context);
+        Notification notif = builder.setContentIntent(pIntent)
+                .setSmallIcon(R.drawable.ic_launcher)
+//                .setTicker(text)
+                .setWhen(System.currentTimeMillis())
+                .setAutoCancel(true)
+                .setContentTitle(context.getString(R.string.notif_title))
+                .setContentText(text)
+                .build();
         nm.notify(id, notif);
+
     }
 
 

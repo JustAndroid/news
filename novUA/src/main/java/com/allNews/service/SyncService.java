@@ -18,7 +18,7 @@ public class SyncService extends Service {
 	 */
 	@Override
 	public void onCreate() {
-		  
+
 		/*
 		 * Create the sync adapter as a singleton. Set the sync adapter as
 		 * syncable Disallow parallel syncs
@@ -38,7 +38,7 @@ public class SyncService extends Service {
 
 	/**
 	 * Return an object that allows the system to invoke the sync adapter.
-	 * 
+	 *
 	 */
 	@Override
 	public IBinder onBind(Intent intent) {

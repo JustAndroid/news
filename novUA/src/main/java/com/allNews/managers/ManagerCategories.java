@@ -206,7 +206,6 @@ public class ManagerCategories {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-
     }
 
     public static int isAllCategoriesChecked(Context context) {

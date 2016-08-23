@@ -331,6 +331,8 @@
     <string name="exit_toast">Для выхода нажмите НАЗАД еще раз</string>
     <string name="tab_name_unread">Непрочитаные</string>
     <string name="tab_name_articles">Статьи</string>
+    <string name="this_category_news">В этой категории</string>
+    <string name="news">новости</string>
 
 
 </resources>

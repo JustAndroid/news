@@ -1,0 +1,4862 @@
+[
+    {
+        "outputFile": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\res\\merged\\Allnews\\debug\\values-uk\\values-uk.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endLine": 44,
+                    "endColumn": 16,
+                    "endOffset": 5816
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\hints.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 6,
+                        "startOffset": 734,
+                        "endLine": 57,
+                        "endColumn": 16,
+                        "endOffset": 7045
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 5821,
+                    "endLine": 49,
+                    "endColumn": 16,
+                    "endOffset": 5941
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\arrays.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 1,
+                        "startOffset": 944,
+                        "endLine": 46,
+                        "endColumn": 16,
+                        "endOffset": 1064
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 5946,
+                    "endLine": 54,
+                    "endColumn": 16,
+                    "endOffset": 6049
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\arrays.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 1,
+                        "startOffset": 1066,
+                        "endLine": 51,
+                        "endColumn": 16,
+                        "endOffset": 1169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 6054,
+                    "endLine": 63,
+                    "endColumn": 16,
+                    "endOffset": 6273
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\arrays.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 53,
+                        "endLine": 11,
+                        "endColumn": 16,
+                        "endOffset": 272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 6278,
+                    "endLine": 72,
+                    "endColumn": 16,
+                    "endOffset": 6471
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\arrays.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 318,
+                        "endLine": 21,
+                        "endColumn": 16,
+                        "endOffset": 511
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 6476,
+                    "endLine": 81,
+                    "endColumn": 16,
+                    "endOffset": 6668
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\arrays.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 2,
+                        "startOffset": 1172,
+                        "endLine": 60,
+                        "endColumn": 16,
+                        "endOffset": 1364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 6673,
+                    "endLine": 90,
+                    "endColumn": 16,
+                    "endOffset": 6852
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\arrays.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 1,
+                        "startOffset": 1366,
+                        "endLine": 69,
+                        "endColumn": 16,
+                        "endOffset": 1545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 6857,
+                    "endLine": 100,
+                    "endColumn": 16,
+                    "endOffset": 7084
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\arrays.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 1,
+                        "startOffset": 513,
+                        "endLine": 31,
+                        "endColumn": 16,
+                        "endOffset": 740
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 7089,
+                    "endLine": 110,
+                    "endColumn": 16,
+                    "endOffset": 7289
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\arrays.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 1,
+                        "startOffset": 742,
+                        "endLine": 41,
+                        "endColumn": 16,
+                        "endOffset": 942
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 7294,
+                    "endColumn": 109,
+                    "endOffset": 7399
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 109,
+                        "endOffset": 334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 7404,
+                    "endColumn": 107,
+                    "endOffset": 7507
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 339,
+                        "endColumn": 107,
+                        "endOffset": 442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 7512,
+                    "endColumn": 122,
+                    "endOffset": 7630
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 447,
+                        "endColumn": 122,
+                        "endOffset": 565
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 7635,
+                    "endColumn": 101,
+                    "endOffset": 7732
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 570,
+                        "endColumn": 101,
+                        "endOffset": 667
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 7737,
+                    "endColumn": 105,
+                    "endOffset": 7838
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 672,
+                        "endColumn": 105,
+                        "endOffset": 773
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 7843,
+                    "endColumn": 85,
+                    "endOffset": 7924
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 778,
+                        "endColumn": 85,
+                        "endOffset": 859
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 7929,
+                    "endColumn": 107,
+                    "endOffset": 8032
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 864,
+                        "endColumn": 107,
+                        "endOffset": 967
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 8037,
+                    "endColumn": 117,
+                    "endOffset": 8150
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 972,
+                        "endColumn": 117,
+                        "endOffset": 1085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 8155,
+                    "endColumn": 78,
+                    "endOffset": 8229
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1090,
+                        "endColumn": 78,
+                        "endOffset": 1164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 8234,
+                    "endColumn": 79,
+                    "endOffset": 8309
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1169,
+                        "endColumn": 79,
+                        "endOffset": 1244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 8314,
+                    "endColumn": 80,
+                    "endOffset": 8390
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1249,
+                        "endColumn": 80,
+                        "endOffset": 1325
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 8395,
+                    "endColumn": 105,
+                    "endOffset": 8496
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1330,
+                        "endColumn": 105,
+                        "endOffset": 1431
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 8501,
+                    "endColumn": 106,
+                    "endOffset": 8603
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1436,
+                        "endColumn": 106,
+                        "endOffset": 1538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 8608,
+                    "endColumn": 97,
+                    "endOffset": 8701
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1543,
+                        "endColumn": 97,
+                        "endOffset": 1636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 8706,
+                    "endColumn": 107,
+                    "endOffset": 8809
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1641,
+                        "endColumn": 107,
+                        "endOffset": 1744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 8814,
+                    "endColumn": 105,
+                    "endOffset": 8915
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1749,
+                        "endColumn": 105,
+                        "endOffset": 1850
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 8920,
+                    "endColumn": 108,
+                    "endOffset": 9024
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1855,
+                        "endColumn": 108,
+                        "endOffset": 1959
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 9029,
+                    "endColumn": 123,
+                    "endOffset": 9148
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1964,
+                        "endColumn": 123,
+                        "endOffset": 2083
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 9153,
+                    "endColumn": 99,
+                    "endOffset": 9248
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2088,
+                        "endColumn": 99,
+                        "endOffset": 2183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 9253,
+                    "endColumn": 57,
+                    "endOffset": 9306
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 4,
+                        "startOffset": 7154,
+                        "endColumn": 57,
+                        "endOffset": 7207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 9311,
+                    "endLine": 142,
+                    "endColumn": 9,
+                    "endOffset": 9752
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 167,
+                        "startColumn": 4,
+                        "startOffset": 7213,
+                        "endLine": 178,
+                        "endColumn": 9,
+                        "endOffset": 7665
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 9757,
+                    "endLine": 144,
+                    "endColumn": 9,
+                    "endOffset": 9817
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 181,
+                        "startColumn": 4,
+                        "startOffset": 7767,
+                        "endLine": 182,
+                        "endColumn": 9,
+                        "endOffset": 7828
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 9822,
+                    "endLine": 147,
+                    "endColumn": 9,
+                    "endOffset": 9937
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 185,
+                        "startColumn": 4,
+                        "startOffset": 7918,
+                        "endLine": 187,
+                        "endColumn": 9,
+                        "endOffset": 8035
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 9942,
+                    "endLine": 149,
+                    "endColumn": 9,
+                    "endOffset": 10019
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 183,
+                        "startColumn": 4,
+                        "startOffset": 7834,
+                        "endLine": 184,
+                        "endColumn": 9,
+                        "endOffset": 7912
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 10024,
+                    "endLine": 151,
+                    "endColumn": 9,
+                    "endOffset": 10115
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 190,
+                        "startColumn": 4,
+                        "startOffset": 8102,
+                        "endLine": 191,
+                        "endColumn": 9,
+                        "endOffset": 8194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 10120,
+                    "endLine": 153,
+                    "endColumn": 9,
+                    "endOffset": 10174
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 188,
+                        "startColumn": 4,
+                        "startOffset": 8041,
+                        "endLine": 189,
+                        "endColumn": 9,
+                        "endOffset": 8096
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 10179,
+                    "endLine": 157,
+                    "endColumn": 9,
+                    "endOffset": 10395
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 194,
+                        "startColumn": 4,
+                        "startOffset": 8266,
+                        "endLine": 197,
+                        "endColumn": 9,
+                        "endOffset": 8485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 10400,
+                    "endLine": 159,
+                    "endColumn": 9,
+                    "endOffset": 10459
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 192,
+                        "startColumn": 4,
+                        "startOffset": 8200,
+                        "endLine": 193,
+                        "endColumn": 9,
+                        "endOffset": 8260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 10464,
+                    "endLine": 165,
+                    "endColumn": 9,
+                    "endOffset": 10760
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 200,
+                        "startColumn": 4,
+                        "startOffset": 8552,
+                        "endLine": 205,
+                        "endColumn": 9,
+                        "endOffset": 8853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 10765,
+                    "endLine": 167,
+                    "endColumn": 9,
+                    "endOffset": 10819
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 198,
+                        "startColumn": 4,
+                        "startOffset": 8491,
+                        "endLine": 199,
+                        "endColumn": 9,
+                        "endOffset": 8546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 10824,
+                    "endLine": 169,
+                    "endColumn": 9,
+                    "endOffset": 10882
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 206,
+                        "startColumn": 4,
+                        "startOffset": 8859,
+                        "endLine": 207,
+                        "endColumn": 9,
+                        "endOffset": 8918
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 170,
+                    "startColumn": 4,
+                    "startOffset": 10887,
+                    "endLine": 171,
+                    "endColumn": 9,
+                    "endOffset": 10956
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 208,
+                        "startColumn": 4,
+                        "startOffset": 8924,
+                        "endLine": 209,
+                        "endColumn": 9,
+                        "endOffset": 8994
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 172,
+                    "startColumn": 4,
+                    "startOffset": 10961,
+                    "endLine": 173,
+                    "endColumn": 9,
+                    "endOffset": 11050
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 179,
+                        "startColumn": 4,
+                        "startOffset": 7671,
+                        "endLine": 180,
+                        "endColumn": 9,
+                        "endOffset": 7761
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 11055,
+                    "endColumn": 53,
+                    "endOffset": 11104
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 5690,
+                        "endColumn": 53,
+                        "endOffset": 5739
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 11109,
+                    "endLine": 176,
+                    "endColumn": 9,
+                    "endOffset": 11161
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 4,
+                        "startOffset": 6053,
+                        "endLine": 123,
+                        "endColumn": 9,
+                        "endOffset": 6106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 11166,
+                    "endLine": 178,
+                    "endColumn": 9,
+                    "endOffset": 11249
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 6112,
+                        "endLine": 125,
+                        "endColumn": 9,
+                        "endOffset": 6196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 179,
+                    "startColumn": 4,
+                    "startOffset": 11254,
+                    "endLine": 218,
+                    "endColumn": 9,
+                    "endOffset": 12161
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 6202,
+                        "endLine": 165,
+                        "endColumn": 9,
+                        "endOffset": 7148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 219,
+                    "startColumn": 4,
+                    "startOffset": 12166,
+                    "endLine": 222,
+                    "endColumn": 10,
+                    "endOffset": 12262
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\AllNews\\res\\values-uk\\custom_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 467,
+                        "endLine": 16,
+                        "endColumn": 10,
+                        "endOffset": 563
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 223,
+                    "startColumn": 4,
+                    "startOffset": 12267,
+                    "endColumn": 45,
+                    "endOffset": 12308
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 4668,
+                        "endColumn": 45,
+                        "endOffset": 4709
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 224,
+                    "startColumn": 4,
+                    "startOffset": 12313,
+                    "endLine": 225,
+                    "endColumn": 9,
+                    "endOffset": 12375
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 4715,
+                        "endLine": 97,
+                        "endColumn": 9,
+                        "endOffset": 4778
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 226,
+                    "startColumn": 4,
+                    "startOffset": 12380,
+                    "endColumn": 53,
+                    "endOffset": 12429
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 4280,
+                        "endColumn": 53,
+                        "endOffset": 4329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 227,
+                    "startColumn": 4,
+                    "startOffset": 12434,
+                    "endColumn": 54,
+                    "endOffset": 12484
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 5745,
+                        "endColumn": 54,
+                        "endOffset": 5795
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 228,
+                    "startColumn": 4,
+                    "startOffset": 12489,
+                    "endColumn": 70,
+                    "endOffset": 12555
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\AllNews\\res\\values-uk\\custom_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 52,
+                        "endColumn": 67,
+                        "endOffset": 118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 229,
+                    "startColumn": 4,
+                    "startOffset": 12560,
+                    "endColumn": 54,
+                    "endOffset": 12610
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 574,
+                        "endColumn": 54,
+                        "endOffset": 624
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 230,
+                    "startColumn": 4,
+                    "startOffset": 12615,
+                    "endColumn": 62,
+                    "endOffset": 12673
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endColumn": 62,
+                        "endOffset": 568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 231,
+                    "startColumn": 4,
+                    "startOffset": 12678,
+                    "endColumn": 63,
+                    "endOffset": 12737
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 123,
+                        "endColumn": 63,
+                        "endOffset": 182
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 232,
+                    "startColumn": 4,
+                    "startOffset": 12742,
+                    "endColumn": 62,
+                    "endOffset": 12800
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 62,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 233,
+                    "startColumn": 4,
+                    "startOffset": 12805,
+                    "endColumn": 76,
+                    "endOffset": 12877
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 307,
+                        "startColumn": 4,
+                        "startOffset": 13894,
+                        "endColumn": 76,
+                        "endOffset": 13966
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 234,
+                    "startColumn": 4,
+                    "startOffset": 12882,
+                    "endColumn": 79,
+                    "endOffset": 12957
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 310,
+                        "startColumn": 4,
+                        "startOffset": 14130,
+                        "endColumn": 79,
+                        "endOffset": 14205
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 235,
+                    "startColumn": 4,
+                    "startOffset": 12962,
+                    "endColumn": 77,
+                    "endOffset": 13035
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 308,
+                        "startColumn": 4,
+                        "startOffset": 13972,
+                        "endColumn": 77,
+                        "endOffset": 14045
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 236,
+                    "startColumn": 4,
+                    "startOffset": 13040,
+                    "endColumn": 77,
+                    "endOffset": 13113
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 309,
+                        "startColumn": 4,
+                        "startOffset": 14051,
+                        "endColumn": 77,
+                        "endOffset": 14124
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 237,
+                    "startColumn": 4,
+                    "startOffset": 13118,
+                    "endColumn": 79,
+                    "endOffset": 13193
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 311,
+                        "startColumn": 4,
+                        "startOffset": 14211,
+                        "endColumn": 79,
+                        "endOffset": 14286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 238,
+                    "startColumn": 4,
+                    "startOffset": 13198,
+                    "endColumn": 64,
+                    "endOffset": 13258
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 316,
+                        "startColumn": 4,
+                        "startOffset": 14581,
+                        "endColumn": 64,
+                        "endOffset": 14641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 13263,
+                    "endLine": 241,
+                    "endColumn": 9,
+                    "endOffset": 13369
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2440,
+                        "endLine": 49,
+                        "endColumn": 9,
+                        "endOffset": 2548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 13374,
+                    "endLine": 244,
+                    "endColumn": 9,
+                    "endOffset": 13488
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1940,
+                        "endLine": 38,
+                        "endColumn": 9,
+                        "endOffset": 2056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 13493,
+                    "endColumn": 54,
+                    "endOffset": 13543
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 329,
+                        "startColumn": 4,
+                        "startOffset": 15546,
+                        "endColumn": 54,
+                        "endOffset": 15596
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 246,
+                    "startColumn": 4,
+                    "startOffset": 13548,
+                    "endColumn": 62,
+                    "endOffset": 13606
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.changeloglib\\changelog\\2.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 220,
+                        "endColumn": 62,
+                        "endOffset": 278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 13611,
+                    "endColumn": 137,
+                    "endOffset": 13744
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.changeloglib\\changelog\\2.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 283,
+                        "endColumn": 137,
+                        "endOffset": 416
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 248,
+                    "startColumn": 4,
+                    "startOffset": 13749,
+                    "endColumn": 83,
+                    "endOffset": 13828
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.changeloglib\\changelog\\2.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 421,
+                        "endColumn": 83,
+                        "endOffset": 500
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 13833,
+                    "endColumn": 60,
+                    "endOffset": 13889
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.changeloglib\\changelog\\2.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 505,
+                        "endColumn": 60,
+                        "endOffset": 561
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 250,
+                    "startColumn": 4,
+                    "startOffset": 13894,
+                    "endColumn": 68,
+                    "endOffset": 13958
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.changeloglib\\changelog\\2.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 566,
+                        "endColumn": 68,
+                        "endOffset": 630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 13963,
+                    "endColumn": 75,
+                    "endOffset": 14034
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.github.gabrielemariotti.changeloglib\\changelog\\2.0.0\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 635,
+                        "endColumn": 75,
+                        "endOffset": 706
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 14039,
+                    "endColumn": 38,
+                    "endOffset": 14073
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 3601,
+                        "endColumn": 38,
+                        "endOffset": 3635
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 14078,
+                    "endColumn": 49,
+                    "endOffset": 14123
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 320,
+                        "startColumn": 4,
+                        "startOffset": 14825,
+                        "endColumn": 49,
+                        "endOffset": 14870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 254,
+                    "startColumn": 4,
+                    "startOffset": 14128,
+                    "endColumn": 41,
+                    "endOffset": 14165
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 3846,
+                        "endColumn": 41,
+                        "endOffset": 3883
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 14170,
+                    "endColumn": 109,
+                    "endOffset": 14275
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 109,
+                        "endOffset": 434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 256,
+                    "startColumn": 4,
+                    "startOffset": 14280,
+                    "endColumn": 194,
+                    "endOffset": 14470
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 439,
+                        "endColumn": 194,
+                        "endOffset": 629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 257,
+                    "startColumn": 4,
+                    "startOffset": 14475,
+                    "endColumn": 128,
+                    "endOffset": 14599
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 634,
+                        "endColumn": 128,
+                        "endOffset": 758
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 258,
+                    "startColumn": 4,
+                    "startOffset": 14604,
+                    "endColumn": 131,
+                    "endOffset": 14731
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 763,
+                        "endColumn": 131,
+                        "endOffset": 890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 259,
+                    "startColumn": 4,
+                    "startOffset": 14736,
+                    "endColumn": 218,
+                    "endOffset": 14950
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 895,
+                        "endColumn": 218,
+                        "endOffset": 1109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 260,
+                    "startColumn": 4,
+                    "startOffset": 14955,
+                    "endColumn": 219,
+                    "endOffset": 15170
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1114,
+                        "endColumn": 219,
+                        "endOffset": 1329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 261,
+                    "startColumn": 4,
+                    "startOffset": 15175,
+                    "endColumn": 130,
+                    "endOffset": 15301
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1334,
+                        "endColumn": 130,
+                        "endOffset": 1460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 262,
+                    "startColumn": 4,
+                    "startOffset": 15306,
+                    "endColumn": 133,
+                    "endOffset": 15435
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1465,
+                        "endColumn": 133,
+                        "endOffset": 1594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 15440,
+                    "endColumn": 249,
+                    "endOffset": 15685
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 249,
+                        "endOffset": 576
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 264,
+                    "startColumn": 4,
+                    "startOffset": 15690,
+                    "endColumn": 259,
+                    "endOffset": 15945
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1599,
+                        "endColumn": 259,
+                        "endOffset": 1854
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 15950,
+                    "endColumn": 122,
+                    "endOffset": 16068
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1859,
+                        "endColumn": 122,
+                        "endOffset": 1977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 266,
+                    "startColumn": 4,
+                    "startOffset": 16073,
+                    "endColumn": 107,
+                    "endOffset": 16176
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1982,
+                        "endColumn": 107,
+                        "endOffset": 2085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 267,
+                    "startColumn": 4,
+                    "startOffset": 16181,
+                    "endColumn": 192,
+                    "endOffset": 16369
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2090,
+                        "endColumn": 192,
+                        "endOffset": 2278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 268,
+                    "startColumn": 4,
+                    "startOffset": 16374,
+                    "endColumn": 126,
+                    "endOffset": 16496
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2283,
+                        "endColumn": 126,
+                        "endOffset": 2405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 269,
+                    "startColumn": 4,
+                    "startOffset": 16501,
+                    "endColumn": 205,
+                    "endOffset": 16702
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2410,
+                        "endColumn": 205,
+                        "endOffset": 2611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 270,
+                    "startColumn": 4,
+                    "startOffset": 16707,
+                    "endColumn": 132,
+                    "endOffset": 16835
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2616,
+                        "endColumn": 132,
+                        "endOffset": 2744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 271,
+                    "startColumn": 4,
+                    "startOffset": 16840,
+                    "endColumn": 171,
+                    "endOffset": 17007
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2749,
+                        "endColumn": 171,
+                        "endOffset": 2916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 272,
+                    "startColumn": 4,
+                    "startOffset": 17012,
+                    "endColumn": 99,
+                    "endOffset": 17107
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2921,
+                        "endColumn": 99,
+                        "endOffset": 3016
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 273,
+                    "startColumn": 4,
+                    "startOffset": 17112,
+                    "endColumn": 90,
+                    "endOffset": 17198
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3021,
+                        "endColumn": 90,
+                        "endOffset": 3107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 17203,
+                    "endColumn": 116,
+                    "endOffset": 17315
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-uk\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3112,
+                        "endColumn": 116,
+                        "endOffset": 3224
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 17320,
+                    "endColumn": 33,
+                    "endOffset": 17349
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 240,
+                        "startColumn": 4,
+                        "startOffset": 10916,
+                        "endColumn": 33,
+                        "endOffset": 10945
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 17354,
+                    "endLine": 277,
+                    "endColumn": 9,
+                    "endOffset": 17432
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 5223,
+                        "endLine": 108,
+                        "endColumn": 9,
+                        "endOffset": 5302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 278,
+                    "startColumn": 4,
+                    "startOffset": 17437,
+                    "endColumn": 60,
+                    "endOffset": 17493
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 5372,
+                        "endColumn": 60,
+                        "endOffset": 5428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 17498,
+                    "endColumn": 62,
+                    "endOffset": 17556
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 5308,
+                        "endColumn": 62,
+                        "endOffset": 5366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 17561,
+                    "endLine": 295,
+                    "endColumn": 9,
+                    "endOffset": 18367
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 261,
+                        "startColumn": 4,
+                        "startOffset": 11961,
+                        "endLine": 276,
+                        "endColumn": 9,
+                        "endOffset": 12782
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 296,
+                    "startColumn": 4,
+                    "startOffset": 18372,
+                    "endLine": 315,
+                    "endColumn": 9,
+                    "endOffset": 19025
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 277,
+                        "startColumn": 4,
+                        "startOffset": 12788,
+                        "endLine": 296,
+                        "endColumn": 9,
+                        "endOffset": 13460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 19030,
+                    "endLine": 325,
+                    "endColumn": 14,
+                    "endOffset": 19447
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 297,
+                        "startColumn": 0,
+                        "startOffset": 13462,
+                        "endLine": 306,
+                        "endColumn": 14,
+                        "endOffset": 13888
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 326,
+                    "startColumn": 4,
+                    "startOffset": 19452,
+                    "endColumn": 59,
+                    "endOffset": 19507
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 5629,
+                        "endColumn": 59,
+                        "endOffset": 5684
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 19512,
+                    "endColumn": 49,
+                    "endOffset": 19557
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 4335,
+                        "endColumn": 49,
+                        "endOffset": 4380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 328,
+                    "startColumn": 4,
+                    "startOffset": 19562,
+                    "endColumn": 51,
+                    "endOffset": 19609
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 4495,
+                        "endColumn": 51,
+                        "endOffset": 4542
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 329,
+                    "startColumn": 4,
+                    "startOffset": 19614,
+                    "endColumn": 53,
+                    "endOffset": 19663
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 4440,
+                        "endColumn": 53,
+                        "endOffset": 4489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 330,
+                    "startColumn": 4,
+                    "startOffset": 19668,
+                    "endColumn": 54,
+                    "endOffset": 19718
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3341,
+                        "endColumn": 54,
+                        "endOffset": 3391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 331,
+                    "startColumn": 4,
+                    "startOffset": 19723,
+                    "endColumn": 49,
+                    "endOffset": 19768
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 4,
+                        "startOffset": 3993,
+                        "endColumn": 49,
+                        "endOffset": 4038
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 332,
+                    "startColumn": 4,
+                    "startOffset": 19773,
+                    "endLine": 337,
+                    "endColumn": 9,
+                    "endOffset": 19924
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3684,
+                        "endLine": 79,
+                        "endColumn": 9,
+                        "endOffset": 3840
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 338,
+                    "startColumn": 4,
+                    "startOffset": 19929,
+                    "endColumn": 52,
+                    "endOffset": 19977
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 4386,
+                        "endColumn": 52,
+                        "endOffset": 4434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 339,
+                    "startColumn": 4,
+                    "startOffset": 19982,
+                    "endColumn": 77,
+                    "endOffset": 20055
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3262,
+                        "endColumn": 77,
+                        "endOffset": 3335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 340,
+                    "startColumn": 4,
+                    "startOffset": 20060,
+                    "endColumn": 47,
+                    "endOffset": 20103
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 4044,
+                        "endColumn": 47,
+                        "endOffset": 4087
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 341,
+                    "startColumn": 4,
+                    "startOffset": 20108,
+                    "endColumn": 50,
+                    "endOffset": 20154
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 3889,
+                        "endColumn": 50,
+                        "endOffset": 3935
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 342,
+                    "startColumn": 4,
+                    "startOffset": 20159,
+                    "endLine": 348,
+                    "endColumn": 10,
+                    "endOffset": 20370
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\AllNews\\res\\values-uk\\custom_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 120,
+                        "endLine": 9,
+                        "endColumn": 10,
+                        "endOffset": 331
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 349,
+                    "startColumn": 4,
+                    "startOffset": 20375,
+                    "endColumn": 70,
+                    "endOffset": 20441
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\AllNews\\res\\values-uk\\custom_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 1,
+                        "startOffset": 333,
+                        "endColumn": 67,
+                        "endOffset": 399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 350,
+                    "startColumn": 4,
+                    "startOffset": 20446,
+                    "endColumn": 72,
+                    "endOffset": 20514
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 332,
+                        "startColumn": 4,
+                        "startOffset": 15734,
+                        "endColumn": 72,
+                        "endOffset": 15802
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 351,
+                    "startColumn": 4,
+                    "startOffset": 20519,
+                    "endColumn": 83,
+                    "endOffset": 20598
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 318,
+                        "endColumn": 83,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 352,
+                    "startColumn": 4,
+                    "startOffset": 20603,
+                    "endColumn": 104,
+                    "endOffset": 20703
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 328,
+                        "startColumn": 4,
+                        "startOffset": 15440,
+                        "endColumn": 104,
+                        "endOffset": 15540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 353,
+                    "startColumn": 4,
+                    "startOffset": 20708,
+                    "endColumn": 41,
+                    "endOffset": 20745
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 3641,
+                        "endColumn": 41,
+                        "endOffset": 3678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 354,
+                    "startColumn": 4,
+                    "startOffset": 20750,
+                    "endColumn": 50,
+                    "endOffset": 20796
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 2683,
+                        "endColumn": 50,
+                        "endOffset": 2729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 355,
+                    "startColumn": 4,
+                    "startOffset": 20801,
+                    "endColumn": 53,
+                    "endOffset": 20850
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 2628,
+                        "endColumn": 53,
+                        "endOffset": 2677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 356,
+                    "startColumn": 4,
+                    "startOffset": 20855,
+                    "endColumn": 36,
+                    "endOffset": 20887
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 3397,
+                        "endColumn": 36,
+                        "endOffset": 3429
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 357,
+                    "startColumn": 4,
+                    "startOffset": 20892,
+                    "endColumn": 36,
+                    "endOffset": 20924
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\hints.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 6,
+                        "startOffset": 79,
+                        "endColumn": 38,
+                        "endOffset": 111
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 358,
+                    "startColumn": 4,
+                    "startOffset": 20929,
+                    "endColumn": 36,
+                    "endOffset": 20961
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\hints.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 6,
+                        "startOffset": 118,
+                        "endColumn": 38,
+                        "endOffset": 150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 359,
+                    "startColumn": 4,
+                    "startOffset": 20966,
+                    "endColumn": 125,
+                    "endOffset": 21087
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\hints.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 6,
+                        "startOffset": 157,
+                        "endColumn": 142,
+                        "endOffset": 293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 360,
+                    "startColumn": 4,
+                    "startOffset": 21092,
+                    "endColumn": 36,
+                    "endOffset": 21124
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\hints.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 6,
+                        "startOffset": 300,
+                        "endColumn": 38,
+                        "endOffset": 332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 361,
+                    "startColumn": 4,
+                    "startOffset": 21129,
+                    "endColumn": 36,
+                    "endOffset": 21161
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\hints.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 6,
+                        "startOffset": 339,
+                        "endColumn": 38,
+                        "endOffset": 371
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 362,
+                    "startColumn": 4,
+                    "startOffset": 21166,
+                    "endColumn": 110,
+                    "endOffset": 21272
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\hints.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 6,
+                        "startOffset": 378,
+                        "endColumn": 127,
+                        "endOffset": 499
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 363,
+                    "startColumn": 4,
+                    "startOffset": 21277,
+                    "endColumn": 36,
+                    "endOffset": 21309
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\hints.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 6,
+                        "startOffset": 506,
+                        "endColumn": 38,
+                        "endOffset": 538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 364,
+                    "startColumn": 4,
+                    "startOffset": 21314,
+                    "endColumn": 163,
+                    "endOffset": 21473
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\hints.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 6,
+                        "startOffset": 545,
+                        "endColumn": 180,
+                        "endOffset": 719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 365,
+                    "startColumn": 4,
+                    "startOffset": 21478,
+                    "endColumn": 48,
+                    "endOffset": 21522
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\hints.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 23,
+                        "endColumn": 48,
+                        "endOffset": 67
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 366,
+                    "startColumn": 4,
+                    "startOffset": 21527,
+                    "endColumn": 34,
+                    "endOffset": 21557
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 10951,
+                        "endColumn": 34,
+                        "endOffset": 10981
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 367,
+                    "startColumn": 4,
+                    "startOffset": 21562,
+                    "endColumn": 48,
+                    "endOffset": 21606
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1890,
+                        "endColumn": 48,
+                        "endOffset": 1934
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 368,
+                    "startColumn": 4,
+                    "startOffset": 21611,
+                    "endColumn": 53,
+                    "endOffset": 21660
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 4548,
+                        "endColumn": 53,
+                        "endOffset": 4597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 369,
+                    "startColumn": 4,
+                    "startOffset": 21665,
+                    "endColumn": 89,
+                    "endOffset": 21750
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 630,
+                        "endColumn": 89,
+                        "endOffset": 715
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 370,
+                    "startColumn": 4,
+                    "startOffset": 21755,
+                    "endColumn": 73,
+                    "endOffset": 21824
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 331,
+                        "startColumn": 4,
+                        "startOffset": 15659,
+                        "endColumn": 73,
+                        "endOffset": 15728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 371,
+                    "startColumn": 4,
+                    "startOffset": 21829,
+                    "endLine": 377,
+                    "endColumn": 9,
+                    "endOffset": 22075
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 721,
+                        "endLine": 19,
+                        "endColumn": 9,
+                        "endOffset": 973
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 378,
+                    "startColumn": 4,
+                    "startOffset": 22080,
+                    "endLine": 382,
+                    "endColumn": 95,
+                    "endOffset": 22394
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 979,
+                        "endLine": 24,
+                        "endColumn": 95,
+                        "endOffset": 1297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 383,
+                    "startColumn": 4,
+                    "startOffset": 22399,
+                    "endColumn": 105,
+                    "endOffset": 22500
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 315,
+                        "startColumn": 4,
+                        "startOffset": 14474,
+                        "endColumn": 105,
+                        "endOffset": 14575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 384,
+                    "startColumn": 4,
+                    "startOffset": 22505,
+                    "endColumn": 57,
+                    "endOffset": 22558
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 253,
+                        "startColumn": 4,
+                        "startOffset": 11544,
+                        "endColumn": 57,
+                        "endOffset": 11597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 385,
+                    "startColumn": 4,
+                    "startOffset": 22563,
+                    "endColumn": 57,
+                    "endOffset": 22616
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 256,
+                        "startColumn": 4,
+                        "startOffset": 11706,
+                        "endColumn": 57,
+                        "endOffset": 11759
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 386,
+                    "startColumn": 4,
+                    "startOffset": 22621,
+                    "endColumn": 47,
+                    "endOffset": 22664
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 258,
+                        "startColumn": 4,
+                        "startOffset": 11816,
+                        "endColumn": 47,
+                        "endOffset": 11859
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 387,
+                    "startColumn": 4,
+                    "startOffset": 22669,
+                    "endColumn": 49,
+                    "endOffset": 22714
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 257,
+                        "startColumn": 4,
+                        "startOffset": 11765,
+                        "endColumn": 49,
+                        "endOffset": 11810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 388,
+                    "startColumn": 4,
+                    "startOffset": 22719,
+                    "endColumn": 48,
+                    "endOffset": 22763
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 259,
+                        "startColumn": 4,
+                        "startOffset": 11865,
+                        "endColumn": 48,
+                        "endOffset": 11909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 389,
+                    "startColumn": 4,
+                    "startOffset": 22768,
+                    "endColumn": 52,
+                    "endOffset": 22816
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 248,
+                        "startColumn": 4,
+                        "startOffset": 11281,
+                        "endColumn": 52,
+                        "endOffset": 11329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 390,
+                    "startColumn": 4,
+                    "startOffset": 22821,
+                    "endColumn": 57,
+                    "endOffset": 22874
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 245,
+                        "startColumn": 4,
+                        "startOffset": 11103,
+                        "endColumn": 57,
+                        "endOffset": 11156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 391,
+                    "startColumn": 4,
+                    "startOffset": 22879,
+                    "endColumn": 46,
+                    "endOffset": 22921
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 251,
+                        "startColumn": 4,
+                        "startOffset": 11446,
+                        "endColumn": 46,
+                        "endOffset": 11488
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 392,
+                    "startColumn": 4,
+                    "startOffset": 22926,
+                    "endColumn": 54,
+                    "endOffset": 22976
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 254,
+                        "startColumn": 4,
+                        "startOffset": 11603,
+                        "endColumn": 54,
+                        "endOffset": 11653
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 393,
+                    "startColumn": 4,
+                    "startOffset": 22981,
+                    "endColumn": 45,
+                    "endOffset": 23022
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 255,
+                        "startColumn": 4,
+                        "startOffset": 11659,
+                        "endColumn": 45,
+                        "endOffset": 11700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 394,
+                    "startColumn": 4,
+                    "startOffset": 23027,
+                    "endColumn": 59,
+                    "endOffset": 23082
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 250,
+                        "startColumn": 4,
+                        "startOffset": 11385,
+                        "endColumn": 59,
+                        "endOffset": 11440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 395,
+                    "startColumn": 4,
+                    "startOffset": 23087,
+                    "endColumn": 49,
+                    "endOffset": 23132
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 246,
+                        "startColumn": 4,
+                        "startOffset": 11162,
+                        "endColumn": 49,
+                        "endOffset": 11207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 396,
+                    "startColumn": 4,
+                    "startOffset": 23137,
+                    "endColumn": 66,
+                    "endOffset": 23199
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 247,
+                        "startColumn": 4,
+                        "startOffset": 11213,
+                        "endColumn": 66,
+                        "endOffset": 11275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 397,
+                    "startColumn": 4,
+                    "startOffset": 23204,
+                    "endColumn": 48,
+                    "endOffset": 23248
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 252,
+                        "startColumn": 4,
+                        "startOffset": 11494,
+                        "endColumn": 48,
+                        "endOffset": 11538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 398,
+                    "startColumn": 4,
+                    "startOffset": 23253,
+                    "endColumn": 48,
+                    "endOffset": 23297
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 249,
+                        "startColumn": 4,
+                        "startOffset": 11335,
+                        "endColumn": 48,
+                        "endOffset": 11379
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 399,
+                    "startColumn": 4,
+                    "startOffset": 23302,
+                    "endColumn": 44,
+                    "endOffset": 23342
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 260,
+                        "startColumn": 4,
+                        "startOffset": 11915,
+                        "endColumn": 44,
+                        "endOffset": 11955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 400,
+                    "startColumn": 4,
+                    "startOffset": 23347,
+                    "endColumn": 43,
+                    "endOffset": 23386
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 242,
+                        "startColumn": 4,
+                        "startOffset": 10987,
+                        "endColumn": 43,
+                        "endOffset": 11026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 401,
+                    "startColumn": 4,
+                    "startOffset": 23391,
+                    "endColumn": 72,
+                    "endOffset": 23459
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 4,
+                        "startOffset": 5854,
+                        "endColumn": 72,
+                        "endOffset": 5922
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 402,
+                    "startColumn": 4,
+                    "startOffset": 23464,
+                    "endColumn": 71,
+                    "endOffset": 23531
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 5928,
+                        "endColumn": 71,
+                        "endOffset": 5995
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 403,
+                    "startColumn": 4,
+                    "startOffset": 23536,
+                    "endLine": 405,
+                    "endColumn": 9,
+                    "endOffset": 23632
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2336,
+                        "endLine": 46,
+                        "endColumn": 9,
+                        "endOffset": 2434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 406,
+                    "startColumn": 4,
+                    "startOffset": 23637,
+                    "endColumn": 38,
+                    "endOffset": 23671
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 336,
+                        "startColumn": 4,
+                        "startOffset": 15983,
+                        "endColumn": 38,
+                        "endOffset": 16017
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 407,
+                    "startColumn": 4,
+                    "startOffset": 23676,
+                    "endColumn": 39,
+                    "endOffset": 23711
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 5182,
+                        "endColumn": 39,
+                        "endOffset": 5217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 408,
+                    "startColumn": 4,
+                    "startOffset": 23716,
+                    "endColumn": 53,
+                    "endOffset": 23765
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 4225,
+                        "endColumn": 53,
+                        "endOffset": 4274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 409,
+                    "startColumn": 4,
+                    "startOffset": 23770,
+                    "endColumn": 50,
+                    "endOffset": 23816
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 6001,
+                        "endColumn": 50,
+                        "endOffset": 6047
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 410,
+                    "startColumn": 4,
+                    "startOffset": 23821,
+                    "endColumn": 33,
+                    "endOffset": 23850
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 5470,
+                        "endColumn": 33,
+                        "endOffset": 5499
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 411,
+                    "startColumn": 4,
+                    "startOffset": 23855,
+                    "endColumn": 63,
+                    "endOffset": 23914
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 4603,
+                        "endColumn": 63,
+                        "endOffset": 4662
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 412,
+                    "startColumn": 4,
+                    "startOffset": 23919,
+                    "endLine": 414,
+                    "endColumn": 9,
+                    "endOffset": 24029
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1704,
+                        "endLine": 33,
+                        "endColumn": 9,
+                        "endOffset": 1816
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 415,
+                    "startColumn": 4,
+                    "startOffset": 24034,
+                    "endColumn": 66,
+                    "endOffset": 24096
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1822,
+                        "endColumn": 66,
+                        "endOffset": 1884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 416,
+                    "startColumn": 4,
+                    "startOffset": 24101,
+                    "endColumn": 65,
+                    "endOffset": 24162
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2124,
+                        "endColumn": 65,
+                        "endOffset": 2185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 417,
+                    "startColumn": 4,
+                    "startOffset": 24167,
+                    "endColumn": 72,
+                    "endOffset": 24235
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2554,
+                        "endColumn": 72,
+                        "endOffset": 2622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 418,
+                    "startColumn": 4,
+                    "startOffset": 24240,
+                    "endColumn": 67,
+                    "endOffset": 24303
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\AllNews\\res\\values-uk\\custom_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 401,
+                        "endColumn": 64,
+                        "endOffset": 464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 419,
+                    "startColumn": 4,
+                    "startOffset": 24308,
+                    "endColumn": 64,
+                    "endOffset": 24368
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 324,
+                        "startColumn": 4,
+                        "startOffset": 15135,
+                        "endColumn": 64,
+                        "endOffset": 15195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 420,
+                    "startColumn": 4,
+                    "startOffset": 24373,
+                    "endColumn": 74,
+                    "endOffset": 24443
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 323,
+                        "startColumn": 4,
+                        "startOffset": 15059,
+                        "endColumn": 74,
+                        "endOffset": 15129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 421,
+                    "startColumn": 4,
+                    "startOffset": 24448,
+                    "endColumn": 86,
+                    "endOffset": 24530
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 322,
+                        "startColumn": 4,
+                        "startOffset": 14971,
+                        "endColumn": 86,
+                        "endOffset": 15053
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 422,
+                    "startColumn": 4,
+                    "startOffset": 24535,
+                    "endColumn": 69,
+                    "endOffset": 24600
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 325,
+                        "startColumn": 4,
+                        "startOffset": 15201,
+                        "endColumn": 69,
+                        "endOffset": 15266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 423,
+                    "startColumn": 4,
+                    "startOffset": 24605,
+                    "endColumn": 34,
+                    "endOffset": 24635
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 5434,
+                        "endColumn": 34,
+                        "endOffset": 5464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 424,
+                    "startColumn": 4,
+                    "startOffset": 24640,
+                    "endColumn": 54,
+                    "endOffset": 24690
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 454,
+                        "endColumn": 54,
+                        "endOffset": 504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 425,
+                    "startColumn": 4,
+                    "startOffset": 24695,
+                    "endColumn": 66,
+                    "endOffset": 24757
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 233,
+                        "startColumn": 4,
+                        "startOffset": 10469,
+                        "endColumn": 66,
+                        "endOffset": 10531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 426,
+                    "startColumn": 4,
+                    "startOffset": 24762,
+                    "endColumn": 63,
+                    "endOffset": 24821
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 214,
+                        "startColumn": 4,
+                        "startOffset": 9148,
+                        "endColumn": 63,
+                        "endOffset": 9207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 427,
+                    "startColumn": 4,
+                    "startOffset": 24826,
+                    "endColumn": 78,
+                    "endOffset": 24900
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 228,
+                        "startColumn": 4,
+                        "startOffset": 10125,
+                        "endColumn": 78,
+                        "endOffset": 10199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 428,
+                    "startColumn": 4,
+                    "startOffset": 24905,
+                    "endColumn": 78,
+                    "endOffset": 24979
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 230,
+                        "startColumn": 4,
+                        "startOffset": 10260,
+                        "endColumn": 78,
+                        "endOffset": 10334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 429,
+                    "startColumn": 4,
+                    "startOffset": 24984,
+                    "endColumn": 68,
+                    "endOffset": 25048
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 231,
+                        "startColumn": 4,
+                        "startOffset": 10340,
+                        "endColumn": 68,
+                        "endOffset": 10404
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 430,
+                    "startColumn": 4,
+                    "startOffset": 25053,
+                    "endColumn": 57,
+                    "endOffset": 25106
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 232,
+                        "startColumn": 4,
+                        "startOffset": 10410,
+                        "endColumn": 57,
+                        "endOffset": 10463
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 431,
+                    "startColumn": 4,
+                    "startOffset": 25111,
+                    "endColumn": 66,
+                    "endOffset": 25173
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 234,
+                        "startColumn": 4,
+                        "startOffset": 10537,
+                        "endColumn": 66,
+                        "endOffset": 10599
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 432,
+                    "startColumn": 4,
+                    "startOffset": 25178,
+                    "endColumn": 76,
+                    "endOffset": 25250
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 222,
+                        "startColumn": 4,
+                        "startOffset": 9705,
+                        "endColumn": 76,
+                        "endOffset": 9777
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 433,
+                    "startColumn": 4,
+                    "startOffset": 25255,
+                    "endColumn": 75,
+                    "endOffset": 25326
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 223,
+                        "startColumn": 4,
+                        "startOffset": 9783,
+                        "endColumn": 75,
+                        "endOffset": 9854
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 434,
+                    "startColumn": 4,
+                    "startOffset": 25331,
+                    "endColumn": 65,
+                    "endOffset": 25392
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 5505,
+                        "endColumn": 65,
+                        "endOffset": 5566
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 435,
+                    "startColumn": 4,
+                    "startOffset": 25397,
+                    "endColumn": 102,
+                    "endOffset": 25495
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 327,
+                        "startColumn": 4,
+                        "startOffset": 15336,
+                        "endColumn": 102,
+                        "endOffset": 15434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 436,
+                    "startColumn": 4,
+                    "startOffset": 25500,
+                    "endColumn": 62,
+                    "endOffset": 25558
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 326,
+                        "startColumn": 4,
+                        "startOffset": 15272,
+                        "endColumn": 62,
+                        "endOffset": 15330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 437,
+                    "startColumn": 4,
+                    "startOffset": 25563,
+                    "endColumn": 72,
+                    "endOffset": 25631
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 215,
+                        "startColumn": 4,
+                        "startOffset": 9213,
+                        "endColumn": 72,
+                        "endOffset": 9281
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 438,
+                    "startColumn": 4,
+                    "startOffset": 25636,
+                    "endColumn": 57,
+                    "endOffset": 25689
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 239,
+                        "startColumn": 4,
+                        "startOffset": 10857,
+                        "endColumn": 57,
+                        "endOffset": 10910
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 439,
+                    "startColumn": 4,
+                    "startOffset": 25694,
+                    "endColumn": 66,
+                    "endOffset": 25756
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 216,
+                        "startColumn": 4,
+                        "startOffset": 9287,
+                        "endColumn": 66,
+                        "endOffset": 9349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 440,
+                    "startColumn": 4,
+                    "startOffset": 25761,
+                    "endColumn": 62,
+                    "endOffset": 25819
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 217,
+                        "startColumn": 4,
+                        "startOffset": 9355,
+                        "endColumn": 62,
+                        "endOffset": 9413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 441,
+                    "startColumn": 4,
+                    "startOffset": 25824,
+                    "endColumn": 76,
+                    "endOffset": 25896
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 218,
+                        "startColumn": 4,
+                        "startOffset": 9419,
+                        "endColumn": 76,
+                        "endOffset": 9491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 442,
+                    "startColumn": 4,
+                    "startOffset": 25901,
+                    "endColumn": 66,
+                    "endOffset": 25963
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 219,
+                        "startColumn": 4,
+                        "startOffset": 9497,
+                        "endColumn": 66,
+                        "endOffset": 9559
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 443,
+                    "startColumn": 4,
+                    "startOffset": 25968,
+                    "endColumn": 64,
+                    "endOffset": 26028
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 4093,
+                        "endColumn": 64,
+                        "endOffset": 4153
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 444,
+                    "startColumn": 4,
+                    "startOffset": 26033,
+                    "endColumn": 64,
+                    "endOffset": 26093
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 4159,
+                        "endColumn": 64,
+                        "endOffset": 4219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 445,
+                    "startColumn": 4,
+                    "startOffset": 26098,
+                    "endColumn": 60,
+                    "endOffset": 26154
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 227,
+                        "startColumn": 4,
+                        "startOffset": 10063,
+                        "endColumn": 60,
+                        "endOffset": 10119
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 446,
+                    "startColumn": 4,
+                    "startOffset": 26159,
+                    "endColumn": 64,
+                    "endOffset": 26219
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 226,
+                        "startColumn": 4,
+                        "startOffset": 9997,
+                        "endColumn": 64,
+                        "endOffset": 10057
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 447,
+                    "startColumn": 4,
+                    "startOffset": 26224,
+                    "endColumn": 53,
+                    "endOffset": 26273
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 229,
+                        "startColumn": 4,
+                        "startOffset": 10205,
+                        "endColumn": 53,
+                        "endOffset": 10254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 448,
+                    "startColumn": 4,
+                    "startOffset": 26278,
+                    "endColumn": 69,
+                    "endOffset": 26343
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 238,
+                        "startColumn": 4,
+                        "startOffset": 10786,
+                        "endColumn": 69,
+                        "endOffset": 10851
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 449,
+                    "startColumn": 4,
+                    "startOffset": 26348,
+                    "endColumn": 66,
+                    "endOffset": 26410
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 237,
+                        "startColumn": 4,
+                        "startOffset": 10718,
+                        "endColumn": 66,
+                        "endOffset": 10780
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 450,
+                    "startColumn": 4,
+                    "startOffset": 26415,
+                    "endColumn": 56,
+                    "endOffset": 26467
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 235,
+                        "startColumn": 4,
+                        "startOffset": 10605,
+                        "endColumn": 56,
+                        "endOffset": 10657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 451,
+                    "startColumn": 4,
+                    "startOffset": 26472,
+                    "endColumn": 53,
+                    "endOffset": 26521
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 236,
+                        "startColumn": 4,
+                        "startOffset": 10663,
+                        "endColumn": 53,
+                        "endOffset": 10712
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 452,
+                    "startColumn": 4,
+                    "startOffset": 26526,
+                    "endColumn": 65,
+                    "endOffset": 26587
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 224,
+                        "startColumn": 4,
+                        "startOffset": 9860,
+                        "endColumn": 65,
+                        "endOffset": 9921
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 453,
+                    "startColumn": 4,
+                    "startOffset": 26592,
+                    "endColumn": 68,
+                    "endOffset": 26656
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 225,
+                        "startColumn": 4,
+                        "startOffset": 9927,
+                        "endColumn": 68,
+                        "endOffset": 9991
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 454,
+                    "startColumn": 4,
+                    "startOffset": 26661,
+                    "endColumn": 47,
+                    "endOffset": 26704
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 317,
+                        "startColumn": 4,
+                        "startOffset": 14647,
+                        "endColumn": 47,
+                        "endOffset": 14690
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 455,
+                    "startColumn": 4,
+                    "startOffset": 26709,
+                    "endColumn": 66,
+                    "endOffset": 26771
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 318,
+                        "startColumn": 4,
+                        "startOffset": 14696,
+                        "endColumn": 66,
+                        "endOffset": 14758
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 456,
+                    "startColumn": 4,
+                    "startOffset": 26776,
+                    "endColumn": 77,
+                    "endOffset": 26849
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 220,
+                        "startColumn": 4,
+                        "startOffset": 9565,
+                        "endColumn": 77,
+                        "endOffset": 9638
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 457,
+                    "startColumn": 4,
+                    "startOffset": 26854,
+                    "endColumn": 59,
+                    "endOffset": 26909
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 221,
+                        "startColumn": 4,
+                        "startOffset": 9644,
+                        "endColumn": 59,
+                        "endOffset": 9699
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 458,
+                    "startColumn": 4,
+                    "startOffset": 26914,
+                    "endColumn": 55,
+                    "endOffset": 26965
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 330,
+                        "startColumn": 4,
+                        "startOffset": 15602,
+                        "endColumn": 55,
+                        "endOffset": 15653
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 459,
+                    "startColumn": 4,
+                    "startOffset": 26970,
+                    "endColumn": 53,
+                    "endOffset": 27019
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 4943,
+                        "endColumn": 53,
+                        "endOffset": 4992
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 460,
+                    "startColumn": 4,
+                    "startOffset": 27024,
+                    "endColumn": 61,
+                    "endOffset": 27081
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 5119,
+                        "endColumn": 61,
+                        "endOffset": 5176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 461,
+                    "startColumn": 4,
+                    "startOffset": 27086,
+                    "endColumn": 60,
+                    "endOffset": 27142
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 5057,
+                        "endColumn": 60,
+                        "endOffset": 5113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 462,
+                    "startColumn": 4,
+                    "startOffset": 27147,
+                    "endColumn": 60,
+                    "endOffset": 27203
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 4784,
+                        "endColumn": 60,
+                        "endOffset": 4840
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 463,
+                    "startColumn": 4,
+                    "startOffset": 27208,
+                    "endLine": 465,
+                    "endColumn": 9,
+                    "endOffset": 27297
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 4846,
+                        "endLine": 101,
+                        "endColumn": 9,
+                        "endOffset": 4937
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 466,
+                    "startColumn": 4,
+                    "startOffset": 27302,
+                    "endColumn": 57,
+                    "endOffset": 27355
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 4998,
+                        "endColumn": 57,
+                        "endOffset": 5051
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 467,
+                    "startColumn": 4,
+                    "startOffset": 27360,
+                    "endColumn": 55,
+                    "endOffset": 27411
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 5572,
+                        "endColumn": 55,
+                        "endOffset": 5623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 468,
+                    "startColumn": 4,
+                    "startOffset": 27416,
+                    "endColumn": 56,
+                    "endOffset": 27468
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 314,
+                        "startColumn": 4,
+                        "startOffset": 14416,
+                        "endColumn": 56,
+                        "endOffset": 14468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 469,
+                    "startColumn": 4,
+                    "startOffset": 27473,
+                    "endColumn": 102,
+                    "endOffset": 27571
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1303,
+                        "endColumn": 102,
+                        "endOffset": 1401
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 470,
+                    "startColumn": 4,
+                    "startOffset": 27576,
+                    "endColumn": 59,
+                    "endOffset": 27631
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 319,
+                        "startColumn": 4,
+                        "startOffset": 14764,
+                        "endColumn": 59,
+                        "endOffset": 14819
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 471,
+                    "startColumn": 4,
+                    "startOffset": 27636,
+                    "endLine": 473,
+                    "endColumn": 9,
+                    "endOffset": 27733
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 211,
+                        "startColumn": 4,
+                        "startOffset": 9043,
+                        "endLine": 213,
+                        "endColumn": 9,
+                        "endOffset": 9142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 474,
+                    "startColumn": 4,
+                    "startOffset": 27738,
+                    "endColumn": 51,
+                    "endOffset": 27785
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 5801,
+                        "endColumn": 51,
+                        "endOffset": 5848
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 475,
+                    "startColumn": 4,
+                    "startOffset": 27790,
+                    "endLine": 476,
+                    "endColumn": 9,
+                    "endOffset": 27854
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 243,
+                        "startColumn": 4,
+                        "startOffset": 11032,
+                        "endLine": 244,
+                        "endColumn": 9,
+                        "endOffset": 11097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 477,
+                    "startColumn": 4,
+                    "startOffset": 27859,
+                    "endLine": 485,
+                    "endColumn": 9,
+                    "endOffset": 28136
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2971,
+                        "endLine": 64,
+                        "endColumn": 9,
+                        "endOffset": 3256
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 486,
+                    "startColumn": 4,
+                    "startOffset": 28141,
+                    "endColumn": 86,
+                    "endOffset": 28223
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2735,
+                        "endColumn": 86,
+                        "endOffset": 2817
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 487,
+                    "startColumn": 4,
+                    "startOffset": 28228,
+                    "endColumn": 68,
+                    "endOffset": 28292
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2823,
+                        "endColumn": 68,
+                        "endOffset": 2887
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 488,
+                    "startColumn": 4,
+                    "startOffset": 28297,
+                    "endColumn": 49,
+                    "endOffset": 28342
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 403,
+                        "endColumn": 49,
+                        "endOffset": 448
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 489,
+                    "startColumn": 4,
+                    "startOffset": 28347,
+                    "endColumn": 76,
+                    "endOffset": 28419
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 2893,
+                        "endColumn": 76,
+                        "endOffset": 2965
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 490,
+                    "startColumn": 4,
+                    "startOffset": 28424,
+                    "endColumn": 41,
+                    "endOffset": 28461
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 210,
+                        "startColumn": 4,
+                        "startOffset": 9000,
+                        "endColumn": 41,
+                        "endOffset": 9037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 491,
+                    "startColumn": 4,
+                    "startOffset": 28466,
+                    "endColumn": 100,
+                    "endOffset": 28562
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-uk\\values-uk.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2188,
+                        "endColumn": 100,
+                        "endOffset": 2284
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 492,
+                    "startColumn": 4,
+                    "startOffset": 28567,
+                    "endColumn": 99,
+                    "endOffset": 28662
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1463,
+                        "endColumn": 99,
+                        "endOffset": 1558
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 493,
+                    "startColumn": 4,
+                    "startOffset": 28667,
+                    "endColumn": 54,
+                    "endOffset": 28717
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1407,
+                        "endColumn": 54,
+                        "endOffset": 1457
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 494,
+                    "startColumn": 4,
+                    "startOffset": 28722,
+                    "endColumn": 44,
+                    "endOffset": 28762
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1658,
+                        "endColumn": 44,
+                        "endOffset": 1698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 495,
+                    "startColumn": 4,
+                    "startOffset": 28767,
+                    "endColumn": 44,
+                    "endOffset": 28807
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2240,
+                        "endColumn": 44,
+                        "endOffset": 2280
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 496,
+                    "startColumn": 4,
+                    "startOffset": 28812,
+                    "endColumn": 52,
+                    "endOffset": 28860
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 334,
+                        "startColumn": 4,
+                        "startOffset": 15865,
+                        "endColumn": 52,
+                        "endOffset": 15913
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 497,
+                    "startColumn": 4,
+                    "startOffset": 28865,
+                    "endColumn": 48,
+                    "endOffset": 28909
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2286,
+                        "endColumn": 48,
+                        "endOffset": 2330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 498,
+                    "startColumn": 4,
+                    "startOffset": 28914,
+                    "endColumn": 56,
+                    "endOffset": 28966
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 312,
+                        "startColumn": 4,
+                        "startOffset": 14292,
+                        "endColumn": 56,
+                        "endOffset": 14344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 499,
+                    "startColumn": 4,
+                    "startOffset": 28971,
+                    "endColumn": 64,
+                    "endOffset": 29031
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 313,
+                        "startColumn": 4,
+                        "startOffset": 14350,
+                        "endColumn": 64,
+                        "endOffset": 14410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 500,
+                    "startColumn": 4,
+                    "startOffset": 29036,
+                    "endColumn": 47,
+                    "endOffset": 29079
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2191,
+                        "endColumn": 47,
+                        "endOffset": 2234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 501,
+                    "startColumn": 4,
+                    "startOffset": 29084,
+                    "endColumn": 55,
+                    "endOffset": 29135
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 333,
+                        "startColumn": 4,
+                        "startOffset": 15808,
+                        "endColumn": 55,
+                        "endOffset": 15859
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 502,
+                    "startColumn": 4,
+                    "startOffset": 29140,
+                    "endColumn": 47,
+                    "endOffset": 29183
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1564,
+                        "endColumn": 47,
+                        "endOffset": 1607
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 503,
+                    "startColumn": 4,
+                    "startOffset": 29188,
+                    "endColumn": 43,
+                    "endOffset": 29227
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1613,
+                        "endColumn": 43,
+                        "endOffset": 1652
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 504,
+                    "startColumn": 4,
+                    "startOffset": 29232,
+                    "endColumn": 62,
+                    "endOffset": 29290
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 254,
+                        "endColumn": 62,
+                        "endOffset": 312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 505,
+                    "startColumn": 4,
+                    "startOffset": 29295,
+                    "endColumn": 64,
+                    "endOffset": 29355
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 188,
+                        "endColumn": 64,
+                        "endOffset": 248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 506,
+                    "startColumn": 4,
+                    "startOffset": 29360,
+                    "endColumn": 62,
+                    "endOffset": 29418
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 335,
+                        "startColumn": 4,
+                        "startOffset": 15919,
+                        "endColumn": 62,
+                        "endOffset": 15977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 507,
+                    "startColumn": 4,
+                    "startOffset": 29423,
+                    "endColumn": 33,
+                    "endOffset": 29452
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 3435,
+                        "endColumn": 33,
+                        "endOffset": 3464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 508,
+                    "startColumn": 4,
+                    "startOffset": 29457,
+                    "endColumn": 50,
+                    "endOffset": 29503
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 3941,
+                        "endColumn": 50,
+                        "endOffset": 3987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 509,
+                    "startColumn": 4,
+                    "startOffset": 29508,
+                    "endColumn": 42,
+                    "endOffset": 29546
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 3470,
+                        "endColumn": 42,
+                        "endOffset": 3508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 510,
+                    "startColumn": 4,
+                    "startOffset": 29551,
+                    "endColumn": 43,
+                    "endOffset": 29590
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3514,
+                        "endColumn": 43,
+                        "endOffset": 3553
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 511,
+                    "startColumn": 4,
+                    "startOffset": 29595,
+                    "endColumn": 60,
+                    "endOffset": 29651
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2062,
+                        "endColumn": 60,
+                        "endOffset": 2118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 512,
+                    "startColumn": 4,
+                    "startOffset": 29656,
+                    "endColumn": 93,
+                    "endOffset": 29745
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 321,
+                        "startColumn": 4,
+                        "startOffset": 14876,
+                        "endColumn": 93,
+                        "endOffset": 14965
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 513,
+                    "startColumn": 4,
+                    "startOffset": 29750,
+                    "endColumn": 40,
+                    "endOffset": 29786
+                },
+                "from": {
+                    "file": "D:\\AndroidProjects\\AllNews\\AllBuilds\\novUA\\src\\main\\res\\values-uk\\strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 3559,
+                        "endColumn": 40,
+                        "endOffset": 3595
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,10 +1,12 @@
 package com.allNews.activity;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
@@ -14,9 +16,11 @@ import android.os.Handler;
 import android.os.Message;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.view.ViewPager;
@@ -53,6 +57,7 @@ import com.allNews.adapter.EventPagerAdapter;
 import com.allNews.adapter.NewAppPagerAdapter;
 import com.allNews.adapter.NewsTabsCollectionPagerAdapter;
 import com.allNews.application.App;
+import com.allNews.client.ServerController;
 import com.allNews.data.Categories;
 import com.allNews.data.CategoriesNewApp;
 import com.allNews.managers.AppRater;
@@ -75,16 +80,16 @@ import com.allNews.view.ProgressView;
 import com.allNews.weather.WeatherFragment;
 import com.allNews.web.Requests;
 import com.allNews.web.Statistic;
-import com.android.volley.RequestQueue;
 import com.android.volley.Response.ErrorListener;
 import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.anjlab.android.iab.v3.BillingProcessor;
 import com.anjlab.android.iab.v3.TransactionDetails;
+import com.appintop.init.AdToApp;
 import com.flurry.android.FlurryAgent;
 import com.google.analytics.tracking.android.EasyTracker;
-import com.rampo.updatechecker.UpdateChecker;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -96,7 +101,7 @@ import io.presage.utils.IADHandler;
 
 public class AllNewsActivity extends ActionBarActivity implements TabListener, WeatherFragment.WeatherEventListener {
 
-    final String LOG_TAG = "LogsRssActivity";
+    final String LOG_TAG = "AllNewsActivity";
     public final static int THEME_WHITE = 1;
     public final static int THEME_DARK = 2;
     private int curTheme;
@@ -118,11 +123,13 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
     private DrawerLayout mDrawerLayout;
     private boolean openFav;
     private int searchViewID = 4756;
-    RequestQueue requestQueue;
+    //    RequestQueue requestQueue;
     BillingProcessor bp;
     private boolean openSelectedMedia ;
 
     private boolean doubleBackToExitPressedOnce;
+
+    private boolean db_exist = false;
 
     @Override
     public void requestCompleted() {
@@ -130,10 +137,8 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
     }
 
     public enum TabState {
-
         NEWS, EVENTS, ADS
     }
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -144,6 +149,17 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
         Utils.setLanguage(this);
         setContentView(R.layout.main);
         sp = PreferenceManager.getDefaultSharedPreferences(this);
+
+        AdToApp.initializeSDK(this,
+                getString(R.string.ad_to_app_key),
+                AdToApp.MASK_BANNER);
+        AdToApp.setLogging(true);
+
+        //TODO new API
+//        clearSharedPreferencesData();
+//        postFirstLaunch();
+//        getClientInfo();
+//        getSources();
 
         // ///////////////////////////////////////
         // Utils.viewHashCode(this, "gregory.network.rss");
@@ -156,59 +172,128 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
         MyPreferenceManager.setLaunchToday(this);
         MyPreferenceManager.setHintNextPosition(this);
 
+        db_exist = false;
 
         if (sp.getBoolean(Preferences.PREF_RUN, true)) {
 
             showProgressBar();
             showMsg(getResources().getString(R.string.msg_updating));
 
-            ManagerApp.tryCopyDb(getApplicationContext());
+            if (ContextCompat.checkSelfPermission(this,
+                    Manifest.permission.READ_EXTERNAL_STORAGE)
+                    != PackageManager.PERMISSION_GRANTED) {
+
+                ActivityCompat.requestPermissions(this,
+                        new String[]{Manifest.permission.READ_EXTERNAL_STORAGE,Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                        67);
+
+                // Should we show an explanation?
+//                if (ActivityCompat.shouldShowRequestPermissionRationale(this,
+//                        Manifest.permission_group.STORAGE)) {
+//
+//                    // Show an expanation to the user *asynchronously* -- don't block
+//                    // this thread waiting for the user's response! After the user
+//                    // sees the explanation, try again to request the permission.
+//
+//                } else {
+//
+//                    // No explanation needed, we can request the permission.
+//
+//                    ActivityCompat.requestPermissions(this,
+//                            new String[]{Manifest.permission_group.STORAGE},
+//                            67);
+//
+//                    // MY_PERMISSIONS_REQUEST_READ_CONTACTS is an
+//                    // app-defined int constant. The callback method gets the
+//                    // result of the request.
+//                }
+            }
+            else {
+                db_exist = true;
+                ManagerApp.tryCopyDb(getApplicationContext());
+            }
 
 //			SharedPreferences.Editor editor = sp.edit();
 //			editor.putBoolean(Preferences.PREF_RUN, false);
 //			editor.commit();
+        } else db_exist = true;
+
+        if (db_exist) {
+            initView();
+            initActionBar();
+
+
+            createTabs();
+
+            if (Utils.checkSDCard() && !Utils.isSDFree()) {
+                DialogManager.showNoMemmoryDialog(this);
+                return;
+            } else {
+                getEvents();
+                tryStartUpdate(null);
+            }
+
+            AppRater.app_launched(this);
+            // AppRater.showRateDialog(this, null);
+            GCMUtils.itinGCM(this);
+
+            ManagerApp.startPeriodicUpdate(AllNewsActivity.this);
+            tryLoadCategoriesAndSources();
+            if (MyPreferenceManager.needShowChangeLog(getApplicationContext())) {
+                showChangeLog(this);
+            }
+            initBilling();
+
+            //TODO
+            if (!sp.getBoolean(DonateActivity.CHEK_PURCHASE, false) || !sp.getBoolean(Preferences.PREF_PROMO, false) || !getResources().getBoolean(R.bool.sport_news)) {
+                initOguryAds();
+            }
+            if (getIntent().getAction() != null && getIntent().getAction().equals("OPEN_TAB_TOP")) {
+                openTopTab();
+            }
+            if (getIntent().getAction() != null && getIntent().getAction().equals("openSelectedMedia")) {
+                openSelectedMedia();
+            }
         }
+    }
 
-        initView();
-        initActionBar();
-        //else
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
+            case 67: {
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
-        createTabs();
+                    // permission was granted, yay! Do the
+                    // contacts-related task you need to do.
 
-        if (Utils.checkSDCard() && !Utils.isSDFree()) {
-            DialogManager.showNoMemmoryDialog(this);
-            return;
-        } else
-            tryStartUpdate(null);
+                    ManagerApp.tryCopyDb(getApplicationContext());
 
+                    finish();
 
-        AppRater.app_launched(this);
-        // AppRater.showRateDialog(this, null);
-        GCMUtils.itinGCM(this);
+                    new Handler().postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            Intent i = getBaseContext().getPackageManager()
+                                    .getLaunchIntentForPackage(getBaseContext().getPackageName());
+                            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                            startActivity(i);
+                        }
+                    }, 200);
 
-        ManagerApp.startPeriodicUpdate(AllNewsActivity.this);
-        tryLoadCategoriesAndSources();
-        if (MyPreferenceManager.needShowChangeLog(getApplicationContext())) {
-            showChangeLog(this);
+                } else {
+
+                    // permission denied, boo! Disable the
+                    // functionality that depends on this permission.
+                }
+                return;
+            }
+
+            // other 'case' lines to check for other
+            // permissions this app might request
         }
-        initBilling();
-
-        if(!sp.getBoolean(DonateActivity.CHEK_PURCHASE, false) || !sp.getBoolean(Preferences.PREF_PROMO, false) || !getResources().getBoolean(R.bool.sport_news) ) {
-            initOguryAds();
-        }
-        if(getIntent().getAction() != null && getIntent().getAction().equals("OPEN_TAB_TOP")) {
-            openTopTab();
-        }
-        if(getIntent().getAction() != null && getIntent().getAction().equals("openSelectedMedia")){
-            openSelectedMedia();
-        }
-        // Bug in UpdateChecker - sometime app crashed
-
-       /* UpdateChecker  uch  = new UpdateChecker(this);
-        uch.setSuccessfulChecksRequired(50);
-        uch.setNoticeIcon(R.drawable.ic_launcher);
-        uch.start();
-*/
     }
 
     private void initBilling() {
@@ -224,47 +309,43 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
                     public void onProductPurchased(String productId,
                                                    TransactionDetails arg1) {
 
-
                     }
 
                     @Override
                     public void onBillingInitialized() {
-                        if (Utils.isOnline(App.getContext())) {
+                        if (Utils.isOnline(AllNewsActivity.this)) {
 
                             if (bp != null && bp.loadOwnedPurchasesFromGoogle()) {
                                 List<String> subs = bp.listOwnedSubscriptions();
                                 if (!subs.isEmpty()) {
-                                    SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(App.getContext());
+                                    SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(AllNewsActivity.this);
                                     SharedPreferences.Editor editor = sp.edit();
                                     editor.putBoolean(DonateActivity.CHEK_PURCHASE, true);
                                     editor.apply();
                                 } else {
-                                    SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(App.getContext());
+                                    SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(AllNewsActivity.this);
                                     SharedPreferences.Editor editor = sp.edit();
                                     editor.putBoolean(DonateActivity.CHEK_PURCHASE, false);
                                     editor.apply();
-
                                 }
                             }
-
-
                         }
                     }
 
                     @Override
                     public void onBillingError(int errorCode, Throwable arg1) {
 
-
                     }
                 });
-
-
-
     }
 
     private void initOguryAds() {
-        Presage.getInstance().setContext(this.getBaseContext());
-        Presage.getInstance().start();
+        try {
+            Presage.getInstance().setContext(this);
+            Presage.getInstance().start();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 
@@ -302,8 +383,7 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
 
             @Override
             public void onDrawerOpened(View arg0) {
-                // getSupportActionBar().setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
-
+//                 getSupportActionBar().setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
             }
 
             @Override
@@ -346,15 +426,15 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
             @Override
             public void onClick(View v) {
                 mDrawerLayout.closeDrawers();
-                // if (!readyToPurchase) {
-                // Toast.makeText(getApplicationContext(),"Billing not initialized.",
-                // Toast.LENGTH_LONG).show();
-                // return;
-                // }
-                // Statistic.sendStatistic(AllNewsActivity.this,
-                // Statistic.CATEGORY_CLICK, Statistic.ACTION_CLICK_BTN_DONATE,
-                // "", 0L);
-                // bp.subscribe(null, SUBSCRIPTION_ID);
+//                 if (!readyToPurchase) {
+//                 Toast.makeText(getApplicationContext(),"Billing not initialized.",
+//                 Toast.LENGTH_LONG).show();
+//                 return;
+//                 }
+                 Statistic.sendStatistic(AllNewsActivity.this,
+                 Statistic.CATEGORY_CLICK, Statistic.ACTION_CLICK_BTN_DONATE,
+                 "", 0L);
+             //    bp.subscribe(null, SUBSCRIPTION_ID);
                 Intent intent = new Intent(getApplicationContext(),
                         DonateActivity.class);
                 startActivity(intent);
@@ -731,11 +811,10 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
     }
 
     private void initActionBar() {
-        // initMenuDotButton();
+//        initMenuDotButton();
         ActionBar bar = getSupportActionBar();
         if (bar != null) {
             bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-
             bar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(
                     curTheme == THEME_DARK ? R.color.bgActionBarNight
                             : R.color.bgActionBarDay)));
@@ -847,9 +926,6 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
             bar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
         }
 
-        Statistic.sendStatistic(AllNewsActivity.this,
-                Statistic.CATEGORY_EVENTS, Statistic.ACTION_CLICK_ALL_EVENT,
-                "", 0l);
 
         setTabView();
         onPrepareOptionsMenu(mmenu);
@@ -860,6 +936,10 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
             getEvents();
         }
         initEventPager();
+
+        Statistic.sendStatistic(AllNewsActivity.this,
+                Statistic.CATEGORY_EVENTS, Statistic.ACTION_CLICK_ALL_EVENT,
+                "", 0l);
     }
 
     public void openNewAppTab() {
@@ -893,27 +973,24 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
         createNewAppTabs();
     }
 
-    // private void initMenuDotButton() {
-    // final String overflowDesc = getString(R.string.accessibility_overflow);
-    // final ViewGroup decor = (ViewGroup) getWindow().getDecorView();
-    // decor.postDelayed(new Runnable() {
-    //
-    // @Override
-    // public void run() {
-    // final ArrayList<View> outViews = new ArrayList<View>();
-    // Utils.findViewsWithText(outViews, decor, overflowDesc);
-    //
-    // if (outViews.isEmpty()) {
-    // return;
-    // }
-    // final ImageButton overflow = (ImageButton) outViews.get(0);
-    // overflow.setImageResource(R.drawable.ic_options_dark);
-    //
-    // }
-    //
-    // }, 2000);
-    //
-    // }
+//    private void initMenuDotButton() {
+//        final String overflowDesc = getString(R.string.accessibility_overflow);
+//        final ViewGroup decor = (ViewGroup) getWindow().getDecorView();
+//        decor.postDelayed(new Runnable() {
+//
+//            @Override
+//            public void run() {
+//                final ArrayList<View> outViews = new ArrayList<View>();
+//                Utils.findViewsWithText(outViews, decor, overflowDesc);
+//
+//                if (outViews.isEmpty()) {
+//                    return;
+//                }
+//                final ImageButton overflow = (ImageButton) outViews.get(0);
+//                overflow.setImageResource(R.drawable.ic_options_dark);
+//
+//            }
+//     }, 2000);}
 
     private void createTabs() {
         initTabs();
@@ -950,7 +1027,7 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
         if (bar != null) {
             bar.removeAllTabs();
             addTab(bar, getString(R.string.tab_name_top), false);
-           // addTab(bar, getString(R.string.tab_name_unread), false);
+            // addTab(bar, getString(R.string.tab_name_unread), false);
 
 
             addTab(bar, getString(R.string.tab_name_all), true);
@@ -958,19 +1035,23 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
                 addTab(bar, getString(R.string.tab_name_articles), false);
             }
 
+
+            addTab(bar, getString(R.string.tab_name_unread), false);
+
         }
         if (NewsFragment.sourcesId != -1) {
             addTab(bar, getString(R.string.tab_name_selected_media), true);
             refreshNewsTab();
-         } else {
+        } else {
             // addTab(bar, getString(R.string.tab_name_selected_media), false);
         }
 
-
-        addTab(bar, getString(R.string.tab_name_read_news), false);
         addTab(bar, getString(R.string.tab_name_fav), false);
 
-        /*  if (!App.getContext().getResources().getBoolean(R.bool.sport_news)) {*/
+        addTab(bar, getString(R.string.tab_name_read_news), false);
+
+
+        /*  if (!AllNewsActivity.this.getResources().getBoolean(R.bool.sport_news)) {*/
         List<Categories> catList = ManagerCategories.getAllCategories(this,
                 true);
 
@@ -989,8 +1070,8 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
         TextView t = (TextView) view.findViewById(R.id.custom_tab_text);
         t.setText(tabName);
         if (curTheme == THEME_DARK) {
-            t.setTextColor(App.getContext().getResources().getColor(R.color.tabNameNight));
-            t.setBackgroundColor(App.getContext().getResources().getColor(R.color.tabBgNight));
+            t.setTextColor(AllNewsActivity.this.getResources().getColor(R.color.tabNameNight));
+            t.setBackgroundColor(AllNewsActivity.this.getResources().getColor(R.color.tabBgNight));
         } else {
             // t.setBackgroundColor(getResources().getColor(R.color.white));
         }
@@ -1023,15 +1104,19 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
 
                         }
                 }
-
             }
 
         });
     }
 
     private void initNewsPager() {
+        //TODO
+        ArrayList<String> tags = getAllTabTag();
         NewsTabsCollectionPagerAdapter collectionPagerAdapter = new NewsTabsCollectionPagerAdapter(
-                getSupportFragmentManager(), getAllTabTag());
+                getSupportFragmentManager(), tags);
+        for (int i = 0; i < tags.size(); i++)
+            Log.e("AAA", tags.get(i));
+
         mPager.setAdapter(collectionPagerAdapter);
         if(NewsFragment.sourcesId == -1) {
             mPager.setCurrentItem(1);
@@ -1098,27 +1183,20 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
 
     protected ArrayList<String> getAllTabTag() {
         List<Categories> catList = ManagerCategories.getAllCategories(this,
-      		true);
+                true);
         ArrayList<String> tabTag = new ArrayList<>();
         tabTag.add(TabFragment.TAB_TOP);
         tabTag.add(TabFragment.TAB_ALL);
-       // tabTag.add(TabFragment.TAB_UNREAD);
+        tabTag.add(TabFragment.TAB_UNREAD);
 
-        if (!App.getContext().getResources().getBoolean(R.bool.need_event)){
+        if (!AllNewsActivity.this.getResources().getBoolean(R.bool.need_event)){
             tabTag.add(TabFragment.TAB_ARTICLES);
         }
         if (NewsFragment.sourcesId != -1) {
             tabTag.add(TabFragment.TAB_SELECTED_MEDIA);
         }
-
-//        if (App.getContext().getResources().getBoolean(R.bool.sport_news))
-//            for (Categories category : catList) {
-//            	tabTag.add("" + category.getCategoryID());
-//           	}
-
-
-        tabTag.add(TabFragment.TAB_READ_NEWS);
         tabTag.add(TabFragment.TAB_FAV);
+        tabTag.add(TabFragment.TAB_READ_NEWS);
 
         if (!catList.isEmpty())
             for (Categories category : catList) {
@@ -1135,7 +1213,7 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
             initEventsActionBar();
         else if (currentTabState == TabState.ADS) {
             initNewAppActionBar();
-        } else
+        } else if (db_exist)
             initNewsActionBar();
         return super.onPrepareOptionsMenu(menu);
     }
@@ -1155,7 +1233,7 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
 
         MenuItem mDrawer = mmenu.add("Menu");
 
-        mDrawer.setIcon(App.getContext().getResources().getDrawable(R.drawable.ic_drawer));
+        mDrawer.setIcon(AllNewsActivity.this.getResources().getDrawable(R.drawable.ic_drawer));
         mDrawer.setOnMenuItemClickListener(new OnMenuItemClickListener() {
 
             @Override
@@ -1198,7 +1276,7 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
 
         searchView.setId(searchViewID);
         searchView.setIconifiedByDefault(false);
-        searchView.setQueryHint(App.getContext().getResources().getString(
+        searchView.setQueryHint(AllNewsActivity.this.getResources().getString(
                 R.string.action_search_title));
 
         searchView.setSubmitButtonEnabled(true);
@@ -1232,57 +1310,55 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
 
         parentLayout.addView(searchView);
 
-		/*
-		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.menu, mmenu);
+//
+//		MenuInflater inflater = getMenuInflater();
+//		inflater.inflate(R.menu.menu, mmenu);
 
-		MenuItem searchItem = mmenu.findItem(R.id.action_search);
+//		MenuItem searchItem = mmenu.findItem(R.id.action_search);
+//
+//		SearchView searchView = (SearchView) MenuItemCompat
+//				.getActionView(searchItem);
+//		searchView.setIconifiedByDefault(false);
+//	 	searchView.setIconified(false);
+//		searchView.setQueryHint(getResources().getString(
+//				R.string.action_search_title));
+//
+//		searchView.setSubmitButtonEnabled(true);
+//		searchView.setOnQueryTextListener(new OnQueryTextListener() {
+//
+//			@Override
+//			public boolean onQueryTextSubmit(String arg0) {
+//
+//				Utils.hideVirtualKeyBoard(AllNewsActivity.this);
+//				updateNewsTab(arg0);
+//				return false;
+//			}
+//
+//			@Override
+//			public boolean onQueryTextChange(String arg0) {
+//
+//				return false;
+//			}
+//		});
+////		searchItem.setOnActionExpandListener(new OnActionExpandListener() {
+//
+//			@Override
+//			public boolean onMenuItemActionExpand(MenuItem item) {
+//				Log.e("onMenuItemActionExpand", "onMenuItemActionExpand");
+//				return true;
+//			}
+//
+//			@Override
+//			public boolean onMenuItemActionCollapse(MenuItem item) {
+//				updateNewsTab(null);
+//				return true;
+//			}
+//		});
 
-		SearchView searchView = (SearchView) MenuItemCompat
-				.getActionView(searchItem);
-		searchView.setIconifiedByDefault(false);
-	//	searchView.setIconified(false);
-		searchView.setQueryHint(getResources().getString(
-				R.string.action_search_title));
-
-		searchView.setSubmitButtonEnabled(true);
-		searchView.setOnQueryTextListener(new OnQueryTextListener() {
-
-			@Override
-			public boolean onQueryTextSubmit(String arg0) {
-
-				Utils.hideVirtualKeyBoard(AllNewsActivity.this);
-				updateNewsTab(arg0);
-				return false;
-			}
-
-			@Override
-			public boolean onQueryTextChange(String arg0) {
-
-				return false;
-			}
-		});
-		searchItem.setOnActionExpandListener(new OnActionExpandListener() {
-
-			@Override
-			public boolean onMenuItemActionExpand(MenuItem item) {
-				Log.e("onMenuItemActionExpand", "onMenuItemActionExpand");
-				return true;
-			}
-
-			@Override
-			public boolean onMenuItemActionCollapse(MenuItem item) {
-				updateNewsTab(null);
-				return true;
-			}
-		});
-
-		searchItem.expandActionView();
-	//	searchView.performClick();
-	//	 ActionBar bar = getSupportActionBar();
-	//	 MenuItemCompat.setShowAsAction(searchItem,	 MenuItemCompat.SHOW_AS_ACTION_NEVER);
-
-	 */
+//		searchItem.expandActionView();
+//		searchView.performClick();
+//        ActionBar bar = getSupportActionBar();
+//        MenuItemCompat.setShowAsAction(searchItem,	 MenuItemCompat.SHOW_AS_ACTION_NEVER);
     }
 
     private void showSearchView() {
@@ -1313,7 +1389,6 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
             v = bar.getCustomView();
         }
         if (v != null) {
-
             v.findViewById(R.id.barNewsLayout).setVisibility(View.VISIBLE);
             v.findViewById(R.id.barEventsLayout).setVisibility(View.VISIBLE);
             v.findViewById(R.id.barNewAppLayout).setVisibility(View.VISIBLE);
@@ -1328,7 +1403,7 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
 			addSearchEventMenu();*/
 
         MenuItem m1 = mmenu
-                .add(App.getContext().getResources().getString(R.string.event_create));
+                .add(AllNewsActivity.this.getResources().getString(R.string.event_create));
         m1.setIcon(curTheme == AllNewsActivity.THEME_WHITE ? R.drawable.ic_add_to_calendar
                 : R.drawable.ic_add_to_calendar_dark);
         m1.setOnMenuItemClickListener(new OnMenuItemClickListener() {
@@ -1344,7 +1419,7 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
 
         });
 
-        MenuItem m2 = mmenu.add(App.getContext().getResources().getString(R.string.event_help));
+        MenuItem m2 = mmenu.add(AllNewsActivity.this.getResources().getString(R.string.event_help));
         m2.setIcon(R.drawable.ic_help);
         m2.setOnMenuItemClickListener(new OnMenuItemClickListener() {
 
@@ -1370,7 +1445,7 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
 		 * });
 		 */
 
-        MenuItem m4 = mmenu.add(App.getContext().getResources().getString(R.string.filter));
+        MenuItem m4 = mmenu.add(AllNewsActivity.this.getResources().getString(R.string.filter));
 
         m4.setOnMenuItemClickListener(new OnMenuItemClickListener() {
 
@@ -1404,7 +1479,7 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
                     .getActionView(searchItem);
             searchView.setIconifiedByDefault(true);
             searchView.setSubmitButtonEnabled(true);
-            searchView.setQueryHint(App.getContext().getResources().getString(
+            searchView.setQueryHint(AllNewsActivity.this.getResources().getString(
                     R.string.action_search_title));
             searchView.setOnQueryTextListener(new OnQueryTextListener() {
 
@@ -1470,9 +1545,9 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
             LinearLayout divider2 = (LinearLayout) v
                     .findViewById(R.id.barDividerLine2);
             if (curTheme == THEME_DARK) {
-                divider1.setBackgroundColor(App.getContext().getResources().getColor(
+                divider1.setBackgroundColor(AllNewsActivity.this.getResources().getColor(
                         R.color.actionBarDividerNight));
-                divider2.setBackgroundColor(App.getContext().getResources().getColor(
+                divider2.setBackgroundColor(AllNewsActivity.this.getResources().getColor(
                         R.color.actionBarDividerNight));
             } else {
             }
@@ -1591,23 +1666,27 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
             @Override
             public void run() {
                 if (mPager != null)
-                    MyPreferenceManager.saveCurrentPage(App.getContext(),
+                    MyPreferenceManager.saveCurrentPage(AllNewsActivity.this,
                             mPager.getCurrentItem());
 
                 nowUpdated = true;
-                ManagerUpdates.getListOfUrl(App.getContext(), sourceList);
+                ManagerUpdates.getListOfUrl(AllNewsActivity.this, sourceList);
                 final String urlForQuantity = ManagerUpdates
-                        .getUrlForQuantity(App.getContext());
-                // Log.e("urlForQuantity", urlForQuantity);
-                handler.post(new Runnable() {
+                        .getUrlForQuantity(AllNewsActivity.this);
+                try {
+//                    Log.e("urlForQuantity", urlForQuantity);
+                    handler.post(new Runnable() {
 
-                    @Override
-                    public void run() {
-                        getDownloadNewsCount(urlForQuantity);
+                        @Override
+                        public void run() {
+                            getDownloadNewsCount(urlForQuantity);
 
-                    }
+                        }
 
-                });
+                    });
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         }).start();
 
@@ -1637,7 +1716,7 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
                                 showFirstTab();
                             }
 
-                            Toast.makeText(App.getContext(),
+                            Toast.makeText(AllNewsActivity.this,
                                     getResources().getString(R.string.refresh_msg),
                                     Toast.LENGTH_LONG).show();
 
@@ -1650,9 +1729,9 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
                 case Loader.UPDATE_STOP:
                     hideProgressBar();
                     progressView.hideProgress();
-                    ManagerNews.deleteOldNews(App.getContext());
+                    ManagerNews.deleteOldNews(AllNewsActivity.this);
 
-                    if (App.getContext().getResources().getBoolean(R.bool.need_event) && !ManagerEvents.isEventExist(App.getContext())) {
+                    if (AllNewsActivity.this.getResources().getBoolean(R.bool.need_event) && !ManagerEvents.isEventExist(AllNewsActivity.this)) {
 
                         eventUpdated = true;
                         getEvents();
@@ -1671,7 +1750,6 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
 
     private void getDownloadNewsCount(String urlForQuantity) {
 
-        requestQueue = App.getRequestQueue();
         Listener<String> listener = new Listener<String>() {
 
             @Override
@@ -1695,23 +1773,23 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
             public void onErrorResponse(VolleyError error) {
                 hideMsg();
                 new Loader(AllNewsActivity.this, handlerUpdate).Start();
-
             }
         };
-        requestQueue.add(Requests.getStringRequest(urlForQuantity, listener,
+        ServerController.Volley(AllNewsActivity.this).add(Requests.getStringRequest(urlForQuantity, listener,
                 errorListener));
 
     }
-
     @Override
     protected void onPause() {
-        super.onPause();
+        if (AdToApp.isSDKInitialized())
+            AdToApp.onPause(this);
+
         isScreenLive = false;
         if (mPager != null) {
             MyPreferenceManager.saveCurrentPage(this, mPager.getCurrentItem());
         }
         App.activityPaused();
-
+        super.onPause();
     }
 
     @Override
@@ -1736,29 +1814,38 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
         ManagerApp.removeNotification(this.getApplicationContext());
         isScreenLive = true;
         GCMUtils.checkPlayServices(this);
+        //TODO
         if(!sp.getBoolean(DonateActivity.CHEK_PURCHASE, false) && !sp.getBoolean(Preferences.PREF_PROMO, false)) {
-            Presage.getInstance().adToServe("interstitial", new IADHandler() {
+            try {
+                Presage.getInstance().adToServe("interstitial", new IADHandler() {
 
-                @Override
-                public void onAdNotFound() {
-                    Log.i("PRESAGE", "ad not found");
-                }
+                    @Override
+                    public void onAdNotFound() {
+                        Log.e("PRESAGE", "ad not found");
+                    }
 
-                @Override
-                public void onAdFound() {
-                    Log.i("PRESAGE", "ad found");
-                }
+                    @Override
+                    public void onAdFound() {
+                        Log.e("PRESAGE", "ad found");
+                    }
 
-                @Override
-                public void onAdClosed() {
-                    Log.i("PRESAGE", "ad closed");
-                }
-            });
+                    @Override
+                    public void onAdClosed() {
+                        Log.e("PRESAGE", "ad closed");
+                    }
+                });
+            } catch (Exception e){
+                e.printStackTrace();
+            }
         }
         App.activityResumed();
-
-
+        if (AdToApp.isSDKInitialized()) {
+            AdToApp.onResume(this);
+            Log.e("AAA", "AdToApp.isSDKInitialized");
+        }
+        else Log.e("AAA", " ! AdToApp.isSDKInitialized");
     }
+
 
     private void showActionBar() {
         ActionBar bar = getSupportActionBar();
@@ -1776,7 +1863,6 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
 
     protected TabFragment getNewsTab(String tabTag) {
         try {
-
             NewsTabsCollectionPagerAdapter adapter = ((NewsTabsCollectionPagerAdapter) mPager
                     .getAdapter());
             for (int i = 0; i < adapter.getCount(); i++) {
@@ -1851,7 +1937,6 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
         TabFragment currentTab = getCurrentNewsTab();
         if (currentTab != null)
             currentTab.refreshTab();
-
     }
 
     protected void refreshNewApp() {
@@ -2006,9 +2091,7 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
     private void loadCategoriesAndSources() {
 
         showProgressBar();
-        requestQueue = App.getRequestQueue();
-
-        requestQueue.add(ManagerApp.getCategoriesAndSourcesRequest(this,
+        ServerController.Volley(AllNewsActivity.this).add(ManagerApp.getCategoriesAndSourcesRequest(this,
                 new Handler() {
                     @Override
                     public void handleMessage(android.os.Message msg) {
@@ -2051,8 +2134,7 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
 
     private void getEvents() {
         showProgressBar();
-        requestQueue = App.getRequestQueue();
-        requestQueue.add(ManagerEvents.getSourcesRequest(this, new Handler() {
+        ServerController.Volley(AllNewsActivity.this).add(ManagerEvents.getSourcesRequest(this, new Handler() {
             public void handleMessage(Message msg) {
                 if (isScreenLive)
                     switch (msg.what) {
@@ -2074,7 +2156,6 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
 
     private void updateNewApp() {
         showProgressBar();
-        requestQueue = App.getRequestQueue();
         final JsonArrayRequest reqNewApp = ManagerUpdateNewApp
                 .getUpdateNewAppRequest(this, new Handler() {
                     public void handleMessage(Message msg) {
@@ -2097,8 +2178,8 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
         JsonArrayRequest taxonomyNewAppRequest = ManagerTaxonomyNewApp.getTaxonomyNewAppRequest
                 (this, new Handler());
 
-        requestQueue.add(taxonomyNewAppRequest);
-        requestQueue.add(reqNewApp);
+        ServerController.Volley(AllNewsActivity.this).add(taxonomyNewAppRequest);
+        ServerController.Volley(AllNewsActivity.this).add(reqNewApp);
 
     }
 
@@ -2242,7 +2323,7 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
 
             @Override
             public void run() {
-                doubleBackToExitPressedOnce=false;
+                doubleBackToExitPressedOnce = false;
             }
         }, 2000);
 
@@ -2254,11 +2335,13 @@ public class AllNewsActivity extends ActionBarActivity implements TabListener, W
         if (bp != null)
             bp.release();
 
+        if (AdToApp.isSDKInitialized())
+            AdToApp.onDestroy(this);
+
         super.onDestroy();
     }
 
     public static void showChangeLog(ActionBarActivity activity) {
-
         FragmentManager fm = activity.getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
         Fragment prev = fm.findFragmentByTag("changelog");

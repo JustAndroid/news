@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="downloadFor">З\'явилась нова версія %1$s!\nДоступно для оновлення на %2$s.</string>
-    <string name="dialogPositiveButton">Поновити зараз</string>
-    <string name="dialogNeutralButton">Нагадати завтра</string>
-    <string name="dialogNegativeButton">Дякую, але ні</string>
-    <string name="newUpdateAvailable">Доступно оновлення</string>
-</resources>

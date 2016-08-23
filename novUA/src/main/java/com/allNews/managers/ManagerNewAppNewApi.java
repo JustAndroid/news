@@ -40,7 +40,7 @@ import java.util.List;
 public class ManagerNewAppNewApi {
    private static RequestQueue requestQueue;
     protected static void getNewAppUrl(final Context context, List<UpdateNewApp> list, final Handler handler) {
-       requestQueue = App.getRequestQueue();
+       requestQueue = App.getRequestQueue(context);
         for (int index = 0; index < list.size(); index++) {
             int nodeID = list.get(index).getNodeID();
             String url = list.get(index).getNodeLink();
@@ -136,7 +136,7 @@ public class ManagerNewAppNewApi {
         String summary = result.getBody().getUnd().get(0).getSummary();
         result.setSummary(summary);
         result.setContent(content);
-        String imgUrl = result.getFieldImage().getUnd().get(0).getImgURL();
+        String imgUrl = result.getFieldImage().getUnd().get(0).getImgURL(context);
         result.setImgUrl(imgUrl);
         String refLink = result.getFieldLink().getUnd().get(0).getRefUrl();
        result.setRefLink(refLink);
@@ -346,13 +346,7 @@ public class ManagerNewAppNewApi {
     }
 
     public static List<NewApp> getNewAppForTop20(Context context) {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-
-            }
-        }).start();
-        try {
+           try {
             Dao<NewApp, Integer> dao;
             Dao<TagNewApp, Integer> daoTags;
             dao = OpenHelperManager.getHelper(context, DatabaseHelper.class)

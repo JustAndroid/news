@@ -22,11 +22,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.allNews.application.App;
+import com.allNews.managers.EWLoader;
 import com.allNews.managers.MyPreferenceManager;
 import com.allNews.utils.WeatherIconMapper;
 import com.allNews.utils.WeatherUtil;
 import com.allNews.weather.WeatherFragment;
 
+import com.bumptech.glide.Glide;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
@@ -54,7 +56,7 @@ public class WeatherHeaderFragment extends WeatherFragment implements Connection
     private ImageView imgView;
     private TextView unitTemp;
     private TextView condDescr;
-    private Bitmap bitmap;
+//    private Bitmap bitmap;
     private long curTime;
     private TextView searchTxt;
     private ImageView menu_ic;
@@ -67,7 +69,7 @@ public class WeatherHeaderFragment extends WeatherFragment implements Connection
     private final String CUR_TIME = "cur_time";
     private final String CUR_TOAST_TIME = "CUR_TOAST_TIME";
     private final long timeDelay = 30 * 60000; // 30 min
-    public static final String DEFAULT_WEATHER_CITY_ID = App.getContext().getResources().getString(R.string.city_weather_id);
+    public static String DEFAULT_WEATHER_CITY_ID;
 
     private WeatherConfig config;
 
@@ -81,16 +83,11 @@ public class WeatherHeaderFragment extends WeatherFragment implements Connection
 
 
     public static WeatherHeaderFragment newInstance() {
-
         return new WeatherHeaderFragment();
     }
 
     public WeatherHeaderFragment() {
     }
-
-
-
-
 
     @Override
     public void onResume() {
@@ -149,32 +146,31 @@ public class WeatherHeaderFragment extends WeatherFragment implements Connection
         if (mGoogleApiClient != null) {
             mGoogleApiClient.connect();
         }
-final Handler handler = new Handler();
-       new Thread(new Runnable() {
-           @Override
-           public void run() {
+        final Handler handler = new Handler();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
 
+                handler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        //TODO
 
-               handler.post(new Runnable() {
-                @Override
-                public void run() {
-                    final Bitmap bitmap1;
-                    try {
+//                        final Bitmap bitmap1;
+//                        try {
+//                            imgView.setImageBitmap(bitmap1);
+//                        } catch (Exception e) {
+//                            e.printStackTrace();
+//                        }
+                        cityText.setText(sharedPreferences.getString(CITY_TEXT, "N/A"));
+                        condDescr.setText(sharedPreferences.getString(COND_DESCR, "N/A"));
+                        temp.setText(sharedPreferences.getString(TEMP, "N/A"));
+                        unitTemp.setText(sharedPreferences.getString(UNIT_TEMP, "c"));
 
-                        bitmap1 = getImageFromString(sharedPreferences.getString(IMG_VIEW, ""));
-                        imgView.setImageBitmap(bitmap1);
-                    } catch (Exception e) {
-                        e.printStackTrace();
                     }
-                    cityText.setText(sharedPreferences.getString(CITY_TEXT, "N/A"));
-                    condDescr.setText(sharedPreferences.getString(COND_DESCR, "N/A"));
-                    temp.setText(sharedPreferences.getString(TEMP, "N/A"));
-                    unitTemp.setText(sharedPreferences.getString(UNIT_TEMP, "c"));
-
-                }
-            });
-           }
-       }).start();
+                });
+            }
+        }).start();
 
 
 
@@ -216,8 +212,8 @@ final Handler handler = new Handler();
 
         if (isTimePassed() || sharedPreferences.getBoolean("isUpdateLocation", false)) {
             try {
-
-                     weatherClient.getCurrentCondition(new WeatherRequest(sharedPreferences.getString(Preferences.CITY_ID, DEFAULT_WEATHER_CITY_ID)), new WeatherClient.WeatherEventListener() {
+                DEFAULT_WEATHER_CITY_ID = WeatherHeaderFragment.this.getResources().getString(R.string.city_weather_id);
+                weatherClient.getCurrentCondition(new WeatherRequest(sharedPreferences.getString(Preferences.CITY_ID, DEFAULT_WEATHER_CITY_ID)), new WeatherClient.WeatherEventListener() {
                     @Override
                     public void onWeatherRetrieved(CurrentWeather cWeather) {
                         if(getActivity() !=null && cWeather !=null) {
@@ -231,7 +227,7 @@ final Handler handler = new Handler();
                             colorTextLine.setBackgroundResource(WeatherUtil.getResource(weather.temperature.getTemp(), config));
 
                             imgView.setImageResource(WeatherIconMapper.getWeatherResource(weather.currentCondition.getIcon(), weather.currentCondition.getWeatherId()));
-                            bitmap = ((BitmapDrawable) imgView.getDrawable()).getBitmap();
+//                            bitmap = ((BitmapDrawable) imgView.getDrawable()).getBitmap();
                             curTime = System.currentTimeMillis();
 
                             new Thread(new Runnable() {
@@ -244,11 +240,12 @@ final Handler handler = new Handler();
                                     edit.putString(CITY_TEXT, cityText.getText().toString());
                                     edit.putString(COND_DESCR, condDescr.getText().toString());
                                     edit.putString(TEMP, temp.getText().toString());
-                                    try {
-                                        edit.putString(IMG_VIEW, getStringImage(bitmap));
-                                    } catch (Exception e) {
-                                        e.printStackTrace();
-                                    }
+                                    //TODO
+//                                    try {
+//                                        edit.putString(IMG_VIEW, getStringImage(bitmap));
+//                                    } catch (Exception e) {
+//                                        e.printStackTrace();
+//                                    }
                                     edit.apply();
                                 }
                             }).start();
@@ -272,7 +269,7 @@ final Handler handler = new Handler();
                     public void onWeatherError(WeatherLibException t) {
                         //WeatherDialog.createErrorDialog("Error parsing data. Please try again", MainActivity.this);
                         if (getActivity() !=null)
-                        getListener().requestCompleted();
+                            getListener().requestCompleted();
                     }
 
 
@@ -280,7 +277,7 @@ final Handler handler = new Handler();
                     public void onConnectionError(Throwable t) {
                         //WeatherDialog.createErrorDialog("Error parsing data. Please try again", MainActivity.this);
                         if (getActivity() !=null)
-                        getListener().requestCompleted();
+                            getListener().requestCompleted();
                     }
                 });
             } catch (Throwable t) {
@@ -305,13 +302,13 @@ final Handler handler = new Handler();
         return imageEncoded;
     }
 
-    private Bitmap getImageFromString(String imgString) throws Exception{
-
-        byte[] decodedByte = Base64.decode(imgString, 0);
-
-        return BitmapFactory
-                .decodeByteArray(decodedByte, 0, decodedByte.length);
-    }
+//    private Bitmap getImageFromString(String imgString) throws Exception{
+//
+//        byte[] decodedByte = Base64.decode(imgString, 0);
+//
+//        return BitmapFactory
+//                .decodeByteArray(decodedByte, 0, decodedByte.length);
+//    }
 
     @Override
     public void onConnected(Bundle bundle) {
@@ -364,19 +361,23 @@ final Handler handler = new Handler();
 
                             imgView.setImageResource(WeatherIconMapper.getWeatherResource(weather.currentCondition.getIcon(), weather.currentCondition.getWeatherId()));
 
+//                            EWLoader.loadImage(getContext(), newApp.getImgUrl(),
+//                                    holder.ivImage, R.drawable.ic_placeholder);
+
                             curTime = System.currentTimeMillis();
                             new Thread(new Runnable() {
                                 @Override
                                 public void run() {
                                     SharedPreferences.Editor edit = sharedPreferences.edit();
-                                    if (((BitmapDrawable) imgView.getDrawable()).getBitmap() != null) {
-                                        bitmap = ((BitmapDrawable) imgView.getDrawable()).getBitmap();
-                                        try {
-                                            edit.putString(IMG_VIEW, getStringImage(bitmap));
-                                        } catch (Exception e) {
-                                            e.printStackTrace();
-                                        }
-                                    }
+                                    //TODO
+//                                    if (((BitmapDrawable) imgView.getDrawable()).getBitmap() != null) {
+//                                        bitmap = ((BitmapDrawable) imgView.getDrawable()).getBitmap();
+//                                        try {
+//                                            edit.putString(IMG_VIEW, getStringImage(bitmap));
+//                                        } catch (Exception e) {
+//                                            e.printStackTrace();
+//                                        }
+//                                    }
 
 
                                     edit.putLong(CUR_TIME, curTime);
@@ -395,7 +396,7 @@ final Handler handler = new Handler();
                     @Override
                     public void onWeatherError(WeatherLibException e) {
                         if (getActivity() !=null)
-                        getListener().requestCompleted();
+                            getListener().requestCompleted();
                     }
 
                     @Override

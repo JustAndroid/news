@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebookID">823172181078175</string>
+    <string name="url_domain">http://www.korupciya.com/</string>
+    <string name="url_base">http://www.korupciya.com/rss.php?format=fastjson</string>
+    <string name="event_category"></string>
+    <string name="app_authority">com.korupcia.service</string>
+    <string name="app_account_type">com.korupsia</string>
+    <string name="app_name">Korupcia INFO</string>
+    <!--<string name="fluri_id">72924VP8XKRVFGFVZG28</string>-->
+    <!--<string name="default_save_news_time">12</string>-->
+    <!--<string name="unity_ads_id">131627342</string>-->
+    <string name="db_name">korupcia.db</string>
+    <string name="banner_ad_in_list_news_25_positional">ca-pub-3123135888111017</string>
+    <string name="banner_ad_news_fragment_top">ca-pub-3123135888111017</string>
+    <string name="banner_ad_news_fragment_bottom">ca-pub-3123135888111017</string>
+    <string name="urlB2BSource">list=225</string>
+    <string name="ad_source_id">225</string>
+    <string name="city_weather_id">703448</string>
+    <integer name="oguryID">266259</integer>
+    <bool name="news_ua">true</bool>
+    <bool name="need_ad">false</bool>
+    <bool name="need_event">false</bool>
+    <!--<bool name="need_category">false</bool>-->
+    <bool name="need_hints">false</bool>
+    <!--<bool name="sport_news">true</bool>-->
+</resources>

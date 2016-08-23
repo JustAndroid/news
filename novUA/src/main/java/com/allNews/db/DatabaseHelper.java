@@ -26,16 +26,20 @@ import com.j256.ormlite.table.TableUtils;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import gregory.network.rss.BuildConfig;
 import gregory.network.rss.R;
 
 
 public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 
     public static String DB_PATH = Environment.getExternalStorageDirectory()
-            .getAbsolutePath() + "/allNews/";
+//            .getAbsolutePath()
+            + "/" + BuildConfig.FLAVOR + "/";
 
-    public static final String DATABASE_NAME = App.getContext().getResources().getString(R.string.db_name);
-    public static final int DATABASE_VERSION = 27;
+    public static String DATABASE_NAME = "news.db";
+    public static final int DATABASE_VERSION = 28;
+
+    private Context context;
 
     private Dao<Categories, Integer> categoryDao = null;
     private Dao<Source, Integer> sourceDao = null;
@@ -50,8 +54,9 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
     private Dao<TagNewApp, Integer> tagNewAppsDao = null;
 
     public DatabaseHelper(Context context) {
-
         super(context, DB_PATH + DATABASE_NAME, null, DATABASE_VERSION);
+        context.openOrCreateDatabase(DATABASE_NAME, Context.MODE_PRIVATE, null);
+        this.context = context;
     }
 
     @Override
@@ -63,21 +68,18 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 
         theDb.execSQL("PRAGMA foreign_keys=ON;");
 
-
         try {
             TableUtils.createTableIfNotExists(connectionSource, NewApp.class);
             TableUtils.createTableIfNotExists(connectionSource, UpdateNewApp.class);
             TableUtils.createTableIfNotExists(connectionSource, TaxonomyNewApp.class);
             TableUtils.createTableIfNotExists(connectionSource, TagNewApp.class);
-            TableUtils.createTableIfNotExists(connectionSource,
-                    Categories.class);
+            TableUtils.createTableIfNotExists(connectionSource, Categories.class);
             TableUtils.createTableIfNotExists(connectionSource, Source.class);
             TableUtils.createTableIfNotExists(connectionSource, History.class);
             TableUtils.createTableIfNotExists(connectionSource, News.class);
             TableUtils.createTableIfNotExists(connectionSource, Event.class);
             TableUtils.createTableIfNotExists(connectionSource, Update.class);
-            TableUtils.createTableIfNotExists(connectionSource,
-                    CategoriesNewApp.class);
+            TableUtils.createTableIfNotExists(connectionSource, CategoriesNewApp.class);
 
             Log.e(DatabaseHelper.class.getSimpleName(), "createDB");
         } catch (SQLException e) {
@@ -123,7 +125,7 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
                 sources = getSourceDao();
                 UpdateBuilder<Source, Integer> updateBuilder = sources.updateBuilder();
                 updateBuilder.updateColumnValue("isActive", 1);
-                updateBuilder.where().eq("isActive", 0).and().eq("id", App.getContext().getResources().getString(R.string.ad_source_id));
+                updateBuilder.where().eq("isActive", 0).and().eq("id", context.getResources().getString(R.string.ad_source_id));
                 updateBuilder.update();
             } catch (SQLException e) {
                 e.printStackTrace();
@@ -207,6 +209,14 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
                 e.printStackTrace();
             }
         }
+        if(oldVersion < 28) {
+            try {
+                Dao<News, Integer> newses = getNewsDao();
+                newses.executeRaw("ALTER TABLE `table_events` ADD COLUMN country STRING;");
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
 
 
     }
@@ -263,8 +273,6 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
     }
 
 

@@ -71,17 +71,17 @@ public class NewsContentView extends LinearLayout {
 		this.context = context;
 	}
 
-	
 
-	 
+
+
 	public void setIsNewAppMark() {
 		isNewApp = true;
 	}
-	
+
 	public void setnewsName(String newsName) {
 		this.newsName = newsName;
 	}
-	
+
 	public void setContent(String newsFullContent) {
 		removeAllViews();
 		List<String> imageMatches = Utils
@@ -104,39 +104,39 @@ public class NewsContentView extends LinearLayout {
 		} else
 			setText(newsFullContent);
 	}
-    public void setContentNewApp (String newsFullContent) {
-        removeAllViews();
-        try {
-        Document document = Jsoup.parse(newsFullContent);
-        Elements img = document.select("img[src]");
-        List<String> imageMatches = new ArrayList<>();
-        for (Element element : img ){
-            String imgSrc = element.attr("src");
-            imageMatches.add(imgSrc);
-        }
+	public void setContentNewApp (String newsFullContent) {
+		removeAllViews();
+		try {
+			Document document = Jsoup.parse(newsFullContent);
+			Elements img = document.select("img[src]");
+			List<String> imageMatches = new ArrayList<>();
+			for (Element element : img ){
+				String imgSrc = element.attr("src");
+				imageMatches.add(imgSrc);
+			}
 
 
 
-        if (imageMatches.size() > 0) {
+			if (imageMatches.size() > 0) {
 
 
-                for (int i = 0; i < imageMatches.size(); i++) {
+				for (int i = 0; i < imageMatches.size(); i++) {
 
-                    setTextAndImageNewApp(newsFullContent, imageMatches, i);
+					setTextAndImageNewApp(newsFullContent, imageMatches, i);
 
-                }
+				}
 
 
-        } else
-            setTextNewApp(newsFullContent);
-        } catch (Exception e) {
-            removeAllViews();
-            setTextNewApp(newsFullContent);
-        }
-    }
+			} else
+				setTextNewApp(newsFullContent);
+		} catch (Exception e) {
+			removeAllViews();
+			setTextNewApp(newsFullContent);
+		}
+	}
 
 	private void setTextAndImage(String newsFullContent,
-			List<String> imageMatches, int i) {
+								 List<String> imageMatches, int i) {
 		String match = imageMatches.get(i);
 		String matchPrevious = null;
 		if (i > 0)
@@ -157,17 +157,17 @@ public class NewsContentView extends LinearLayout {
 			if (match.contains(NEWS_YOUTUB_PATTERN)) {
 				if (matchPrevious != null) {
 					content = newsFullContent.substring(
-                            newsFullContent.indexOf(matchPrevious),
-                            newsFullContent.indexOf(match));
+							newsFullContent.indexOf(matchPrevious),
+							newsFullContent.indexOf(match));
 				}
 				setText(content);
 				loadYoutubThumbnail(match);
 			} else {
 				if (matchPrevious != null) {
 					content = newsFullContent.substring(
-                            newsFullContent.indexOf(matchPrevious)
-                                    + matchPrevious.length(),
-                            newsFullContent.indexOf(match));
+							newsFullContent.indexOf(matchPrevious)
+									+ matchPrevious.length(),
+							newsFullContent.indexOf(match));
 				}
 				setText(content);
 				imageUrl = getUrl(match);
@@ -190,62 +190,62 @@ public class NewsContentView extends LinearLayout {
 		}
 
 	}
-    private void setTextAndImageNewApp(String newsFullContent,
-                                 List<String> imageMatches, int i) {
-        String match = imageMatches.get(i);
-        String matchPrevious = null;
-        if (i > 0)
-            matchPrevious = imageMatches.get(i - 1);
-        String imageUrl = "";
-        String content = "";
-        if (i == 0) {
-            content = newsFullContent.substring(0,
-                    newsFullContent.indexOf(match));
-            content.replaceAll("\"/>", "");
-            setTextNewApp(content);
-            if (match.contains(NEWS_YOUTUB_PATTERN)) {
-                loadYoutubThumbnail(match);
-            } else {
-                imageUrl = imageMatches.get(i);
-                setImage(imageUrl);
-            }
-        } else {
-            if (match.contains(NEWS_YOUTUB_PATTERN)) {
+	private void setTextAndImageNewApp(String newsFullContent,
+									   List<String> imageMatches, int i) {
+		String match = imageMatches.get(i);
+		String matchPrevious = null;
+		if (i > 0)
+			matchPrevious = imageMatches.get(i - 1);
+		String imageUrl = "";
+		String content = "";
+		if (i == 0) {
+			content = newsFullContent.substring(0,
+					newsFullContent.indexOf(match));
+			content.replaceAll("\"/>", "");
+			setTextNewApp(content);
+			if (match.contains(NEWS_YOUTUB_PATTERN)) {
+				loadYoutubThumbnail(match);
+			} else {
+				imageUrl = imageMatches.get(i);
+				setImage(imageUrl);
+			}
+		} else {
+			if (match.contains(NEWS_YOUTUB_PATTERN)) {
 				if (matchPrevious != null) {
 					content = newsFullContent.substring(
-                            newsFullContent.indexOf(matchPrevious),
-                            newsFullContent.indexOf(match));
+							newsFullContent.indexOf(matchPrevious),
+							newsFullContent.indexOf(match));
 				}
 				setTextNewApp(content);
-                loadYoutubThumbnail(match);
-            } else {
+				loadYoutubThumbnail(match);
+			} else {
 				if (matchPrevious != null) {
 					content = newsFullContent.substring(
-                            newsFullContent.indexOf(matchPrevious)
-                                    + matchPrevious.length(),
-                            newsFullContent.indexOf(match));
+							newsFullContent.indexOf(matchPrevious)
+									+ matchPrevious.length(),
+							newsFullContent.indexOf(match));
 				}
 				setTextNewApp(content);
-                imageUrl = imageMatches.get(i);
-                setImage(imageUrl);
-            }
-        }
+				imageUrl = imageMatches.get(i);
+				setImage(imageUrl);
+			}
+		}
 
-        // setText(content);
-        // setImage(imageUrl);
-        if (i == imageMatches.size() - 1) {
-            if (match.contains(NEWS_YOUTUB_PATTERN))
-                content = newsFullContent.substring(
-                        newsFullContent.indexOf(match),
-                        newsFullContent.length());
-            else
-                content = newsFullContent.substring(
-                        newsFullContent.indexOf(match) + match.length(),
-                        newsFullContent.length());
-            setTextNewApp(content);
-        }
+		// setText(content);
+		// setImage(imageUrl);
+		if (i == imageMatches.size() - 1) {
+			if (match.contains(NEWS_YOUTUB_PATTERN))
+				content = newsFullContent.substring(
+						newsFullContent.indexOf(match),
+						newsFullContent.length());
+			else
+				content = newsFullContent.substring(
+						newsFullContent.indexOf(match) + match.length(),
+						newsFullContent.length());
+			setTextNewApp(content);
+		}
 
-    }
+	}
 
 	private void loadYoutubThumbnail(String match) {
 		final ImageView image = new ImageView(context);
@@ -260,7 +260,7 @@ public class NewsContentView extends LinearLayout {
 			String url = "http://www.youtube.com/oembed?format=json&url="
 					+ youtubUrl;
 			// Log.e("url", ""+url);?rel=0
-			requestQueue = App.getRequestQueue();
+			requestQueue = App.getRequestQueue(getContext());
 			Listener<JSONObject> listener = new Listener<JSONObject>() {
 
 				@Override
@@ -297,7 +297,7 @@ public class NewsContentView extends LinearLayout {
 		content = content.replaceAll("\" />", "");
 		TextView txtText = new TextView(context);
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB)
-		txtText.setTextIsSelectable(true);
+			txtText.setTextIsSelectable(true);
         /*Document doc = Jsoup.parse(content);
         String txt = doc.text();
         txt = txt.replaceAll("\" />", "");*/
@@ -338,48 +338,52 @@ public class NewsContentView extends LinearLayout {
 		addView(txtText);
 
 	}
-    @SuppressLint("NewApi")
-    private void setText(String content) {
-        TextView txtText = new TextView(context);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB)
-            txtText.setTextIsSelectable(true);
-        txtText.setText(Html.fromHtml(content));
-        txtText.setTextSize(MyPreferenceManager.getTextSize(context));
-        //	txtText.setMovementMethod(ArrowKeyMovementMethod.getInstance());
-        //	Linkify.addLinks(txtText, Linkify.ALL);
-        txtText.setAutoLinkMask(Linkify.ALL);
-        // txtText.setMovementMethod(LinkMovementMethod.getInstance());
-        CharSequence text = txtText.getText();
-        if (text instanceof Spannable) {
+	@SuppressLint("NewApi")
+	private void setText(String content) {
+		TextView txtText = new TextView(context);
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB)
+			txtText.setTextIsSelectable(true);
+		txtText.setText(Html.fromHtml(content));
+		txtText.setTextSize(MyPreferenceManager.getTextSize(context));
+		//	txtText.setMovementMethod(ArrowKeyMovementMethod.getInstance());
+		//	Linkify.addLinks(txtText, Linkify.ALL);
+		txtText.setAutoLinkMask(Linkify.ALL);
+		// txtText.setMovementMethod(LinkMovementMethod.getInstance());
+		CharSequence text = txtText.getText();
+		if (text instanceof Spannable) {
 
-            List<String> newsMatches = Utils.getAllMatches(content,
-                    NEWS_URL_PATTERN, NEWS_PATTERN);
-            List<String> videoMatches = Utils.getAllMatches(content,
-                    NEWS_URL_MEDIA_PATTERN, NEWS_VIDEO_PATTERN);
-            int end = text.length();
-            Spannable spn = (Spannable) txtText.getText();
-            URLSpan[] urls = spn.getSpans(0, end, URLSpan.class);
-            SpannableStringBuilder style = new SpannableStringBuilder(text);
-            style.clearSpans();
-            for (URLSpan url : urls) {
-                String newsID = null;
-                boolean isVideo = isVideoURL(videoMatches, url.getURL());
-                if (!isVideo)
-                    newsID = getNewsIdIfExist(newsMatches, url.getURL());
+			List<String> newsMatches = Utils.getAllMatches(content,
+					NEWS_URL_PATTERN, NEWS_PATTERN);
+			List<String> videoMatches = Utils.getAllMatches(content,
+					NEWS_URL_MEDIA_PATTERN, NEWS_VIDEO_PATTERN);
+			int end = text.length();
+			Spannable spn = (Spannable) txtText.getText();
+			URLSpan[] urls = spn.getSpans(0, end, URLSpan.class);
+			SpannableStringBuilder style = new SpannableStringBuilder(text);
+			style.clearSpans();
+			for (URLSpan url : urls) {
+				String newsID = null;
+				boolean isVideo = isVideoURL(videoMatches, url.getURL());
+				if (!isVideo)
+					newsID = getNewsIdIfExist(newsMatches, url.getURL());
 
-                CustomerTextClick click = new CustomerTextClick(url.getURL(),
-                        newsID, isVideo, isNewApp, newsName);
-                style.setSpan(click, spn.getSpanStart(url),
-                        spn.getSpanEnd(url), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-            }
-            txtText.setText(style);
-        }
-        if ( MyPreferenceManager.getCurrentTheme(context) == AllNewsActivity.THEME_DARK)
-            txtText.setTextColor(getResources().getColor(R.color.newsTextNight));
+				CustomerTextClick click = new CustomerTextClick(url.getURL(),
+						newsID, isVideo, isNewApp, newsName);
+				style.setSpan(click, spn.getSpanStart(url),
+						spn.getSpanEnd(url), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+			}
+			try {
+				txtText.setText(style);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		if ( MyPreferenceManager.getCurrentTheme(context) == AllNewsActivity.THEME_DARK)
+			txtText.setTextColor(getResources().getColor(R.color.newsTextNight));
 
-        addView(txtText);
+		addView(txtText);
 
-    }
+	}
 
 	private void setImage(final String imageUrl) {
 		if (Utils.isUrlValid(imageUrl)) {
@@ -389,14 +393,14 @@ public class NewsContentView extends LinearLayout {
 			image.setAdjustViewBounds(true);
 			image.setScaleType(ScaleType.FIT_XY);
 			NewsFragment.setOpenFullImageListener(image, imageUrl);
-			
+
 			addView(image,params);
 			setImage(imageUrl, image);
 
 		}
 	}
 
-	
+
 
 	private void setImage(String imageUrl, ImageView image) {
 		if (Utils.isUrlValid(imageUrl)) {
@@ -410,8 +414,8 @@ public class NewsContentView extends LinearLayout {
 		//int start = match.lastIndexOf(patern1);
 		return match.substring(match.lastIndexOf(patern1) + patern1.length(),
 				match.indexOf(patern2));
-	//	return match.substring(match.indexOf(patern1) + patern1.length(),
-	//			match.indexOf(patern2));
+		//	return match.substring(match.indexOf(patern1) + patern1.length(),
+		//			match.indexOf(patern2));
 
 	}
 
@@ -482,7 +486,7 @@ public class NewsContentView extends LinearLayout {
 
 		@Override
 		public void onClick(View widget) {
-			
+
 			if (isVideo) {
 				playVideo(widget.getContext(), mUrl);
 			} else if (newsID != null) {
@@ -526,7 +530,7 @@ public class NewsContentView extends LinearLayout {
 		Intent intent = new Intent(context, NewsCollectionActivity.class);
 		intent.putExtra(NewsCollectionActivity.NEWS_ID_KEY,
 				Integer.parseInt(newsID));
-		 
+
 		((FragmentActivity) context).startActivityForResult(intent, 1);
 		((Activity) context).finish();
 	}

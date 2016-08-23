@@ -9,6 +9,6 @@ package gregory.network.rss;
 
 public final class Manifest {
     public static final class permission {
-        public static final String C2D_MESSAGE="gregory.network.nov_n.permission.C2D_MESSAGE";
+        public static final String C2D_MESSAGE="gregory.network.ru.permission.C2D_MESSAGE";
     }
 }

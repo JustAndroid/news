@@ -333,6 +333,7 @@
     <string name="exit_toast">Для виходу натисніть НАЗАД ще раз</string>
     <string name="tab_name_unread">Непрочитані</string>
     <string name="tab_name_articles">Статті</string>
-
+    <string name="this_category_news">В цій категорії</string>
+    <string name="news">новин</string>
 
 </resources>

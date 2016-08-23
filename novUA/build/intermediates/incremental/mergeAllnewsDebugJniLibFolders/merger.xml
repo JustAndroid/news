@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\AndroidProjects\AllNews\AllBuilds\novUA\src\main\jniLibs"/></dataSet><dataSet config="Allnews"><source path="D:\AndroidProjects\AllNews\AllBuilds\novUA\src\AllNews\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\AndroidProjects\AllNews\AllBuilds\novUA\src\debug\jniLibs"/></dataSet><dataSet config="AllnewsDebug"><source path="D:\AndroidProjects\AllNews\AllBuilds\novUA\src\AllnewsDebug\jniLibs"/></dataSet></merger>

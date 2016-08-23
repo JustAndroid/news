@@ -1,5 +1,7 @@
 package com.allNews.data.NewApp;
 
+import android.content.Context;
+
 import com.allNews.application.App;
 import com.allNews.db.DBOpenerHelper;
 import com.google.gson.annotations.Expose;
@@ -48,10 +50,10 @@ public class Und {
         this.refUrl = refUrl;
     }
 
-    public String getImgURL() {
+    public String getImgURL(Context context) {
         try {
             String decodeUrl = URLEncoder.encode(imgURL.substring(21), "utf-8");
-            return App.getContext().getResources().getString(R.string.url_img_new_app) + decodeUrl;
+            return context.getResources().getString(R.string.url_img_new_app) + decodeUrl;
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }

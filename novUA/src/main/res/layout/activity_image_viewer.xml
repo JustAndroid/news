@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_image_viewer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.allNews.activity.ImageViewerActivity">
+
+    <com.allNews.view.TouchImageView
+        android:id="@+id/tiv_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:adjustViewBounds="true"/>
+</FrameLayout>
